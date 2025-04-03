@@ -1,0 +1,112 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.card-body {
+  padding: 0;
+}
+
+
+#map-back-button {
+}
+
+.slider-label {
+  text-anchor: middle;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.axis-label {
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.tick text, .item text {
+  font-size: 11px;
+}
+
+
+
+/**
+ * Filter list for bar charts
+ */
+.filter-list {
+  padding: 0;
+  margin: 3px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.filter-list-button {
+  width: 8px;
+  height: 8px;
+  margin-left: 6px;
+}
+
+.filter-list-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 11px;
+}
+
+
+/**
+ * Sort by for bar charts
+ */ 
+.sort-container {
+  margin: 6px;
+  display: flex;
+  align-items: center;
+}
+
+.form-label {
+  min-width: 40px;
+  margin: 0;
+  font-size: 11px;
+}
+
+.form-select {
+  padding: 3px 6px;
+  font-size: 11px;
+}
+
+
+
+/**
+ * Selection for bar
+ */
+.bar.selected {
+  stroke: #333;
+  stroke-width: 1px;
+  fill: rgb(29, 83, 128);
+}
+
+
+
+/**
+ * Tooltip
+ */
+ 
+#tooltip {
+  position: absolute;
+  background: #fff;
+  box-shadow: 3px 3px 3px 0px rgb(92 92 92 / 0.5);
+  color: #333;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  padding: 5px;
+  font-size: 11px;
+  font-weight: 500;
+  min-width: 160px;
+  pointer-events: none;
+  display: none;
+}
+
+.tooltip-title {
+  color: #000;
+  font-size: 14px;
+  font-weight: 600;
+}

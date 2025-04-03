@@ -1,0 +1,948 @@
+id,company1,company2,company3,company4,company5,company6,namemine,town,province,latitude,longitude,open1,close1,open2,close2,open3,close3,commodity1,commodity2,commodity3,commodity4,commodity5,commodity6,commodity7,commodity8,active_status
+0,Quebec Copper,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Quebec,45.263786,-72.331764,1866,1958,N/A,N/A,N/A,N/A,Copper,Gold,Silver,N/A,N/A,N/A,N/A,N/A,False
+1,Noland Mines,N/A,N/A,N/A,N/A,N/A,Spruce Creek,Atlin,British Columbia,59.38272,-133.27033,1909,1950,1955,1989,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+2,Falconbridge Nickel Mines,N/A,N/A,N/A,N/A,N/A,Wesfrob (Tasu),Moresby Island,British Columbia,52.75834,-132.05,1914,1983,N/A,N/A,N/A,N/A,Iron,Copper,N/A,N/A,N/A,N/A,N/A,N/A,False
+3,Greenwood Coal,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Nova Scotia,45.5502192,-62.56677981,1918,1966,N/A,N/A,N/A,N/A,Coal,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+4,Noranda Mines,Normetal Mining,Falconbridge,Xstrata,N/A,N/A,Horne,Noranda,Quebec,48.25427,-79.01128,1927,1976,N/A,N/A,N/A,N/A,Copper,Gold,Silver,Selenium,Tellurium,Pyrite,N/A,N/A,False
+5,Domtar Construction Materials,Gypsum Lime and Alabastine Canada,N/A,N/A,N/A,N/A,Amaranth,Amaranth (Gypsumville),Manitoba,50.57638889,-98.73333333,1930,1964,N/A,N/A,N/A,N/A,Gypsum,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+6,General Chemical Canada,N/A,N/A,N/A,N/A,N/A,N/A,Amherstburg,Ontario,42.09538943,-83.08761897,1936,2001,N/A,N/A,N/A,N/A,Salt,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+7,Dominion Magnesium,Chromasco,Timminco,N/A,N/A,N/A,Haley,Haley,Ontario,45.59888,-76.75171,1942,2022,N/A,N/A,N/A,N/A,Magnesium,N/A,N/A,N/A,N/A,N/A,N/A,N/A,True
+8,Canadian Exploration,N/A,N/A,N/A,N/A,N/A,Jersey Emerald,Salmo,British Columbia,49.09861,-117.22111,1944,1970,N/A,N/A,N/A,N/A,Lead,Zinc,Silver,Cadmium,Tungsten,Molybdenum,Gold,N/A,False
+9,Kidd Copper Mines,Denison Copper Mines,N/A,N/A,N/A,N/A,"Gersdorffite, AER, and  Kidd Copper or  Howland Pit",Worthington,Ontario,46.39465,-81.43186,1946,1958,1965,1968,1965,1968,Nickel,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+10,Mackeno Mines,Galkeno Mines,N/A,N/A,N/A,N/A,N/A,Galkeno Mine (MacLeod Mine),Yukon,63.92692,-135.36625,1946,1966,1978,1980,N/A,N/A,Silver,Lead,Zinc,Cadmium,N/A,N/A,N/A,N/A,False
+11,Oreo Resources,Donalda Mines,Metall Mining and Thunderwood Resources,Kerralda Mines,N/A,N/A,Donalda (Keralda),Rouyn-Noranda,Quebec,48.262661,-78.98609,1948,1956,1970,1971,1994,1995,Gold,Copper,Zinc,Lead,Silver,N/A,N/A,N/A,False
+12,Avon Coal,N/A,N/A,N/A,N/A,N/A,N/A,Minto,New Brunswick,46.128611,-66.081944,1950,1971,N/A,N/A,N/A,N/A,Coal,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+13,Noranda,Brunswick Mining and Smelting and Noranda Minerals,N/A,N/A,N/A,N/A,Stratmat (Halfmile),N/A,New Brunswick,47.30527778,-66.32,1951,2022,N/A,N/A,N/A,N/A,Zinc,Lead,Copper,Gold,Silver,N/A,N/A,N/A,True
+14,Mountain Minerals,Mountain Mineral,Highwood Resources,Purcell Development,N/A,N/A,Mountainrals Division,Brisco,British Columbia,50.829721,-116.33055,1952,1977,N/A,N/A,N/A,N/A,Barite,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+15,Cassiar Asbestos,Cassiar Mining,Minroc Mines,Brinco Mining,N/A,N/A,N/A,Cassiar,British Columbia,59.324999,-129.81805,1952,1998,N/A,N/A,N/A,N/A,Asbestos,Chrysotile,Jade/Nephrite,Gemstones,Magnesium,N/A,N/A,N/A,False
+16,Century Coals,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Alberta,51.2783727,-112.5293468,1954,1965,N/A,N/A,N/A,N/A,Coal,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+17,Marban Gold Mines,Maudore Minerals,Abcourt Mines,North American Palladium,N/A,N/A,N/A,Norrie,Quebec,48.137067,-77.97919,1961,1974,N/A,N/A,N/A,N/A,Gold,Silver,N/A,N/A,N/A,N/A,N/A,N/A,False
+18,Steep Rock Iron Mines,OMYA,N/A,N/A,N/A,N/A,Calcite Division,Perth,Ontario,45.149689,-76.498756,1962,2022,N/A,N/A,N/A,N/A,Calcium Carbonate,N/A,N/A,N/A,N/A,N/A,N/A,N/A,True
+19,Cupra Mines,Sullivan Mining Group,N/A,N/A,N/A,N/A,Cupra (Mine Cupra-d'Estrie),Stratford,Quebec,45.771559,-71.309266,1965,1977,N/A,N/A,N/A,N/A,Copper,Zinc,Silver,Gold,Lead,Cadmium,Bismuth,N/A,False
+20,New Imperial Mines,Whitehorse Copper Mines,N/A,N/A,N/A,N/A,N/A,Whitehorse,Yukon,60.73673403,-135.0834051,1967,1982,N/A,N/A,N/A,N/A,Copper,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+21,Madeleine Mines,N/A,N/A,N/A,N/A,N/A,Madeleine,Ste. Anne des Monts,Quebec,49.0,-66.01667,1969,1976,1979,1979,N/A,N/A,Copper,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+22,Sherritt Gordon Mines,Hudson Bay Mining and Smelting,N/A,N/A,N/A,N/A,Ruttan,Leaf Rapids,Manitoba,56.475,-99.63722222,1973,2001,N/A,N/A,N/A,N/A,Copper,Zinc,N/A,N/A,N/A,N/A,N/A,N/A,False
+23,Marietta Resources International,Lacana Mines,Zemex,Suzorite Mica products of Boucherville,N/A,N/A,Parent Mica Deposit,Suzor,Quebec,47.93841183,-74.63460245,1976,2022,N/A,N/A,N/A,N/A,Mica,N/A,N/A,N/A,N/A,N/A,N/A,N/A,True
+24,Baskatong Quartz Products,Sitec Quartz,SKW Canada,Hogan Holdings,N/A,N/A,Charlevoix,Charlevoix (Saint-Urbain),Quebec,47.7499003,-70.69671076,1977,2022,N/A,N/A,N/A,N/A,Silica,N/A,N/A,N/A,N/A,N/A,N/A,N/A,True
+25,Long Lac Minerals,Lac Minerals,N/A,N/A,N/A,N/A,Bousquet (No. 1 and 2),Cadillac,Quebec,48.253881,-78.452902,1978,2002,N/A,N/A,N/A,N/A,Gold,Silver,Copper,Zinc,N/A,N/A,N/A,N/A,False
+26,Luscar Stereo,Luscar Sterco,N/A,Westmoreland Coal Company,N/A,N/A,Coal Valley,Edson (Coal Valley),Alberta,53.04688892,-116.7098687,1978,2022,N/A,N/A,N/A,N/A,Coal,N/A,N/A,N/A,N/A,N/A,N/A,N/A,True
+27,Long Lac Minerals,IAMGOLD,Quebec Mining Exploration Company,Silverstack Mines,N/A,N/A,Doyon or Silverstack,Cadillac,Quebec,48.2557,-78.519197,1980,2009,N/A,N/A,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+28,Canamax Resources,Hollinger Consolidated Gold Mines,Algoma Exploration and Development Company,Patricia Mines,N/A,N/A,Kremzar,N/A,Ontario,51.05136,-94.24474,1981,1988,N/A,N/A,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+29,Global Stone,Stelco,N/A,N/A,N/A,N/A,N/A,Ingersoll,Ontario,43.03784371,-80.88413506,1990,2000,N/A,N/A,N/A,N/A,Lime,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+30,Xstrata Nickel Canada,N/A,N/A,N/A,N/A,N/A,Onaping/Craig,N/A,Ontario,46.6441,-81.3669,1994,2009,N/A,N/A,N/A,N/A,Nickel,Copper,Cobalt,Platinum,Gold,Silver,Selenium,Tellurium,False
+31,South Malartic Exploration,N/A,N/A,N/A,N/A,N/A,Croinor,Val d'Or,Quebec,48.110195,-77.018181,2004,2005,N/A,N/A,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+32,Hudson Bay Mining and Smelting,Potash of Saskatchewan,Agrium,N/A,N/A,N/A,Vascoy (Rocanville Division),Vanscoy,Saskatchewan,52.01,-107.08,1971,2014,2015,2022,N/A,N/A,Potash,Salt,N/A,N/A,N/A,N/A,N/A,N/A,True
+33,COGEMA Resources,Denison Mines,OURD,AREVA Resources Canada,N/A,N/A,McClean Lake,McMahon,Saskatchewan,58.261669,-103.8030548,1999,2010,N/A,N/A,N/A,N/A,Uranium,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+34,Dumbarton Mines,N/A,N/A,N/A,N/A,N/A,N/A,Bird River,Manitoba,50.46916667,-95.44555556,1922,1974,N/A,N/A,N/A,N/A,Nickel,Copper,N/A,N/A,N/A,N/A,N/A,N/A,False
+35,Hudson Bay Mining and Smelting,N/A,N/A,N/A,N/A,N/A,Flin Flon,Flin Flon,Manitoba,56.7545,-101.069493,1929,1990,N/A,N/A,N/A,N/A,Copper,Zinc,Selenium,Tellerium,Gold,N/A,N/A,N/A,False
+36,Nystone Chemicals,N/A,N/A,N/A,N/A,N/A,Brookfield,Truro,Nova Scotia,45.272512,-63.24060185,1944,2008,N/A,N/A,N/A,N/A,Barite,Barium,Siderite,N/A,N/A,N/A,N/A,N/A,False
+37,Icon Syndicate,N/A,N/A,N/A,N/A,N/A,Icon Sullivan,Chibougamau,Quebec,50.238014,-73.811065,1967,1976,N/A,N/A,N/A,N/A,Copper,Silver,Zinc,N/A,N/A,N/A,N/A,N/A,False
+38,Sodium Sulphate,Hudson Bay Mining and Smelting,Agassiz Resources,N/A,N/A,N/A,N/A,Alsask,Saskatchewan,51.339285,-109.8651447,1967,1971,N/A,N/A,N/A,N/A,Sodium Sulphate,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+39,Share Mines and Oils,N/A,N/A,N/A,N/A,N/A,Hanson Lake,Hanson Lake,Saskatchewan,54.67499654,-102.8494419,1967,1969,N/A,N/A,N/A,N/A,Zinc,Lead,Copper,Silver,N/A,N/A,N/A,N/A,False
+40,British Columbia Molybdenum,Amax of Canada,N/A,N/A,N/A,N/A,Alice Arm,Kitsault,British Columbia,55.421943,-129.41944,1967,1982,N/A,N/A,N/A,N/A,Molybdenum,Silver,Lead,Zinc,Copper,Tungsten,N/A,N/A,False
+41,Wasamac Mines,N/A,N/A,N/A,N/A,N/A,Wasamac 2,Arntfield,Quebec,48.212151,-79.198681,1968,1988,1998,2001,N/A,N/A,Gold,Copper,Silver,N/A,N/A,N/A,N/A,N/A,False
+42,Tantalum Mining of Canada,N/A,N/A,N/A,N/A,N/A,Bernic Lake,Lac du Bonnet,Manitoba,50.42861111,-95.4525,1969,2016,N/A,N/A,N/A,N/A,Tantalum,Cesium,N/A,N/A,N/A,N/A,N/A,N/A,False
+43,Cape Breton Development,N/A,N/A,N/A,N/A,N/A,Phalen,New Waterford,Nova Scotia,46.25314274,-60.09054688,1970,1976,N/A,N/A,N/A,N/A,Coal,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+44,Noranda Mines,N/A,N/A,N/A,N/A,N/A,N/A,Cadillac,Quebec,48.24999,-79.0164,1970,1980,N/A,N/A,N/A,N/A,Copper,Gold,Silver,Selenium,Tellurium,Pyrite,N/A,N/A,False
+45,Chesbar Iron Powder,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Quebec,49.452351,-76.502154,1970,1971,N/A,N/A,N/A,N/A,Iron,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+46,Canadian Salt Company,N/A,N/A,N/A,N/A,N/A,N/A,Belle Plaine,Saskatchewan,50.39373442,-105.1557625,1970,2022,N/A,N/A,N/A,N/A,Salt,N/A,N/A,N/A,N/A,N/A,N/A,N/A,True
+47,Potash of Saskatchewan,N/A,N/A,N/A,N/A,N/A,Rocanville Division,Rocanville,Saskatchewan,50.458098,-101.5334994,1970,2022,N/A,N/A,N/A,N/A,Potash,N/A,N/A,N/A,N/A,N/A,N/A,N/A,True
+48,Falconbridge Nickel Mines,N/A,N/A,N/A,N/A,N/A,Manibridge,Wabowden,Manitoba,54.70222222,-98.83722222,1971,1977,N/A,N/A,N/A,N/A,Nickel,Copper,N/A,N/A,N/A,N/A,N/A,N/A,False
+49,Dawson Eldorado Gold Explorations,N/A,N/A,N/A,N/A,N/A,Plata,N/A,Yukon,63.58583333,-132.0319444,1972,2009,N/A,N/A,N/A,N/A,Silver,Lead,Gold,N/A,N/A,N/A,N/A,N/A,False
+50,Miller Minerals a division of Miller Paving,Dymond Clay Products,N/A,N/A,N/A,N/A,Haileybury,Lake Timiskaming,Ontario,47.45408113,-79.67363424,1991,2022,N/A,N/A,N/A,N/A,Limestone,Lime,N/A,N/A,N/A,N/A,N/A,N/A,True
+51,Luscar,N/A,N/A,N/A,N/A,N/A,Shand,Estevan,Saskatchewan,49.100149,-102.8797397,1992,2022,N/A,N/A,N/A,N/A,Coal,N/A,N/A,N/A,N/A,N/A,N/A,N/A,True
+52,Brogan Mining Company,Greenhills Development,N/A,N/A,N/A,N/A,Sullivan Creek or Florence,Florence,Nova Scotia,46.27066384,-60.28226058,1997,2010,N/A,N/A,N/A,N/A,Coal,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+53,Richmont Mines,Rambler Metals and Mining PLC,N/A,N/A,N/A,N/A,Nugget Pond,Baie Verte,Newfoundland and Labrador,49.84502134,-55.77535906,1997,2010,N/A,N/A,N/A,N/A,Gold,Copper,N/A,N/A,N/A,N/A,N/A,N/A,False
+54,Comox Mining,Canadian Collieries,N/A,N/A,N/A,N/A,N/A,N/A,British Columbia,49.631388,-125.03805,1888,1967,N/A,N/A,N/A,N/A,Coal,Fireclay,N/A,N/A,N/A,N/A,N/A,N/A,False
+55,Kiena Gold Mines,Placer Dome,N/A,N/A,N/A,N/A,Kiena,Val dOr,Quebec,48.120858,-77.917978,1936,1996,2005,2013,2021,2022,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,True
+56,Elder Mines,Peel Elder Mine,Abcourt Mines,N/A,N/A,N/A,Peel-Elder,Beauchastel,Quebec,48.286378,-79.130486,1944,1966,2016,2022,N/A,N/A,Gold,Silver,Copper,Lead,Silica,N/A,N/A,N/A,True
+57,Mclntyre Coal Mines,CST Canada Coal,Up Energy Development Group,N/A,N/A,N/A,N/A,Grande Cache,Alberta,53.93860907,-119.1783886,1967,1972,2004,2015,2018,2020,Coal,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+58,Cusac Industries,Erikson Gold Mining,Total Erikson Resources,N/A,N/A,N/A,"Table Mountain, Cassiar Gold Property, Erikson, Jennie,() McDame Lake",Cassiar,British Columbia,59.195555,-129.68499,1978,1988,1994,2007,N/A,N/A,Gold,Silver,Zinc,Lead,Copper,Antimony,Bismuth,Cadmium,False
+59,Ressources Nottaway,N/A,N/A,N/A,N/A,N/A,Vezza,N/A,Quebec,49.5329,-77.76671,1986,1988,1993,1997,2016,2019,Gold,Silver,N/A,N/A,N/A,N/A,N/A,N/A,False
+60,Conuma Coal Resources,Walter Energy,N/A,N/A,N/A,N/A,Wolverine or Perry Creek,N/A,British Columbia,55.0861,-121.2453,2006,2014,2017,2022,N/A,N/A,Coal,N/A,N/A,N/A,N/A,N/A,N/A,N/A,True
+61,Bighorn Mining,N/A,N/A,N/A,N/A,N/A,Vista,N/A,Alberta,53.403506,-117.36642,2019,2022,N/A,N/A,N/A,N/A,Coal,N/A,N/A,N/A,N/A,N/A,N/A,N/A,True
+62,Graybec,Graybec Calc,N/A,N/A,N/A,N/A,Domlin,Marbleton,Quebec,45.617966,-71.604558,1824,2022,N/A,N/A,N/A,N/A,Lime,N/A,N/A,N/A,N/A,N/A,N/A,N/A,True
+63,Johnsons Asbestos,Asbestos,N/A,N/A,N/A,N/A,N/A,Thetford Mines,Quebec,46.07861,-71.30056,1878,1964,N/A,N/A,N/A,N/A,Asbestos,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+64,McKinney Gold Mines,Pioneer Gold Mines of BC,Highland Bell,N/A,N/A,N/A,Cariboo-Amelia or Camps McKinney Gold,N/A,British Columbia,49.0625,-119.13861,1887,1962,N/A,N/A,N/A,N/A,Gold,Silver,Lead,Zinc,Copper,Pyrophyllite,Silica,N/A,False
+65,Cape Breton Development,N/A,N/A,N/A,N/A,N/A,No. 26 Colliery,Glace Bay,Nova Scotia,46.17451388,-59.94872442,1900,1984,N/A,N/A,N/A,N/A,Coal,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+66,Kerr Addison Gold Mines,Deak Resources,N/A,N/A,N/A,N/A,N/A,Virginiatown,Ontario,48.13708,-79.58034,1900,1963,1990,1996,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+67,Sheep Creek Gold Mines,Aetna Investment,N/A,N/A,N/A,N/A,Sheep Creek (Queen or Yellowstone),N/A,British Columbia,49.143055,-117.13444,1900,1989,N/A,N/A,N/A,N/A,Gold,Silver,Lead,Zinc,Silica,N/A,N/A,N/A,False
+68,London Pride Silver Mines,N/A,N/A,N/A,N/A,N/A,Cork-Province,slocan,British Columbia,49.907222,-117.07527,1900,1966,N/A,N/A,N/A,N/A,Silver,Zinc,Lead,Cadmium,Gold,Copper,N/A,N/A,False
+69,Bras DOr Coal,N/A,N/A,N/A,N/A,N/A,N/A,Broughton,Nova Scotia,46.08324017,-59.97585717,1901,1969,N/A,N/A,N/A,N/A,Coal,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+70,Highland Bell,Mastodon Highland Bell Mines,Leitch Mines,Teck,N/A,N/A,N/A,Beaverdell,British Columbia,49.429166,-119.06222,1901,1978,N/A,N/A,N/A,N/A,Silver,Lead,Zinc,Gold,N/A,N/A,N/A,N/A,False
+71,Canadian Gypsum,CGC,N/A,N/A,N/A,N/A,N/A,Hagersville,Ontario,43.01223,-80.01629,1902,2022,N/A,N/A,N/A,N/A,Gypsum,N/A,N/A,N/A,N/A,N/A,N/A,N/A,True
+72,Silver Summit Mines,Consolidated Summit Mines,Barrick Resources,N/A,N/A,N/A,Savage (Silver Summit),N/A,Ontario,47.37574,-79.68324,1903,1964,N/A,N/A,N/A,N/A,Silver,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+73,Canadian Refractories,Dresser Industries Canada,N/A,N/A,N/A,N/A,Kilmar or Dobbie?,Kilmar,Quebec,45.75139,-74.61833,1907,1993,N/A,N/A,N/A,N/A,Magnesitic Dolomite,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+74,Harrison Hibbert Mines,N/A,N/A,N/A,N/A,N/A,Mud,N/A,Ontario,47.41481,-79.62552,1907,1965,N/A,N/A,N/A,N/A,Silver,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+75,Giant Mascot Mines,Golden Giant Mines Company,Siscoe Mines,Baroid of Canada,N/A,N/A,Giant Mascot,Hope,British Columbia,49.46444,-121.51361,1908,1983,N/A,N/A,N/A,N/A,Lead,Zinc,Silver,Copper,Barite,Antimony,Cadmium,N/A,False
+76,HiHo Silver Mines,Ontario Government,Cleopatra Mining,La Rose Mines,Silver Miller Mines,Glen Lake Silver Mines,N/A,Cobalt,Ontario,47.37083,-79.66541,1909,1970,N/A,N/A,N/A,N/A,Silver,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+77,McIntyre Porcupine Mines,N/A,N/A,N/A,N/A,N/A,McIntyre,N/A,Ontario,47.69009,-80.67301,1911,1984,N/A,N/A,N/A,N/A,Silver,Cobalt,N/A,N/A,N/A,N/A,N/A,N/A,False
+78,Malagash Salt,Canadian Rock Salt The,N/A,N/A,N/A,N/A,Malagash salt,Malagash,Nova Scotia,45.79235,-63.32344,1918,1961,N/A,N/A,N/A,N/A,Salt,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+79,Red Deer Valley Coal,N/A,N/A,N/A,N/A,N/A,Foothills,N/A,Alberta,53.06878004,-116.7956893,1918,1961,N/A,N/A,N/A,N/A,Coal,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+80,Reliance Fluorspar Mining Syndicate,Canadian Industrial Minerals,Wood Land Mineral Company,N/A,N/A,N/A,Howard,Huntingdon Township,Ontario,44.48671,-77.48011,1920,1951,N/A,N/A,N/A,N/A,Fluorspar,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+81,Westmin Resources,American Smelting and Refining Company,Blermah Mines,Ascot Resources,N/A,N/A,Premier,Silbak Premier Mine,British Columbia,56.054722,-130.0075,1921,1967,1989,1996,2009,2022,Gold,Silver,Lead,Zinc,Copper,N/A,N/A,N/A,True
+82,Battle Mountain Canada and Teddy Bear Valley Mines,N/A,Kirkland Lake Gold,N/A,N/A,N/A,Holloway,Matheson,Ontario,48.523515,-79.74788,1922,1950,1996,2016,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+83,Timmins Nickel,N/A,N/A,N/A,N/A,N/A,Dome Mountain,Smithers,British Columbia,54.740333,-126.620667,1923,2022,N/A,N/A,N/A,N/A,Gold,Silver,Zinc,Lead,N/A,N/A,N/A,N/A,True
+84,Yukon Consolidated Gold The,N/A,N/A,N/A,N/A,N/A,N/A,Dawson,Yukon,64.06435697,-139.4326899,1926,1966,N/A,N/A,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+85,Sylvanite Gold Mines,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Ontario,48.15626,-80.02613,1927,1961,N/A,N/A,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+86,Natural Sodium Products,N/A,N/A,N/A,N/A,N/A,N/A,Dunkirk,Saskatchewan,50.03489906,-105.714431,1930,1950,N/A,N/A,N/A,N/A,Sodium Sulphate,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+87,Miramichi Lumber,N/A,N/A,N/A,N/A,N/A,N/A,Minto,New Brunswick,46.08333333,-66.01666667,1932,2009,N/A,N/A,N/A,N/A,Coal,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+88,Canadian Salt The,N/A,N/A,N/A,N/A,N/A,N/A,Neepawa,Manitoba,50.23611111,-99.46388889,1932,1970,N/A,N/A,N/A,N/A,Salt,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+89,Victoria Gypsum,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Nova Scotia,46.89361,-60.48389,1933,1955,N/A,N/A,N/A,N/A,Gypsum,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+90,Eldorado Mining and Refining,N/A,N/A,N/A,N/A,N/A,Eldorado,N/A,Northwest Territories,66.08384,-118.03657,1933,1960,1975,1982,N/A,N/A,Uranium,Radium,Silver,Copper,N/A,N/A,N/A,N/A,False
+91,Union Mintere Exploration Mining,N/A,N/A,N/A,N/A,N/A,N/A,Pickle Lake,Ontario,51.46378453,-90.18529027,1935,1960,N/A,N/A,N/A,N/A,Copper,Nickel,N/A,N/A,N/A,N/A,N/A,N/A,False
+92,Burwash Mining,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Yukon,62.4625,-114.3166667,1935,1952,N/A,N/A,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+93,West Canadian Collieries,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Alberta,49.59245398,-114.4052802,1937,1961,N/A,N/A,N/A,N/A,Coal,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+94,Canadian Industrial Minerals,Magnet Cove Barium,N/A,N/A,N/A,N/A,N/A,Walton,Nova Scotia,45.23057047,-64.00633151,1941,1979,N/A,N/A,N/A,N/A,Barite,Silver,Lead,Zinc,N/A,N/A,N/A,N/A,False
+95,Broulan Reef Mines,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Ontario,48.51388,-81.21363,1944,1965,N/A,N/A,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+96,Yukon Explorations,N/A,N/A,N/A,N/A,N/A,N/A,close to forty mills,Yukon,64.23529521,-140.6717583,1946,1954,N/A,N/A,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+97,Hugh Pam Porcupine Mines,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Ontario,48.51106,-81.17272,1948,1963,N/A,N/A,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+98,Discovery Mines,Transcontinental Resources,Arctic Red Resources,N/A,N/A,N/A,La Forma,N/A,Yukon,63.1875,-113.8958333,1950,1969,N/A,N/A,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+99,Copperfields Mining,Temagami Mining,N/A,N/A,N/A,N/A,N/A,Temagami,Ontario,46.96242,-80.03778,1952,1977,N/A,N/A,N/A,N/A,Cobalt,Gold,Silver,Nickel,Cobalt,Platinum,Palladium,N/A,False
+100,International Nickel of Canada The,Inco Metals Company,Inco,N/A,N/A,N/A,Shebandowan,Thunder Bay,Ontario,48.596789,-90.247925,1952,1995,N/A,N/A,N/A,N/A,Nickel,Copper,N/A,N/A,N/A,N/A,N/A,N/A,False
+101,Iron Ore of Canada,N/A,N/A,N/A,N/A,N/A,Carol Lake project or Knob Lake,Schefferville,Newfoundland and Labrador,54.791688,-66.80881,1954,1983,N/A,N/A,N/A,N/A,Iron,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+102,Anaconda American Brass,Blue Note Mining,N/A,N/A,N/A,N/A,Heath Steele,Restigouche,New Brunswick,47.29292,-66.06779,1955,1999,2007,2008,N/A,N/A,Zinc,Lead,Copper,Silver,N/A,N/A,N/A,N/A,False
+103,Lyndhurst Mining,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Quebec,48.572282,-78.959584,1955,1957,N/A,N/A,N/A,N/A,Copper,Silver,Gold,Zinc,Lead,N/A,N/A,N/A,False
+104,Gaspe Copper Mines,N/A,N/A,N/A,N/A,N/A,N/A,Murdochville,Quebec,48.97056,-65.52028,1955,1999,1984,2002,N/A,N/A,Copper,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+105,Consolidated Denison Mines,Denison Mines,Rio Algom Mines,N/A,N/A,N/A,Denison,Elliot Lake,Ontario,46.495597,-82.600236,1957,1992,N/A,N/A,N/A,N/A,Uranium,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+106,Beauce Placer Mining,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Quebec,46.21785,-70.77873,1958,1963,N/A,N/A,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+107,Canadian Rock Salt The,N/A,N/A,N/A,N/A,N/A,Pugwash,Cumberland County (Pugwash),Nova Scotia,45.84167,-63.65389,1959,2022,N/A,N/A,N/A,N/A,Salt,N/A,N/A,N/A,N/A,N/A,N/A,N/A,True
+108,Northgate Patino Mines,Northgate Exploration,Patino Mining,Copper Rand Chibougamau Mines,Campbell Resources,N/A,Copper Rand,Chibougamau,Quebec,49.889332,-74.275314,1959,1997,2004,2008,N/A,N/A,Copper,Gold,Silver,N/A,N/A,N/A,N/A,N/A,False
+109,Akasaba Gold Mines,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Quebec,48.042094,-77.581074,1960,1963,N/A,N/A,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+110,VenCan Gold and River Gold Mines,N/A,N/A,N/A,N/A,N/A,Edwards,Wawa,Ontario,48.31628,-84.3574,1960,2001,N/A,N/A,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+111,Baroid of Canada,N/A,N/A,N/A,N/A,N/A,N/A,Onoway,Alberta,53.70356602,-114.1930729,1960,1989,N/A,N/A,N/A,N/A,Bentonite,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+112,Coast Copper,Imasco Minerals,N/A,N/A,N/A,N/A,N/A,Benson Lake,British Columbia,59.58272,-133.65358,1960,1973,1985,2016,N/A,N/A,Copper,Magnetite,Iron,Gold,Silver,Limestone,N/A,N/A,False
+113,Bestwall Gypsum,Georgia Pacific Corps,Bestwall Gypsum Division,Macleod Resources,N/A,N/A,River Denys,River Denys,Nova Scotia,45.83693,-61.17805,1964,2012,N/A,N/A,N/A,N/A,Gypsum,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+114,Raymo Processing,Consolidated Rambler Mines,N/A,N/A,N/A,N/A,Rambler Tailings,Baie Verte,Newfoundland and Labrador,49.88333,-56.08333,1964,1982,1996,1997,N/A,N/A,Copper,Gold,Silver,Zinc,Cadmium,Lead,N/A,N/A,False
+115,Norbeau Mines,N/A,N/A,N/A,N/A,N/A,Norbeau,Chibougamau,Quebec,49.959221,-74.305286,1965,1969,N/A,N/A,N/A,N/A,Gold,Silver,Copper,Arsenic,N/A,N/A,N/A,N/A,False
+116,Chemical Lime Company,Texada Lime,N/A,N/A,N/A,N/A,N/A,Fort Langley,British Columbia,49.18952188,-122.6606314,1970,2022,N/A,N/A,N/A,N/A,Lime,N/A,N/A,N/A,N/A,N/A,N/A,N/A,True
+117,Gibraltar Mines,Westmin Resources and Boliden Westmin,Taseco Mines and Ledcor Mining,Placer Development,N/A,N/A,Gibraltar,McLeese Lake,British Columbia,52.529808,-122.286536,1972,1998,2004,2022,N/A,N/A,Copper,Molybdenum,N/A,N/A,N/A,N/A,N/A,N/A,True
+118,Bradina Joint Venture,Pacific Houston,Equity Metals,N/A,N/A,N/A,Silver Queen,Owen Lake,British Columbia,54.083333,-126.716111,1972,2022,N/A,N/A,N/A,N/A,Silver,Lead,Zinc,Gold,Copper,N/A,N/A,N/A,True
+119,Calcitherm Nederland BV,Carmeuse North America Group,Beachville,N/A,N/A,N/A,Plant,Ingersoll,Ontario,43.09166447,-80.84047676,1973,2022,N/A,N/A,N/A,N/A,Lime,N/A,N/A,N/A,N/A,N/A,N/A,N/A,True
+120,Luzenac,N/A,N/A,N/A,N/A,N/A,Penhorwood,Penhorwood Township,Ontario,48.19416,-82.09663,1973,1994,N/A,N/A,N/A,N/A,Talc,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+121,Westroc Industries,N/A,N/A,N/A,N/A,N/A,Drumbo,Clarkson,Ontario,43.22479,-80.61253,1978,1994,N/A,N/A,N/A,N/A,Gypsum,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+122,Yava Mines,N/A,N/A,N/A,N/A,N/A,Silvermines,"Salmon River area, Cape Breton",Nova Scotia,45.8665,-60.4023,1979,1981,N/A,N/A,N/A,N/A,Lead,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+123,Armand Sicotte et Fils,Les Sables Silco,N/A,N/A,N/A,N/A,Sainte-Clotilde (Armand Sicotte) or Marcil Quarry,Howick/Saint-Clothilde,Quebec,45.138417,-73.644215,1980,2022,N/A,N/A,N/A,N/A,Silica,N/A,N/A,N/A,N/A,N/A,N/A,N/A,True
+124,Westar Mining,Kaiser Resource,Teck Cominco,BC Coal,N/A,N/A,"Elkview, formely Balmer",Sparwood,British Columbia,49.78611,-114.82749,1980,2015,N/A,N/A,N/A,N/A,Coal,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+125,Gregg River Resources,N/A,N/A,N/A,N/A,N/A,Gregg River,Hinton,Alberta,53.09308204,-117.5087097,1980,2000,N/A,N/A,N/A,N/A,Coal,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+126,Obed Mountain Coal,N/A,N/A,N/A,N/A,N/A,Obed-Marsh,Hinton,Alberta,53.60719525,-117.4604471,1980,2003,N/A,N/A,N/A,N/A,Coal,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+127,Orofino Resources,Westfield Minerals,N/A,N/A,N/A,N/A,Grandoro,Davis Twp.,Ontario,46.65107,-80.61542,1981,1988,N/A,N/A,N/A,N/A,Gold,Copper,N/A,N/A,N/A,N/A,N/A,N/A,False
+128,Kidd Creek Mines,Falconbridge,Placer Dome,N/A,N/A,N/A,Owl Creek,Timmins,Ontario,48.55056,-81.13944,1981,1990,N/A,N/A,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+129,Zenmac Metal Mines,N/A,N/A,N/A,N/A,N/A,N/A,Schreiber,Ontario,48.97755,-87.36555,1981,1998,N/A,N/A,N/A,N/A,Zinc,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+130,Ateba Mines,Teck,Norex Mines,Beardmore Gold Mines,N/A,N/A,N/A,Beardmore,Ontario,49.610917,-87.938508,1981,1989,N/A,N/A,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+131,Potash Company of America,Potash Company of America,N/A,N/A,N/A,N/A,Sussex (Lower Millstream Potash),Sussex,New Brunswick,45.4435,-65.27,1983,2022,N/A,N/A,N/A,N/A,Potash,Salt,N/A,N/A,N/A,N/A,N/A,N/A,True
+132,New Privateer Mine,N/A,N/A,N/A,N/A,N/A,New Privateer,Zeballos,British Columbia,50.03028,-126.81889,1983,1991,N/A,N/A,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+133,Quinsam Coal,Hillsborough Resources,N/A,N/A,N/A,N/A,Quinsam,Quinsam Mine,British Columbia,49.935277,-125.48749,1986,2015,2017,2022,N/A,N/A,Coal,Fireclay,Clay,N/A,N/A,N/A,N/A,N/A,True
+134,Audrey Resources,Breakwater Resources,N/A,N/A,N/A,N/A,Mobrun (Bouchard-Hebert),Rouyn-Noranda,Quebec,48.389454,-78.901713,1987,1992,1996,2005,N/A,N/A,Zinc,Copper,Gold,Silver,N/A,N/A,N/A,N/A,False
+135,Reiss Lime of Canada,Koch Minerals Company,Northern Lime,Lafarge Canada,N/A,N/A,Reiss Lime,Spragge,Ontario,46.20152355,-82.6931354,1988,2022,N/A,N/A,N/A,N/A,Lime,N/A,N/A,N/A,N/A,N/A,N/A,N/A,True
+136,Dumagami Mines,Agnico Eagle Mines,Delfer Gold Mines,Agnico Eagle Mines,N/A,N/A,LaRonde,Cadillac,Quebec,48.250795,-78.441603,1988,2022,N/A,N/A,N/A,N/A,Gold,Silver,Copper,Zinc,Lead,N/A,N/A,N/A,True
+137,Saskatoon Chemicals,N/A,N/A,N/A,N/A,N/A,N/A,Saskatoon,Saskatchewan,52.15826771,-106.6747102,1989,1991,N/A,N/A,N/A,N/A,Salt,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+138,Aur Resources,Novicourt,Teck,N/A,N/A,N/A,Louvicourt,Val d'Or,Quebec,48.1003,-77.502718,1994,2005,N/A,N/A,N/A,N/A,Copper,Zinc,Silver,Gold,Lead,N/A,N/A,N/A,False
+139,MarFred Minerals,Extender Minerals of Canada,N/A,N/A,N/A,N/A,Tracey Lake,N/A,Ontario,47.4162,-81.023788,2000,2017,N/A,N/A,N/A,N/A,Barite,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+140,Bell Allard Mines,N/A,N/A,N/A,N/A,N/A,Bell Allard,Matagami,Quebec,49.700976,-77.725148,2000,2004,N/A,N/A,N/A,N/A,Zinc,Silver,Copper,Gold,Lead,N/A,N/A,N/A,False
+141,Black Bull Resources,N/A,N/A,N/A,N/A,N/A,White Rock,Shelburne,Nova Scotia,44.10752,-65.694008,2002,2011,N/A,N/A,N/A,N/A,Quartz,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+142,River Gold Mines,N/A,N/A,N/A,N/A,N/A,Mishi,Wawa,Ontario,48.10967,-85.45982,2002,2022,N/A,N/A,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,True
+143,Brogan Mining Company,Old Sydney Collieries,N/A,N/A,N/A,N/A,Little Pond,Alder Point,Nova Scotia,45.31685,-62.04859,2004,2005,N/A,N/A,N/A,N/A,Coal,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+144,Falconbridge,Xstrata,Glencore,N/A,N/A,N/A,Montcalm,Timmins,Ontario,48.6659,-82.09741,2004,2009,N/A,N/A,N/A,N/A,Nickel,Copper,Platinum,Cobalt,Silver,Gold,N/A,N/A,False
+145,Hurley Slate Works Company,N/A,N/A,N/A,N/A,N/A,Hurley or Burgoyne's Cove quarry,Trinity Bay,Newfoundland and Labrador,47.51756381,-52.95939564,2005,2010,N/A,N/A,N/A,N/A,Dimension Stone,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+146,De Beers,N/A,N/A,N/A,N/A,N/A,Victor Diamond,James Bay Lowland,Ontario,52.82667,-83.88528,2008,2019,N/A,N/A,N/A,N/A,Diamond,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+147,Lafarge Canada,N/A,N/A,N/A,N/A,N/A,Woodstock,N/A,Ontario,43.0987,-80.903,1956,2008,N/A,N/A,N/A,N/A,Limestone,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+148,Vale Canada,N/A,N/A,N/A,N/A,N/A,Birchtree,N/A,Manitoba,55.701479,-97.927009,1965,1978,1989,2017,N/A,N/A,Nickel,Copper,Cobalt,Platinum,N/A,N/A,N/A,N/A,False
+149,First Nickel,Falconbrigde,N/A,N/A,N/A,N/A,Lockerby,N/A,Ontario,46.433,-81.3238,1971,2008,2011,2022,N/A,N/A,Nickel,Copper,Cobalt,Platinum,Gold,Silver,Selenium,Tellurium,True
+150,Teck Resources,N/A,N/A,N/A,N/A,N/A,Cardinal River (Cheviot),N/A,Alberta,53.0667,-117.4,2005,2020,N/A,N/A,N/A,N/A,Coal,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+151,Anglo American plc,N/A,N/A,N/A,N/A,N/A,Trend,N/A,British Columbia,54.898333,-120.961706,2005,2014,N/A,N/A,N/A,N/A,Coal,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+152,Richmont Mines,N/A,N/A,N/A,N/A,N/A,Island Gold,N/A,Ontario,48.297,-84.4429,2007,2022,N/A,N/A,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,True
+153,Liberty Mines,Northern Sun Mining,N/A,N/A,N/A,N/A,Redstone,N/A,Ontario,48.31694444,-81.16472222,2007,2022,N/A,N/A,N/A,N/A,Nickel,N/A,N/A,N/A,N/A,N/A,N/A,N/A,True
+154,First Metals,N/A,N/A,N/A,N/A,N/A,Fabie Bay,N/A,Quebec,48.4407,-79.3526,2007,2009,N/A,N/A,N/A,N/A,Copper,Zinc,Gold,Silver,N/A,N/A,N/A,N/A,False
+155,Teck Cominco,N/A,N/A,N/A,N/A,N/A,Duck Pond,N/A,Newfoundland and Labrador,48.630978,-56.50069,2007,2015,N/A,N/A,N/A,N/A,Copper,Zinc,N/A,N/A,N/A,N/A,N/A,N/A,False
+156,Forty Two Metals,N/A,N/A,N/A,N/A,N/A,MAX,N/A,British Columbia,50.6457,-117.586,2007,2010,2011,2022,N/A,N/A,Molybdenum,N/A,N/A,N/A,N/A,N/A,N/A,N/A,True
+157,San Gold,N/A,N/A,N/A,N/A,N/A,San Gold No. 1,N/A,Manitoba,51.0258,-95.6216,2007,2008,N/A,N/A,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+158,Sherwood Copper,Capstone Mining,N/A,N/A,N/A,N/A,Minto,N/A,Yukon,62.6167,-137.249,2007,2018,N/A,N/A,N/A,N/A,Copper,Gold,N/A,N/A,N/A,N/A,N/A,N/A,False
+159,De Beers Canada,N/A,N/A,N/A,N/A,N/A,Snap Lake,N/A,Northwest Territories,63.6027,-110.869,2007,2015,N/A,N/A,N/A,N/A,Diamond,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+160,FNX Mining Company,KGHM Polska Miedz SA,N/A,N/A,N/A,N/A,Podolsky,N/A,Ontario,46.7775,-80.8763,2008,2013,N/A,N/A,N/A,N/A,Copper,Nickel,PM,N/A,N/A,N/A,N/A,N/A,False
+161,Agnico Eagle Mines,N/A,N/A,N/A,N/A,N/A,Goldex,N/A,Quebec,48.0926,-77.8733,2008,2011,2013,2022,N/A,N/A,Gold,Silver,N/A,N/A,N/A,N/A,N/A,N/A,True
+162,Alexis Minerals,QMX Gold,N/A,N/A,N/A,N/A,Lac Herbin,N/A,Quebec,48.1361,-77.6539,2008,2015,N/A,N/A,N/A,N/A,Gold,Silver,N/A,N/A,N/A,N/A,N/A,N/A,False
+163,Beaver Brook Antimony Mine,China Minmetals Rare Earth Group,N/A,N/A,N/A,N/A,Beaver Brook,N/A,Newfoundland and Labrador,48.4253,-55.1126,2008,2013,2021,2022,N/A,N/A,Antimony,N/A,N/A,N/A,N/A,N/A,N/A,N/A,True
+164,Metanor Resources,N/A,N/A,N/A,N/A,N/A,Barry,N/A,Quebec,48.9903,-75.766,2008,2022,N/A,N/A,N/A,N/A,Gold,Silver,N/A,N/A,N/A,N/A,N/A,N/A,True
+165,Merit Mining,N/A,N/A,N/A,N/A,N/A,Lexington-Grenoble,N/A,British Columbia,49.0088,-118.614,2008,2008,N/A,N/A,N/A,N/A,Copper,Gold,N/A,N/A,N/A,N/A,N/A,N/A,False
+166,Xstrata Zinc Canada,Glencore plc,N/A,N/A,N/A,N/A,Perseverance,N/A,Quebec,49.716,-77.7189,2008,2013,N/A,N/A,N/A,N/A,Zinc,Copper,Gold,Silver,N/A,N/A,N/A,N/A,False
+167,Anaconda Mining,N/A,N/A,N/A,N/A,N/A,Pine Cove,N/A,Newfoundland and Labrador,49.9597,-56.1295,2008,2022,N/A,N/A,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,True
+168,De Beers Canada,N/A,N/A,N/A,N/A,N/A,Victor,N/A,Ontario,52.8206,-83.8817,2008,2019,N/A,N/A,N/A,N/A,Diamond,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+169,Agnico Eagle Mines,N/A,N/A,N/A,N/A,N/A,Lapa,N/A,Quebec,48.22957,-78.288149,2009,2018,N/A,N/A,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+170,Liberty Mines,N/A,N/A,N/A,N/A,N/A,McWatters,N/A,Ontario,48.311227,-81.03661,2009,2012,N/A,N/A,N/A,N/A,Nickel,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+171,Apollo Gold,N/A,N/A,N/A,N/A,N/A,Black Fox,N/A,Ontario,48.534362,-80.340814,2009,2022,N/A,N/A,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,True
+172,San Gold,N/A,N/A,N/A,N/A,N/A,Hinge,N/A,Manitoba,51.0258,-95.6216,2009,2015,N/A,N/A,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+173,Champion Irons,Consolidated Thompson Iron Mines,Cliffs Natural Resources,N/A,N/A,N/A,Bloom Lake,N/A,Quebec,52.84,-67.28,2009,2010,2015,2018,N/A,N/A,Iron,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+174,Crowflight Minerals,CaNickel Mining,N/A,N/A,N/A,N/A,Bucko,N/A,Manitoba,54.878,-98.6576,2009,2012,N/A,N/A,N/A,N/A,Nickel,Copper,Cobalt,Platinum,N/A,N/A,N/A,N/A,False
+175,URSA Major Minerals,Prophecy Platinum,N/A,N/A,N/A,N/A,Shakespeare,N/A,Ontario,46.33417,-81.85944,2010,2012,N/A,N/A,N/A,N/A,Nickel,Copper,Platinum,Gold,Cobalt,N/A,N/A,N/A,False
+176,St Andrew Goldfields,N/A,N/A,N/A,N/A,N/A,Hislop,N/A,Ontario,48.34389,-80.30611,2010,2014,N/A,N/A,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+177,Agnico Eagle Mines,N/A,N/A,N/A,N/A,N/A,Meadowbank,N/A,Nunavut,65.025,-96.04889,2010,2022,N/A,N/A,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,True
+178,Osisko Mining,N/A,N/A,N/A,N/A,N/A,Canadian Malartic,N/A,Quebec,48.129852,-78.100285,2011,2022,N/A,N/A,N/A,N/A,Gold,Silver,N/A,N/A,N/A,N/A,N/A,N/A,True
+179,Lake Shore Gold,N/A,N/A,N/A,N/A,N/A,Timmins,N/A,Ontario,48.383275,-81.549826,2011,2022,N/A,N/A,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,True
+180,Kirkland Lake Gold,St Andrew Goldfields,N/A,N/A,N/A,N/A,Holloway-Holt,N/A,Ontario,48.513,-79.74,2011,2020,N/A,N/A,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+181,Bralorne Gold Mines,N/A,N/A,N/A,N/A,N/A,Bralorne-Pioneer,N/A,British Columbia,50.777947,-122.821412,2011,2015,N/A,N/A,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+182,Labrador Iron Mines Holdings,N/A,N/A,N/A,N/A,N/A,James,N/A,Newfoundland and Labrador,54.781569,-66.865862,2011,2013,N/A,N/A,N/A,N/A,Iron,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+183,Claude Resources,N/A,N/A,N/A,N/A,N/A,Santoy 8,N/A,Saskatchewan,55.66778,-103.414571,2011,2022,N/A,N/A,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,True
+184,Golden Band Resources,N/A,N/A,N/A,N/A,N/A,Roy Lloyd/Bingo,N/A,Saskatchewan,55.70167,-104.73361,2011,2014,N/A,N/A,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+185,Yukon Zinc,N/A,N/A,N/A,N/A,N/A,Wolverine,N/A,Yukon,61.41667,-130.1,2011,2015,N/A,N/A,N/A,N/A,Zinc,Silver,Copper,Lead,Gold,N/A,N/A,N/A,False
+186,Alexco Resource,N/A,N/A,N/A,N/A,N/A,Bellekeno,N/A,Yukon,63.905576,-135.258268,2011,2013,N/A,N/A,N/A,N/A,Gold,Silver,Lead,Zinc,N/A,N/A,N/A,N/A,False
+187,Rocmec Mining,N/A,N/A,N/A,N/A,N/A,Rocmec 1,N/A,Quebec,48.245,-79.503,2012,2022,N/A,N/A,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,True
+188,New Gold,N/A,N/A,N/A,N/A,N/A,New Afton,N/A,British Columbia,50.661,-120.514,2012,2022,N/A,N/A,N/A,N/A,Gold,Silver,Copper,N/A,N/A,N/A,N/A,N/A,True
+189,Canadian Wollastonite,N/A,N/A,N/A,N/A,N/A,St. Lawrence,N/A,Ontario,44.460417,-76.250411,2013,2022,N/A,N/A,N/A,N/A,Wollastonite,N/A,N/A,N/A,N/A,N/A,N/A,N/A,True
+190,Richmont Mines,N/A,N/A,N/A,N/A,N/A,Monique,N/A,Quebec,48.188,-77.445,2013,2015,N/A,N/A,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+191,Metanor Resources,Bonterra Resources,N/A,N/A,N/A,N/A,Bachelor Lake,N/A,Quebec,49.4958,-76.143,2013,2018,N/A,N/A,N/A,N/A,Gold,Silver,N/A,N/A,N/A,N/A,N/A,N/A,False
+192,Glencore plc,N/A,N/A,N/A,N/A,N/A,Bracemac-McLeod,N/A,Quebec,49.679,-77.666,2013,2022,N/A,N/A,N/A,N/A,Zinc,Copper,Gold,Silver,N/A,N/A,N/A,N/A,True
+193,Detour Gold,N/A,N/A,N/A,N/A,N/A,Detour Lake,N/A,Ontario,50.014,-79.71,2013,2022,N/A,N/A,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,True
+194,HudBay Minerals,N/A,N/A,N/A,N/A,N/A,Lalor Lake,N/A,Manitoba,54.862,-100.155,2013,2022,N/A,N/A,N/A,N/A,Copper,Zinc,Gold,Silver,N/A,N/A,N/A,N/A,True
+195,Vale,N/A,N/A,N/A,N/A,N/A,Totten,N/A,Ontario,46.381174,-81.454839,2014,2022,N/A,N/A,N/A,N/A,Nickel,Copper,Cobalt,Platinum,Gold,N/A,N/A,N/A,True
+196,Wallbridge Mining Company,N/A,N/A,N/A,N/A,N/A,Broken Hammer,N/A,Ontario,46.764596,-81.034405,2014,2022,N/A,N/A,N/A,N/A,Copper,Nickel,Platinum,N/A,N/A,N/A,N/A,N/A,True
+197,IAMGOLD,N/A,N/A,N/A,N/A,N/A,Westwood,N/A,Quebec,48.256,-78.502,2014,2022,N/A,N/A,N/A,N/A,Gold,Copper,Silver,Zinc,N/A,N/A,N/A,N/A,True
+198,HudBay Minerals,N/A,N/A,N/A,N/A,N/A,Reed,N/A,Manitoba,54.569,-100.669,2014,2018,N/A,N/A,N/A,N/A,Copper,Zinc,Gold,Silver,N/A,N/A,N/A,N/A,False
+199,Thompson Creek Mining,N/A,N/A,N/A,N/A,N/A,Mt Milligan,N/A,British Columbia,55.118,-124.031,2014,2022,N/A,N/A,N/A,N/A,Copper,Gold,N/A,N/A,N/A,N/A,N/A,N/A,True
+200,ArcelorMittal Mines Canada,N/A,N/A,N/A,N/A,N/A,Mary River,N/A,Nunavut,71.340446,-71.340446,2014,2022,N/A,N/A,N/A,N/A,Iron,N/A,N/A,N/A,N/A,N/A,N/A,N/A,True
+201,St Andrew Goldfields,Kirkland Lake Gold,N/A,N/A,N/A,N/A,Taylor,N/A,Ontario,48.56667,-80.61333,2015,2020,N/A,N/A,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+202,Goldcorp,N/A,N/A,N/A,N/A,N/A,Éléonore,N/A,Quebec,52.69889,-76.08667,2015,2022,N/A,N/A,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,True
+203,Banks Island Gold,N/A,N/A,N/A,N/A,N/A,Yellow Giant,N/A,British Columbia,53.36257,-130.12352,2015,2015,N/A,N/A,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+204,Pine Valley Mining,Western Coal,Conuma Coal Resources,Walter Energy,Conuma Coal Resources,N/A,Willow Creek,Tumbler Ridge,British Columbia,55.619443,-122.22194,2015,2010,2014,2018,N/A,N/A,Coal,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+205,Imperial Metals,N/A,N/A,N/A,N/A,N/A,Red Chris,N/A,British Columbia,57.7,-129.78333,2015,2022,N/A,N/A,N/A,N/A,Gold,Silver,Copper,N/A,N/A,N/A,N/A,N/A,True
+206,Cameco,N/A,N/A,N/A,N/A,N/A,Cigar Lake,N/A,Saskatchewan,58.06819,-104.54123,2015,2022,N/A,N/A,N/A,N/A,Uranium,N/A,N/A,N/A,N/A,N/A,N/A,N/A,True
+207,Stornoway Diamond,N/A,N/A,N/A,N/A,N/A,Renard,N/A,Quebec,52.813913,-72.190579,2016,2022,N/A,N/A,N/A,N/A,Diamond,N/A,N/A,N/A,N/A,N/A,N/A,N/A,True
+208,Cur Mining,N/A,N/A,N/A,N/A,N/A,Silvertip,N/A,British Columbia,59.92,-130.34,2016,2020,N/A,N/A,N/A,N/A,Silver,Zinc,Lead,Gold,N/A,N/A,N/A,N/A,False
+209,Aurelius Minerals,Maritime Dufferin Gold,N/A,N/A,N/A,N/A,Dufferin,N/A,Nova Scotia,44.9719,-62.3929,2017,2019,N/A,N/A,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+210,Atlantic Gold,N/A,N/A,N/A,N/A,N/A,Moose River Consolidated,N/A,Nova Scotia,44.98243,-62.94292,2017,2022,N/A,N/A,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,True
+211,Kameron Collieries ULC,N/A,N/A,N/A,N/A,N/A,Donkin,N/A,Nova Scotia,46.178108,-59.825861,2017,2020,N/A,N/A,N/A,N/A,Coal,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+212,New Gold,N/A,N/A,N/A,N/A,N/A,Rainy River,N/A,Ontario,48.833,-94.012,2017,2022,N/A,N/A,N/A,N/A,Gold,Silver,Nickel,Copper,Cobalt,N/A,N/A,N/A,True
+213,KS Potash Canada,N/A,N/A,N/A,N/A,N/A,Bethune,N/A,Saskatchewan,50.62917,-105.26167,2017,2022,N/A,N/A,N/A,N/A,Potash,N/A,N/A,N/A,N/A,N/A,N/A,N/A,True
+214,Pretrium Resources,N/A,N/A,N/A,N/A,N/A,Brucejack,N/A,British Columbia,56.47554,-130.21783,2017,2022,N/A,N/A,N/A,N/A,Gold,Silver,N/A,N/A,N/A,N/A,N/A,N/A,True
+215,De Beers Canada,N/A,N/A,N/A,N/A,N/A,Gahcho Kué,N/A,Northwest Territories,63.44528,-109.21194,2017,2022,N/A,N/A,N/A,N/A,Diamond,N/A,N/A,N/A,N/A,N/A,N/A,N/A,True
+216,TMAC Resources,N/A,N/A,N/A,N/A,N/A,Hope Bay,N/A,Nunavut,68.137186,-106.612652,2017,2022,N/A,N/A,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,True
+217,Canada Fluorspar,N/A,N/A,N/A,N/A,N/A,St. Lawrence,N/A,Newfoundland and Labrador,46.9038,-55.4003,2018,2022,N/A,N/A,N/A,N/A,Fluorspar,N/A,N/A,N/A,N/A,N/A,N/A,N/A,True
+218,Agnico Eagle Mines,N/A,N/A,N/A,N/A,N/A,LaRonde - Zone 5,N/A,Quebec,48.2516,-78.451722,2018,2022,N/A,N/A,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,True
+219,Contemporary Amperex Technology,N/A,N/A,N/A,N/A,N/A,North American Lithium,N/A,Quebec,48.41154,-77.80934,2018,2019,N/A,N/A,N/A,N/A,Lithium,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+220,Harte Gold,N/A,N/A,N/A,N/A,N/A,Sugar Zone,N/A,Ontario,48.80496,-85.00401,2018,2022,N/A,N/A,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,True
+221,Cur Mining,N/A,N/A,N/A,N/A,N/A,Silvertip,N/A,British Columbia,59.92,-130.34,2018,2022,N/A,N/A,N/A,N/A,Silver,Zinc,Lead,N/A,N/A,N/A,N/A,N/A,True
+222,Newmont Goldcorp,N/A,N/A,N/A,N/A,N/A,Borden,N/A,Ontario,47.871883,-83.260981,2019,2022,N/A,N/A,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,True
+223,Evolution Mining,N/A,N/A,N/A,N/A,N/A,Cochenour,N/A,Ontario,51.076504,-93.808445,2019,2022,N/A,N/A,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,True
+224,Tata Steel Minerals Canada,N/A,N/A,N/A,N/A,N/A,DSO (Goodwood),N/A,Quebec,55.09939,-67.34778,2019,2022,N/A,N/A,N/A,N/A,Iron,N/A,N/A,N/A,N/A,N/A,N/A,N/A,True
+225,Agnico Eagle Mines,N/A,N/A,N/A,N/A,N/A,Meliadine,N/A,Nunavut,63.031529,-92.220206,2019,2022,N/A,N/A,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,True
+226,Victoria Gold,N/A,N/A,N/A,N/A,N/A,Eagle (Dublin Gulch),N/A,Yukon,64.0322,-135.8456,2019,2022,N/A,N/A,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,True
+227,Agnico Eagle Mines,N/A,N/A,N/A,N/A,N/A,Amaruq,N/A,Nunavut,65.415,-96.697,2019,2022,N/A,N/A,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,True
+228,Hammond River Holdings,N/A,N/A,N/A,N/A,N/A,Upham East,N/A,New Brunswick,45.48334,-65.63127,2020,2022,N/A,N/A,N/A,N/A,Gypsum,N/A,N/A,N/A,N/A,N/A,N/A,N/A,True
+229,Graymont,N/A,N/A,N/A,N/A,N/A,Springhill,N/A,New Brunswick,46.0021,-65.3719,2021,2022,N/A,N/A,N/A,N/A,Limestone,Lime,N/A,N/A,N/A,N/A,N/A,N/A,True
+230,Pure Gold Mining,N/A,N/A,N/A,N/A,N/A,PureGold,N/A,Ontario,50.96932,-93.93847,2021,2022,N/A,N/A,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,True
+231,Canada Talc Industries,CanadaTalc United,Highwood Resources CanadaTalc Division,N/A,N/A,N/A,Henderson,Madoc (Havelock),Ontario,44.50205,-77.45374,1896,2010,N/A,N/A,N/A,N/A,Talc,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+232,Bralorne Pioneer Mines,Bralorne Mines,Bralorne Can Fer Resources,N/A,N/A,N/A,Bralorne Division,Bralorne,British Columbia,50.777777,-122.82222,1900,2014,N/A,N/A,N/A,N/A,Gold,Silver,Lead,Zinc,Copper,Tungsten,N/A,N/A,False
+233,Dominion Steel and Coal,N/A,N/A,N/A,N/A,N/A,Old Sydney Collieries Division,N/A,Nova Scotia,46.28919087,-60.27036014,1901,1975,N/A,N/A,N/A,N/A,Coal,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+234,Phoenix Minerals and Newfoundland Barite,N/A,N/A,N/A,N/A,N/A,Collier Point,Trinity Bay,Newfoundland and Labrador,47.59125794,-53.69011331,1902,1980,1998,1998,N/A,N/A,Barite,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+235,Coldstream Copper Mines,North Coldstream,N/A,N/A,N/A,N/A,N/A,N/A,Ontario,48.60196,-90.58427,1902,1967,N/A,N/A,N/A,N/A,Iron ore,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+236,Ottawa Silver Mines,Slocan Ottawa Mines,N/A,N/A,N/A,N/A,N/A,N/A,British Columbia,49.784999,-117.39611,1903,1952,N/A,N/A,N/A,N/A,Silver,Lead,Zinc,Gold,Copper,N/A,N/A,N/A,False
+237,Langis Silver and Cobalt Mining,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Ontario,47.58135,-79.58006,1908,1960,N/A,N/A,N/A,N/A,Silver,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+238,Bralorne Pioneer Mines,Pioneer Gold Mines of BC,N/A,N/A,N/A,N/A,Pioneer Division,N/A,British Columbia,50.761111,-122.78055,1908,1983,N/A,N/A,N/A,N/A,Gold,Silver,Lead,Zinc,Copper,Antimony,Tungsten,N/A,False
+239,Domtar Construction Materials,McKay Settlement,Georgia Pacific Canada,N/A,N/A,N/A,Gypsum Division,Windsor,Nova Scotia,45.781316,-64.24137092,1909,1962,N/A,N/A,N/A,N/A,Gypsum,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+240,Silver Miller Mines,N/A,N/A,N/A,N/A,N/A,N/A,Cobalt,Ontario,47.36615,-79.63109,1910,1967,N/A,N/A,N/A,N/A,Silver,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+241,Hollinger Consolidated Gold Mines,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Ontario,48.023,-82.22912,1910,1968,N/A,N/A,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+242,Brazeau Collieries,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Alberta,52.45757816,-116.0846652,1910,1955,N/A,N/A,N/A,N/A,Coal,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+243,Royal Oak Mines,Goldcorp,Holt McDermott Macassa Mines and Lake Shore Tailings,Giant Yellowknife Mines,N/A,N/A,Pamour,Timmins,Ontario,48.52273,-81.11502,1911,2009,N/A,N/A,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+244,Cominco,Consolidated Mining and Smelting of Canada The,N/A,N/A,N/A,N/A,H.B.,Salmo,British Columbia,49.152222,-117.19972,1912,1978,N/A,N/A,N/A,N/A,Lead,Zinc,Silver,Cadmium,Copper,Gold,Talc,N/A,False
+245,Teck Hughes Gold Mines The,Lamaque Mining,N/A,N/A,N/A,N/A,Teck-Hughes,N/A,Ontario,48.14722,-80.05266,1913,1968,N/A,N/A,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+246,Wright Hargreaves Mines,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Ontario,48.15254,-80.03634,1913,1962,N/A,N/A,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+247,Algoma Ore Properties,N/A,N/A,N/A,N/A,N/A,George W. MacLeod,Wawa,Ontario,48.0256,-84.73799,1914,1998,N/A,N/A,N/A,N/A,Iron,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+248,Manalta Coal,N/A,N/A,N/A,N/A,N/A,Montgomery,Hanna,Alberta,51.47689546,-111.7076536,1914,1999,N/A,N/A,N/A,N/A,Coal,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+249,Trident Resources,N/A,N/A,N/A,N/A,N/A,N/A,Atlin,British Columbia,59.735833,-133.52166,1916,1988,N/A,N/A,N/A,N/A,Silver,Lead,Zinc,Gold,Copper,Cadmium,Molybdenum,Tin,False
+250,Lake Shore Mines,Kinross Gold,Lac Minerals,N/A,N/A,N/A,Lake Shore Tailings,Kickland Lake,Ontario,48.11871,-80.0099,1918,1964,N/A,N/A,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+251,Saskatchewan Minerals,N/A,N/A,N/A,N/A,N/A,N/A,Bishopric,Saskatchewan,50.009697,-105.7794588,1921,1984,N/A,N/A,N/A,N/A,Sodium Sulphate,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+252,Queenston Gold Mines,N/A,N/A,N/A,N/A,N/A,McBean,Dobie,Ontario,48.12537,-79.81791,1927,1988,N/A,N/A,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+253,Selco Mining,N/A,N/A,N/A,N/A,N/A,N/A,Uchi Lake,Ontario,51.11175,-92.67899,1927,1979,N/A,N/A,N/A,N/A,Zinc,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+254,Upper Canada Mines,N/A,N/A,N/A,N/A,N/A,N/A,Dobie,Ontario,48.14179,-79.8233,1928,1971,N/A,N/A,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+255,Ormiston Mining Smelting,N/A,N/A,N/A,N/A,N/A,Horseshoe Lake or Osmiston,Ormiston,Saskatchewan,49.719457,-105.3551453,1930,1999,N/A,N/A,N/A,N/A,Sodium Sulphate,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+256,Midwest Chemicals,Millar Western Industries,N/A,N/A,N/A,N/A,Whiteshore Lake,Palo,Saskatchewan,52.121963,-108.2868501,1934,2008,N/A,N/A,N/A,N/A,Sodium Sulphate,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+257,Consolidated Mining and Smelting of Canada The,Nerco Minerals,N/A,N/A,N/A,N/A,Con and Rycons,Yellowknife,Northwest Territories,62.43333333,-114.3666667,1938,2003,N/A,N/A,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+258,Mountain Minerals,Mountain Mineral,N/A,N/A,N/A,N/A,N/A,Parson/Invermere,British Columbia,51.025277,-116.65083,1944,1992,N/A,N/A,N/A,N/A,Barite,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+259,New Ryan Lake Mines,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Ontario,47.97179,-80.69617,1948,1964,N/A,N/A,N/A,N/A,Copper,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+260,Saskatchewan Minerals,Kam Kotia Mines,Dickenson Mines,N/A,N/A,N/A,N/A,Fox Valley,Saskatchewan,50.460916,-106.6624941,1948,2022,N/A,N/A,N/A,N/A,Sodium Sulphate,N/A,N/A,N/A,N/A,N/A,N/A,N/A,True
+261,Cuprus Mines,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Manitoba,54.72055556,-101.7108333,1948,1954,N/A,N/A,N/A,N/A,Copper,Zinc,Gold,Silver,N/A,N/A,N/A,N/A,False
+262,Argonaut Mining The,Utah of the Americas,N/A,N/A,N/A,N/A,Argonault Division,N/A,British Columbia,49.862222,-125.54583,1951,1956,N/A,N/A,N/A,N/A,Iron,Limestone,Garnet,Magnetite,N/A,N/A,N/A,N/A,False
+263,Flintkote Of Canada,Domtar,N/A,N/A,N/A,N/A,Flat Bay,St. Georges,Newfoundland and Labrador,48.38319658,-58.56058617,1952,2019,N/A,N/A,N/A,N/A,Gypsum,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+264,Canadian Dyno Mines,N/A,N/A,N/A,N/A,N/A,Dyno,N/A,Ontario,44.95006,-78.09776,1955,1960,N/A,N/A,N/A,N/A,Uranium,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+265,Howe Sound,Anaconda,N/A,N/A,N/A,N/A,N/A,Britannia Beach,British Columbia,49.554722,-123.40083,1955,1963,N/A,N/A,N/A,N/A,Slate,Flagstone,Dimension Stone,Building Stone,N/A,N/A,N/A,N/A,False
+266,Consolidated Nicholson Mines,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Saskatchewan,59.457769,-108.4322283,1955,1959,N/A,N/A,N/A,N/A,Uranium,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+267,Geco Mines,Noranda Mines,N/A,N/A,N/A,N/A,Geco,Manitouwadge,Ontario,49.15576,-85.79033,1957,1957,N/A,N/A,N/A,N/A,Zinc,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+268,Coleman Collieries,N/A,N/A,N/A,N/A,N/A,N/A,Coleman,Alberta,49.80767402,-114.5248106,1957,1981,N/A,N/A,N/A,N/A,Coal,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+269,International Nickel of Canada The,Inco,N/A,N/A,N/A,N/A,Thompson,Thompson,Manitoba,55.71861111,-97.85388889,1957,1982,N/A,N/A,N/A,N/A,Nickel,Copper,Cobalt,Gold,Silver,Platinum,N/A,N/A,False
+270,Rio Algom Mines,Stanleigh Uranium Mines,Buckles Algoma Uranium Mines,N/A,N/A,N/A,Stanleigh,Elliot Lake,Ontario,46.413519,-82.63735,1958,1961,1983,1996,N/A,N/A,Uranium,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+271,Taurus Resources,N/A,N/A,N/A,N/A,N/A,N/A,McDame Lake,British Columbia,59.274443,-129.68944,1960,1988,N/A,N/A,N/A,N/A,Gold,Silver,Zinc,Copper,N/A,N/A,N/A,N/A,False
+272,Mt Washington Copper,N/A,N/A,N/A,N/A,N/A,N/A,N/A,British Columbia,49.763333,-125.30222,1964,1966,N/A,N/A,N/A,N/A,Copper,Gold,Silver,Arsenic,Molybdenum,Zinc,Lead,N/A,False
+273,Granduc Mines,Newmont Mines,Canada Wide Mines,N/A,N/A,N/A,N/A,Stewart,British Columbia,56.211111,-130.34499,1964,1984,N/A,N/A,N/A,N/A,Copper,Silver,Gold,Lead,Zinc,Cobalt,N/A,N/A,False
+274,Tundra Gold Mines,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Northwest Territories,64.0375,-111.1791667,1964,1968,N/A,N/A,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+275,Echo Bay Mines,Cominco,N/A,N/A,N/A,N/A,N/A,Port Radium,Northwest Territories,66.09583333,-117.9916667,1964,1974,N/A,N/A,N/A,N/A,Silver,Copper,N/A,N/A,N/A,N/A,N/A,N/A,False
+276,Baskatong Quartz Products,N/A,N/A,N/A,N/A,N/A,N/A,Grand Remous,Quebec,46.78468893,-75.87219071,1965,1977,N/A,N/A,N/A,N/A,Silica,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+277,Noranda Mines,Noranda,N/A,N/A,N/A,N/A,Boss Mountain Division,Hendrix Lake,British Columbia,52.096666,-120.9075,1965,1983,N/A,N/A,N/A,N/A,Molybdenum,Copper,Zinc,Tungsten,Silver,Bismuth,Rhenium,N/A,False
+278,CH Nichols,N/A,N/A,N/A,N/A,N/A,N/A,Minto,New Brunswick,46.07595292,-66.0748075,1966,1969,N/A,N/A,N/A,N/A,Coal,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+279,Big Nama Creek Mines,N/A,N/A,N/A,N/A,N/A,N/A,Manitouwadge,Ontario,49.16603,-85.84594,1967,1968,N/A,N/A,N/A,N/A,Copper,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+280,Maritimes Mining,First Maritime Mining,N/A,N/A,N/A,N/A,Gull Pond,Gull Pond,Newfoundland and Labrador,49.19843626,-56.15501636,1967,1971,N/A,N/A,N/A,N/A,Copper,Iron,Zinc,Lead,N/A,N/A,N/A,N/A,False
+281,Cliffs of Canada,Dofasco,N/A,N/A,N/A,N/A,Shermans,Temagami,Ontario,47.06726,-79.84031,1968,1990,N/A,N/A,N/A,N/A,Iron,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+282,Alwinsal Potash of Canada,Potash of Saskatchewan,N/A,N/A,N/A,N/A,Lanigan Division,Lanigan,Saskatchewan,51.849207,-105.1962081,1968,2022,N/A,N/A,N/A,N/A,Potash,N/A,N/A,N/A,N/A,N/A,N/A,N/A,True
+283,Jameland Mines,N/A,N/A,N/A,N/A,N/A,N/A,Timmins,Ontario,48.57813,-81.58804,1969,1971,N/A,N/A,N/A,N/A,Copper,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+284,Cominco,N/A,N/A,N/A,N/A,N/A,Vanscoy,Vanscoy,Saskatchewan,52.004765,-107.0739183,1969,2022,N/A,N/A,N/A,N/A,Potash,N/A,N/A,N/A,N/A,N/A,N/A,N/A,True
+285,Alberta Sulphate,N/A,N/A,N/A,N/A,N/A,N/A,Metiskow,Alberta,52.40542312,-110.6331424,1970,1991,N/A,N/A,N/A,N/A,Sodium Sulphate,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+286,Hudson Bay Mining and Smelting,Dickstone Copper Mines,N/A,N/A,N/A,N/A,N/A,Morton Lake-Herb Lake,Manitoba,54.855,-100.49,1970,1974,N/A,N/A,N/A,N/A,Copper,Zinc,N/A,N/A,N/A,N/A,N/A,N/A,False
+287,Venus Mines,N/A,N/A,N/A,N/A,N/A,Venus,Carcross,Yukon,60.025,-134.6347222,1970,1971,1980,1982,1980,1982,Silver,Gold,N/A,N/A,N/A,N/A,N/A,N/A,False
+288,Kanichee Mining,N/A,N/A,N/A,N/A,N/A,Ajax or Kanichee,Temagami,Ontario,47.10385,-79.84555,1973,1976,N/A,N/A,N/A,N/A,Copper,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+289,Hope Bay Mines,N/A,N/A,N/A,N/A,N/A,Robert's Bay - Ida Bay Silvers,Melville Sound/ Cambridge Bay,Nunavut,68.15,-106.6666667,1973,1975,N/A,N/A,N/A,N/A,Silver,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+290,Sill Lake Silver Mine,N/A,N/A,N/A,N/A,N/A,N/A,Van Koughnet Twp.,Ontario,46.76779,-84.25805,1975,1985,N/A,N/A,N/A,N/A,Silver,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+291,Continental Lime,Graymont Western Canada,N/A,N/A,N/A,N/A,Marble Canyon or Pavilion Lake,Pavilion Lake,British Columbia,50.817777,-121.65444,1975,2000,2016,2022,N/A,N/A,Limestone,Aggregate,N/A,N/A,N/A,N/A,N/A,N/A,False
+292,Smoky River Holdings,N/A,N/A,N/A,N/A,N/A,Smoky River,Grande Cache,Alberta,54.02862025,-119.2595334,1976,2000,N/A,N/A,N/A,N/A,Coal,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+293,Ulster Petroleums,Echo Bay Mines,Ulster Petroleums,N/A,N/A,N/A,Contact Lake,Port Radium,Northwest Territories,65.97916667,-117.7458333,1977,1977,N/A,N/A,N/A,N/A,Silver,Copper,N/A,N/A,N/A,N/A,N/A,N/A,False
+294,Mountain Minerals,Highwood Resources,N/A,N/A,N/A,N/A,Moberly,Golden,British Columbia,51.371666,-116.96472,1980,2009,N/A,N/A,N/A,N/A,Silica,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+295,Mosquito Creek Gold Mining,N/A,N/A,N/A,N/A,N/A,N/A,Wells,British Columbia,53.108333,-121.59722,1980,1987,N/A,N/A,N/A,N/A,Gold,Silver,Lead,Zinc,Tungsten,N/A,N/A,N/A,False
+296,Klondike,Teck,N/A,N/A,N/A,N/A,Klondike Operations,Whitehorse,Yukon,60.73673403,-135.0834051,1980,1998,N/A,N/A,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+297,Hudson Bay Mining and Smelting,N/A,N/A,N/A,N/A,N/A,Trout Lake (Embury Lake),Flin Flon,Manitoba,54.81944444,-101.8111111,1981,2002,2007,2012,N/A,N/A,Copper,Zinc,Gold,Silver,N/A,N/A,N/A,N/A,False
+298,Scottie Gold Mines,N/A,N/A,N/A,N/A,N/A,N/A,Stewart,British Columbia,56.219721,-130.09527,1981,1984,N/A,N/A,N/A,N/A,Gold,Silver,Copper,Zinc,Lead,N/A,N/A,N/A,False
+299,Cominco,Cominco and Teck,N/A,N/A,N/A,N/A,Polaris,Little Cornwallis Island - Resolute Bay,Nunavut,75.39,-96.9,1981,2002,N/A,N/A,N/A,N/A,Zinc,Lead,N/A,N/A,N/A,N/A,N/A,N/A,False
+300,Carolin Mines,N/A,N/A,N/A,N/A,N/A,N/A,Hope,British Columbia,49.508611,-121.28888,1982,1984,N/A,N/A,N/A,N/A,Gold,Silver,Copper,Zinc,N/A,N/A,N/A,N/A,False
+301,Echo Bay Mines,N/A,N/A,N/A,N/A,N/A,Lupin,Contwoyto Lake - Kugluktuk,Nunavut,65.75,-111.25,1982,2004,N/A,N/A,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+302,Teck,Teck Bullmoose Coal,Teck Billiton Copper Holdings And Nissho Iwai Coal Development,N/A,N/A,N/A,Bullmoose,Tumbler Ridge,British Columbia,55.118332,-121.49472,1983,2002,N/A,N/A,N/A,N/A,Coal,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+303,International Marble and Stone,N/A,N/A,N/A,N/A,N/A,N/A,Creston,British Columbia,49.09714107,-116.5130921,1985,2022,N/A,N/A,N/A,N/A,Limestone,Talc,N/A,N/A,N/A,N/A,N/A,N/A,True
+304,Blackdome mining,Claimstaker Resources MCM Minerals And Petro Plus,N/A,N/A,N/A,N/A,Blackdome,Clinton,British Columbia,51.323888,-122.48999,1986,1990,N/A,N/A,N/A,N/A,Gold,Silver,Copper,Lead,Zinc,Selenium,N/A,N/A,False
+305,Sherritt Gordon Mines,LynnGold Resources,N/A,N/A,N/A,N/A,MacLellan,Lynn Lake,Manitoba,56.88527778,-100.9391667,1986,1989,N/A,N/A,N/A,N/A,Gold,Silver,N/A,N/A,N/A,N/A,N/A,N/A,False
+306,Pioneer Metals,N/A,N/A,N/A,N/A,N/A,Puffy Lake,N/A,Manitoba,55.03472222,-100.9916667,1987,1989,N/A,N/A,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+307,Candorado Mines,N/A,N/A,N/A,N/A,N/A,Hedley,Hedley,British Columbia,49.346666,-120.07583,1988,1993,N/A,N/A,N/A,N/A,Gold,Silver,N/A,N/A,N/A,N/A,N/A,N/A,False
+308,Cheni Gold Mines,N/A,N/A,N/A,N/A,N/A,N/A,Lawyers Mine,British Columbia,57.338333,-127.18027,1989,1992,N/A,N/A,N/A,N/A,Gold,Silver,Copper,Zinc,Lead,N/A,N/A,N/A,False
+309,Richmont Mines,N/A,N/A,N/A,N/A,N/A,Hammerdown,Baie Verte,Newfoundland and Labrador,49.55283141,-56.24667802,2000,2004,N/A,N/A,N/A,N/A,Gold,Silver,N/A,N/A,N/A,N/A,N/A,N/A,False
+310,Western Canadian Coal,Walter Energy,Conuma Coal Resources,N/A,N/A,N/A,Dillon or Brule,Tumbler Ridge,British Columbia,55.386666,-121.81999,2004,2007,2014,2016,N/A,N/A,Coal,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+311,Duval of Canada,Potash of Saskatchewan Cory,Potash of Saskatchewan,N/A,N/A,N/A,Cory Division,Saskatoon,Saskatchewan,52.089095,-106.8669061,2005,2022,N/A,N/A,N/A,N/A,Potash,N/A,N/A,N/A,N/A,N/A,N/A,N/A,True
+312,Inco,N/A,N/A,N/A,N/A,N/A,Voisey's Bay,Voisey's Bay,Newfoundland and Labrador,56.33134427,-62.09705672,2005,2022,N/A,N/A,N/A,N/A,Nickel,Copper,Cobalt,N/A,N/A,N/A,N/A,N/A,True
+313,Tahera Diamond,N/A,N/A,N/A,N/A,N/A,Jericho Diamond,Kugluktuk,Nunavut,65.99722222,-111.475,2006,2008,N/A,N/A,N/A,N/A,Diamond,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+314,Saskatchewan Power,Luscar,N/A,N/A,N/A,N/A,Poplar River,Coronach,Saskatchewan,49.089639,-105.4519726,2011,2022,N/A,N/A,N/A,N/A,Coal,N/A,N/A,N/A,N/A,N/A,N/A,N/A,True
+315,Burnt Hill Tungsten and Metallurgical,N/A,N/A,N/A,N/A,N/A,N/A,N/A,New Brunswick,46.56722222,-66.81388889,1868,1956,N/A,N/A,N/A,N/A,Tungsten,Molybdenum,Tin,N/A,N/A,N/A,N/A,N/A,False
+316,Canadian Salt The,N/A,N/A,N/A,N/A,N/A,N/A,Windsor,Ontario,42.28071,-83.08224,1893,2022,N/A,N/A,N/A,N/A,Salt,N/A,N/A,N/A,N/A,N/A,N/A,N/A,True
+317,Miller Creek Concessions,Miller Creek Placers,N/A,N/A,N/A,N/A,N/A,Mayo,Yukon,63.59427221,-135.8975643,1895,1953,N/A,N/A,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+318,Vale Canada,N/A,N/A,N/A,N/A,N/A,Frood or Stobie,N/A,Ontario,46.5402,-80.9933,1900,2017,N/A,N/A,N/A,N/A,Nickel,Copper,Cobalt,Platinum,Gold,Silver,Selenium,Tellurium,False
+319,Brinco Mining,San Antonio Gold Mines,Harmony Gold,N/A,N/A,N/A,Rice Lake,Bissett,Manitoba,51.01777778,-95.66777778,1932,1968,1997,2015,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+320,Lamaque Gold Mines,Teck,Century Mining,White Tiger Gold,N/A,N/A,Lamarque,Bourlamaque,Quebec,48.1005,-77.7594,1935,1985,2007,2008,2010,2012,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+321,Teck Corona Operating,Homestake Canada and Teck,Barrick Gold,Ardel Exploration,Teck,N/A,David Bell,Marathon,Ontario,48.69583,-85.88293,1949,2014,N/A,N/A,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+322,Blue Note Mining,Selco,New Jersey Zinc,N/A,N/A,N/A,Restigouche,N/A,New Brunswick,47.5041,-66.5547,1954,1998,2007,2008,N/A,N/A,Zinc,Lead,Copper,Silver,N/A,N/A,N/A,N/A,False
+323,Flintkote Of Canada,Galen Gypsum Mines,N/A,N/A,N/A,N/A,Coal Brook,Division No. 4 (Flat Bay St. Georges),Newfoundland and Labrador,48.37336915,-58.452258,1961,2009,2017,2022,N/A,N/A,Gypsum,N/A,N/A,N/A,N/A,N/A,N/A,N/A,True
+324,Kinross Gold,Cross Lake Minerals,Barkerville Gold Mines,N/A,N/A,N/A,QR,Quesnel,British Columbia,52.6717,-121.791,1996,1998,2007,2009,2010,2011,Pumice,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+325,Bell Asbestos Mines,Societe nationale de Iamiante,N/A,N/A,N/A,N/A,Bell Asbestos,Thetford Mines,Quebec,46.086168,-71.300829,1888,2008,N/A,N/A,N/A,N/A,Chrysotile,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+326,Dominion Wabana Ore,Dominion Steel and Coal Dominion Wabana Ore Division,Dosco Industries,N/A,N/A,N/A,Wabanas Division,"Bell Island, Conception Bay, Avalon Peninsula in Newfoundland",Newfoundland and Labrador,47.64163614,-52.95309197,1895,1966,N/A,N/A,N/A,N/A,Iron,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+327,Consolidated Mining and Smelting of Canada The,Cominco,N/A,N/A,N/A,N/A,Bluebell,Riondel,British Columbia,49.7625,-116.86083,1895,1971,N/A,N/A,N/A,N/A,Silver,Zinc,Lead,Copper,Cadmium,Gold,N/A,N/A,False
+328,Canadian Gypsum,N/A,N/A,N/A,N/A,N/A,N/A,Hillsborough,New Brunswick,45.92,-64.67,1911,1980,N/A,N/A,N/A,N/A,Gypsum,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+329,Keymet Mines,N/A,N/A,N/A,N/A,N/A,Keymet,"Bathurst, Gloucester County",New Brunswick,47.80611111,-65.81083333,1913,1989,N/A,N/A,N/A,N/A,Zinc,Lead,Copper,Gold,Silver,N/A,N/A,N/A,False
+330,Western Tungsten Copper Mines,N/A,N/A,N/A,N/A,N/A,Red Rose,N/A,British Columbia,55.136667,-127.601,1914,1954,N/A,N/A,N/A,N/A,Tungsten,Copper,N/A,N/A,N/A,N/A,N/A,N/A,False
+331,Darius Gold Mine,OBrien Gold Mines,N/A,N/A,N/A,N/A,Darius O'Brien,Cadillac,Quebec,48.234096,-78.403513,1933,1956,1978,1981,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+332,Sullivan Consolidated Mines,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Quebec,48.128947,-77.837575,1934,1968,N/A,N/A,N/A,N/A,Gold,Silver,N/A,N/A,N/A,N/A,N/A,N/A,False
+333,Canadian Malartic Gold Mines,N/A,N/A,N/A,N/A,N/A,Canadian Malartic,N/A,Quebec,48.11333,-78.13167,1935,1965,2011,2022,N/A,N/A,Gold,Silver,N/A,N/A,N/A,N/A,N/A,N/A,True
+334,Stadacona Mines,N/A,N/A,N/A,N/A,N/A,Stadacona,N/A,Quebec,48.20611111,-79.03055556,1936,1958,N/A,N/A,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+335,Hallnor Mines,N/A,N/A,N/A,N/A,N/A,Hallnor,Pamour,Ontario,48.51889,-81.1426,1936,1970,N/A,N/A,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+336,Normetal Mining,N/A,N/A,N/A,N/A,N/A,Abana (Normetal),Normetal,Quebec,49.00083,-79.36639,1937,1975,N/A,N/A,N/A,N/A,Zinc,Copper,Pyrite,Silver,Gold,N/A,N/A,N/A,False
+337,Barnat Mines,N/A,N/A,N/A,N/A,N/A,Mine Barnat (Sladen),Malartic,Quebec,48.133513,-78.106684,1938,1970,1976,1979,2019,2022,Gold,Copper,Iron,Lead,Tellurium,Silver,N/A,N/A,True
+338,Malartic GoldField,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Quebec,48.1120389,-78.13148984,1939,1965,N/A,N/A,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+339,Tulsequah Mines,Cominco,N/A,N/A,N/A,N/A,N/A,N/A,British Columbia,58.735833,-133.60111,1939,1957,N/A,N/A,N/A,N/A,Zinc,Copper,Lead,Silver,Gold,Cadmium,N/A,N/A,False
+340,Broughton Soapstone and Quarry,BSQ Talc,Luzcan,Luzenac,N/A,N/A,N/A,St-Pierre-de-Broughton,Quebec,46.26,-71.21889,1940,2001,N/A,N/A,N/A,N/A,Soapstones,Talc,N/A,N/A,N/A,N/A,N/A,N/A,False
+341,Pembina Mountain Clays,N/A,N/A,N/A,N/A,N/A,N/A,Morden,Manitoba,49.21666667,-98.26666667,1940,1990,N/A,N/A,N/A,N/A,Bentonite,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+342,Ascot Metals,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Quebec,45.34757,-71.905729,1942,1956,N/A,N/A,N/A,N/A,Copper,Silver,Zinc,Lead,N/A,N/A,N/A,N/A,False
+343,Manitou Barvue Mines Ltds,Golden Manitou Mines,Louvem Mining,N/A,N/A,N/A,Manitou-Barvue,Val dOr,Quebec,48.087043,-77.609176,1942,1979,1992,1994,N/A,N/A,Copper,Zinc,Silver,Gold,Lead,Arsenic,N/A,N/A,False
+344,New Calumet Mines,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Quebec,45.700357,-76.67726,1943,1968,N/A,N/A,N/A,N/A,Zinc,Lead,Silver,Gold,Copper,N/A,N/A,N/A,False
+345,United Keno Hill Mines,N/A,N/A,N/A,N/A,N/A,Elsa,N/A,Yukon,63.91667,-135.41667,1947,1989,1996,2013,1996,2013,Silver,Lead,Zinc,Gold,N/A,N/A,N/A,N/A,False
+346,United Montauban Mines,N/A,N/A,N/A,N/A,N/A,Mountabaun,Montauban,Quebec,46.82744292,-72.34215503,1948,1955,1983,1990,N/A,N/A,Lead,Zinc,Gold,Silver,N/A,N/A,N/A,N/A,False
+347,Kluane Dredging,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Yukon,61.3203636,-138.7313569,1948,1954,N/A,N/A,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+348,Anvil Mining,Cyprus Anvil Mining,Yukon Coal,N/A,N/A,N/A,Tantalus Coal,Carmacks,Yukon,62.12361111,-136.2636111,1948,1967,1970,1982,N/A,N/A,Coal,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+349,East Sullivan Mines,Sullico Mines,N/A,N/A,N/A,N/A,Mine East Sullivan (Sullico),N/A,Quebec,48.071491,-77.711431,1949,1967,N/A,N/A,N/A,N/A,Copper,Zinc,Silver,Gold,Arsenic,Cadmium,Iron,N/A,False
+350,Sifto Salt,Domtar Chemicals,Compass Minerals,Prairie Salt,N/A,N/A,Sifto Salt Division,Unity,Saskatchewan,52.41947,-109.103274,1949,2022,N/A,N/A,N/A,N/A,Salt,N/A,N/A,N/A,N/A,N/A,N/A,N/A,True
+351,Domtar Construction Materials,Gypsum Lime and Alabastine Canada,N/A,N/A,N/A,N/A,Gypsum Division,Windsor,Nova Scotia,44.99036188,-64.13207446,1950,1966,N/A,N/A,N/A,N/A,Gypsum,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+352,Agnico Mines,Agnico Eagle Mines,Cobalt Consolidated Mining,N/A,N/A,N/A,N/A,Cobalt,Ontario,47.36214,-79.64146,1950,1988,N/A,N/A,N/A,N/A,Silver,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+353,French Mines,N/A,N/A,N/A,N/A,N/A,French,Hedley,British Columbia,49.322167,-120.021,1950,1964,N/A,N/A,N/A,N/A,Copper,Silver,Gold,Zinc,Cadmium,Antimony,N/A,N/A,False
+354,Deak Resources,N/A,N/A,N/A,N/A,N/A,West Macdonald,Rouyn-Noranda,Quebec,45.70389,-71.37278,1951,1959,1991,1993,N/A,N/A,Zinc,Gold,Silver,N/A,N/A,N/A,N/A,N/A,False
+355,DOr Val Mines,N/A,N/A,N/A,N/A,N/A,Bevcon,Val d'Or,Quebec,48.098176,-77.422127,1951,1965,N/A,N/A,N/A,N/A,Gold,Copper,Tungsten,Bismuth,Zinc,Silver,N/A,N/A,False
+356,Barvue Mines,Abcourt Mines,N/A,N/A,N/A,N/A,N/A,Desmaraisville,Quebec,48.52417,-77.68306,1952,1957,1983,1990,N/A,N/A,Copper,Zinc,Silver,Gold,Lead,Arsenic,N/A,N/A,False
+357,Bicroft Uranium Mines,Macassa Gold Mines,N/A,N/A,N/A,N/A,Bicroft,N/A,Ontario,45.03306,-78.02977,1953,1963,N/A,N/A,N/A,N/A,Uranium,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+358,Lowphos Ore,National Steel of Canada,N/A,N/A,N/A,N/A,Moose Mountain,Capreol,Ontario,46.84889,-81.03694,1954,1979,N/A,N/A,N/A,N/A,Iron ore,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+359,Molybdenite of Canada,N/A,N/A,N/A,N/A,N/A,N/A,Vassan,Quebec,48.288263,-77.993779,1954,1971,N/A,N/A,N/A,N/A,Molybdenum,Beryllium,Copper,Bismuth,N/A,N/A,N/A,N/A,False
+360,Opemiska Copper Mines,Minnova,N/A,N/A,N/A,N/A,Opemiskas (Opemiska Copper Complex),Chibougamau,Quebec,49.78833,-74.86111,1954,1991,N/A,N/A,N/A,N/A,Copper,Gold,N/A,N/A,N/A,N/A,N/A,N/A,False
+361,Iron Ore of Canada,N/A,N/A,N/A,N/A,N/A,N/A,Schefferville,Quebec,54.8011794,-66.81806392,1954,1982,N/A,N/A,N/A,N/A,Iron ore,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+362,Newcastle Coal,N/A,N/A,N/A,N/A,N/A,N/A,N/A,New Brunswick,46.0438,-66.0259,1955,1961,1966,1967,N/A,N/A,Coal,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+363,Continental Titanium,N/A,N/A,N/A,N/A,N/A,N/A,St-Urbain,Quebec,47.53972,-70.565,1955,1966,N/A,N/A,N/A,N/A,Ilmenite,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+364,Rio Algom Mines,Pronto Uranium Mines,N/A,N/A,N/A,N/A,Pronto,"Spragge, Elliot Lake",Ontario,46.21,-82.71,1956,1960,N/A,N/A,N/A,N/A,Uranium,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+365,Cominco,Consolidated Mining and Smelting of Canada The,N/A,N/A,N/A,N/A,Wedge,Bathurst,New Brunswick,47.39,-66.13,1956,2008,N/A,N/A,N/A,N/A,Copper,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+366,Cambior,N/A,N/A,N/A,N/A,N/A,Mine Pierre Beauchemin (Eldrich-Flavel),Rouyn-Noranda,Quebec,48.319009,-79.202543,1956,1962,1988,1993,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+367,Quebec Lithium,N/A,N/A,N/A,N/A,N/A,Lacorne,N/A,Quebec,48.41083,-77.80917,1956,1965,N/A,N/A,N/A,N/A,Lithium,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+368,Aurizon Mines,Cambior,N/A,N/A,N/A,N/A,Sleeping Giant,Amos,Quebec,49.1375,-77.9791,1956,1959,1974,1975,1988,2022,Gold,Silver,N/A,N/A,N/A,N/A,N/A,N/A,True
+369,Campbell Resources,N/A,N/A,N/A,N/A,N/A,Joe Mann,Chibougamau,Quebec,49.487819,-74.436758,1956,1959,1974,1975,1985,2007,Gold,Copper,Silver,Copper,Lead,Arsenic,Zinc,N/A,False
+370,Can Met Explorations Ltds,Denison Mines,Rio Algom Mines,N/A,N/A,N/A,Can-Met and Stanrock,Elliot Lake,Ontario,46.477631,-82.545847,1957,1960,N/A,N/A,N/A,N/A,Uranium,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+371,Noranda Mines,N/A,N/A,N/A,N/A,N/A,Don Rouyn and Beaudry Pit,Royun,Quebec,48.250594,-79.067261,1957,1981,N/A,N/A,N/A,N/A,Copper,Silica,Molybdenum,Gold,Silver,N/A,N/A,N/A,False
+372,Orchan Mines,N/A,N/A,N/A,N/A,N/A,Orchan (pre) and Norita (post-1976),Matagami,Quebec,49.706617,-77.706362,1957,1982,N/A,N/A,N/A,N/A,Zinc,Copper,Silver,Lead,Gold,N/A,N/A,N/A,False
+373,Westminer Canada,Resources Copper Rand Mine,Ressources MSV,N/A,N/A,N/A,Cedar Bay,Chibougamau,Quebec,49.893133,-74.308672,1957,1990,N/A,N/A,N/A,N/A,Copper,Gold,Silver,Zinc,Arsenic,Cobalt,N/A,N/A,False
+374,Merrill Island Mining,N/A,N/A,N/A,N/A,N/A,Canadian Merrill or Merrill Island,Chibougamau,Quebec,49.87032,-74.329524,1958,1967,2007,2008,N/A,N/A,Copper,Silver,Gold,Molybdenum,Zinc,N/A,N/A,N/A,False
+375,Victoria Graphite,Joseph Dixon Crucible Company,N/A,N/A,N/A,N/A,N/A,Portland,Ontario,44.44162,-76.64317,1959,2013,N/A,N/A,N/A,N/A,Graphite,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+376,Giant Nickel Mines,Giant Mascot Mines,N/A,N/A,N/A,N/A,N/A,Hope,British Columbia,49.48361,-121.48472,1959,1971,N/A,N/A,N/A,N/A,Nickel,Copper,Chromium,Cobalt,N/A,N/A,N/A,N/A,False
+377,Dresser Industries,Magnet Cove Barium,Magcobar Mining Company,N/A,N/A,N/A,N/A,Rosalind,Alberta,52.78737639,-112.4402551,1959,1990,N/A,N/A,N/A,N/A,Bentonite,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+378,Dickenson Mines,Havelock Lime,Graymont,Canada Cement Lafarge,Lafarge Canada,N/A,Havelock Lime Works,Havelock,New Brunswick,45.99444444,-65.31555556,1960,1986,N/A,N/A,N/A,N/A,Lime,Dolomite,Gypsum,N/A,N/A,N/A,N/A,N/A,False
+379,Sapawe Gold Mines,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Ontario,48.77102684,-91.33058572,1960,1966,N/A,N/A,N/A,N/A,Gold,Silver,N/A,N/A,N/A,N/A,N/A,N/A,False
+380,Manalta Coal,Luscar,Great West Coal,Battle River Coal,N/A,N/A,Costello (klimax),Estevan,Saskatchewan,49.069018,-102.7744745,1960,2022,N/A,N/A,N/A,N/A,Coal,N/A,N/A,N/A,N/A,N/A,N/A,N/A,True
+381,St Lawrence Columbium and Metals,N/A,N/A,N/A,N/A,N/A,N/A,Oka,Quebec,45.501019,-74.030238,1961,1976,N/A,N/A,N/A,N/A,Niobium,Rare Earth Elements (REE),Magnesium,N/A,N/A,N/A,N/A,N/A,False
+382,Julna Mining,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Quebec,46.73928825,-76.07204232,1961,1967,N/A,N/A,N/A,N/A,Silica,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+383,Wilmar Mines,N/A,N/A,N/A,N/A,N/A,N/A,Cochenour,Ontario,51.063322,-93.801492,1961,1971,N/A,N/A,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+384,Solbec Mines,N/A,N/A,N/A,N/A,N/A,Solbec,Stratford,Quebec,45.804761,-71.287473,1962,1971,N/A,N/A,N/A,N/A,Zinc,Copper,Silver,Gold,Lead,Caesium,N/A,N/A,False
+385,Preissac Molybdenite Mines,N/A,N/A,N/A,N/A,N/A,N/A,Cadillac,Quebec,48.34652,-78.399005,1962,1971,N/A,N/A,N/A,N/A,Molybdenum,Bismuth,Copper,N/A,N/A,N/A,N/A,N/A,False
+386,Marbridge Mines,N/A,N/A,N/A,N/A,N/A,N/A,Val d'Or,Quebec,48.346582,-78.191335,1962,1968,N/A,N/A,N/A,N/A,Nickel,Copper,N/A,N/A,N/A,N/A,N/A,N/A,False
+387,Coniagas Mines,N/A,N/A,N/A,N/A,N/A,Coniagas (Conegas),Chibougamau,Quebec,49.494436,-76.168211,1962,1967,N/A,N/A,N/A,N/A,Zinc,Silver,Lead,N/A,N/A,N/A,N/A,N/A,False
+388,Brunswick Mining and Smelting,Glencore Canada,N/A,N/A,N/A,N/A,Brunswick No.12,Bathurst,New Brunswick,47.47,-65.89,1964,2013,N/A,N/A,N/A,N/A,Zinc,Lead,Copper,Silver,Gold,Iron,Arsenic,N/A,False
+389,Annco Mines,Cochenour Willans Gold Mines,N/A,N/A,N/A,N/A,N/A,Cochenour,Ontario,51.06971,-93.81273,1965,1971,N/A,N/A,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+390,Louvem Mining,Chimo Gold Mines,Cambio,N/A,N/A,N/A,Chimo,Louvicourt,Quebec,48.011536,-77.252816,1966,1967,1989,1996,N/A,N/A,Gold,Arsenic,N/A,N/A,N/A,N/A,N/A,N/A,False
+391,Joutel Copper Mines,N/A,N/A,N/A,N/A,N/A,N/A,Joutel,Quebec,49.452972,-78.353331,1967,1975,N/A,N/A,N/A,N/A,Copper,Zinc,Silver,Iron,N/A,N/A,N/A,N/A,False
+392,Grandroy Mines,N/A,N/A,N/A,N/A,N/A,Grandroy,Chibougamau,Quebec,49.93249,-74.199214,1967,1975,N/A,N/A,N/A,N/A,Copper,Gold,Molybdenum,N/A,N/A,N/A,N/A,N/A,False
+393,Francana Minerals,Hudson Bay Mining and Smelting,Agassiz Resources,N/A,N/A,N/A,Snakehole Lake,Cabri,Saskatchewan,50.509155,-108.4766612,1967,1991,N/A,N/A,N/A,N/A,Sodium Sulphate,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+394,Newland Enterprises,Erco Industries,RK Bishop,Dunville Mining,N/A,N/A,Villa Marie,Placentia,Newfoundland and Labrador,47.29940556,-53.85734782,1968,1988,N/A,N/A,N/A,N/A,Pyrophyllite,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+395,Anvil Mining,Cyprus Anvil Mining,Curragh Resources,N/A,N/A,N/A,Grum or Faro,Faro,Yukon,62.35722222,-133.3730556,1969,1982,1986,1998,N/A,N/A,Silver,Gold,Lead,Zinc,N/A,N/A,N/A,N/A,False
+396,Muscocho Explorations,Argonaut,N/A,N/A,N/A,N/A,Magino,Wawa,Ontario,48.28402,-84.45101,1972,1992,N/A,N/A,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+397,Similkameen Mining,Newmont Mines,N/A,N/A,N/A,N/A,Similkameen Division,Princeton,British Columbia,49.34028,-120.55528,1972,2022,N/A,N/A,N/A,N/A,Copper,Molybdenum,Gold,Silver,N/A,N/A,N/A,N/A,True
+398,Societe Miniere DExploration Somex,N/A,N/A,N/A,N/A,N/A,Somex (Lac Edouard),La Tuque,Quebec,47.43884808,-72.78426359,1973,1974,N/A,N/A,N/A,N/A,Nickel,Copper,N/A,N/A,N/A,N/A,N/A,N/A,False
+399,Silice LM,Baskatong Quartz,Hogan Holdings,N/A,N/A,N/A,N/A,Lac Bouchette,Quebec,48.299659,-72.143569,1975,2014,N/A,N/A,N/A,N/A,Quartz,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+400,Lemoine Mines,N/A,N/A,N/A,N/A,N/A,N/A,Lemoine,Quebec,49.761783,-74.106777,1975,1983,N/A,N/A,N/A,N/A,Zinc,Copper,Silver,Gold,N/A,N/A,N/A,N/A,False
+401,Western Quebec Mines,Wesdome Gold Mines,N/A,N/A,N/A,N/A,Joubi,Val d'Or,Quebec,48.084246,-77.844044,1976,2022,N/A,N/A,N/A,N/A,Gold,Silver,Copper,N/A,N/A,N/A,N/A,N/A,True
+402,Quebec Cartier Mining,N/A,N/A,N/A,N/A,N/A,Mount Wright,Mount Wright,Quebec,52.74829517,-67.350998,1976,2022,N/A,N/A,N/A,N/A,Iron,N/A,N/A,N/A,N/A,N/A,N/A,N/A,True
+403,Yukon Barite,Nuspar Resources,N/A,N/A,N/A,N/A,N/A,MacMillan Pass,Yukon,63.06861,-130.205,1977,1978,1984,1985,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+404,Bras dOr Mines,N/A,N/A,N/A,N/A,N/A,Mine Bras D'Or (Zone Dumont),Val d'Or,Quebec,48.125937,-77.689716,1978,1994,N/A,N/A,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+405,Noranda Mines,N/A,N/A,N/A,N/A,N/A,Chadbourne,Royun,Quebec,48.245971,-79.032883,1978,1990,N/A,N/A,N/A,N/A,Gold,Silver,Copper,Tellurium,N/A,N/A,N/A,N/A,False
+406,Exploration Aiguebelle,Aiguebelle Resources,N/A,N/A,N/A,N/A,N/A,Destor,Quebec,48.43261892,-78.67278816,1983,1988,N/A,N/A,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+407,Potash Company of America,Potash Company of America,Potacan Mining Company,N/A,N/A,N/A,Cloverhill,Sussex,New Brunswick,45.3353,-65.3618,1985,2003,N/A,N/A,N/A,N/A,Potash,Salt,N/A,N/A,N/A,N/A,N/A,N/A,False
+408,Lithos,N/A,N/A,N/A,N/A,N/A,Wrightbar,Val d'Or,Quebec,48.103521,-77.580791,1986,1988,1995,1997,N/A,N/A,Gold,Copper,N/A,N/A,N/A,N/A,N/A,N/A,False
+409,Hope Brook Gold,Royal Oak Mines,N/A,N/A,N/A,N/A,Hope Brook,Couteau Bay,Newfoundland and Labrador,47.73778,-58.08639,1987,1997,N/A,N/A,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+410,Canada Pumice,N/A,N/A,N/A,N/A,N/A,Nazko or Klara,Quesnel,British Columbia,52.922667,-123.736667,1987,1993,N/A,N/A,N/A,N/A,Diatomite,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+411,Rouyn Mining Resources,Richmont Mines,N/A,N/A,N/A,N/A,Francoeur,Royun,Quebec,48.207841,-79.292369,1988,1990,1991,1999,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+412,Minnova Winston Lake Mine,Metall Mining,N/A,N/A,N/A,N/A,Winston Lake,Pays Plat Lake,Ontario,48.97865,-87.37375,1988,1998,N/A,N/A,N/A,N/A,Copper,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+413,Aurizon Mines,TVX Gold,TVX Gold and Golden Knight Resources,INCO Gold,N/A,N/A,Casa Berardi,Val d'Or,Quebec,49.57166667,-79.23194444,1988,1991,1993,2022,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,True
+414,Cambior,N/A,N/A,N/A,N/A,N/A,"Lucien Beliveau, New Pascalis",Val d'Or,Quebec,48.141294,-77.516743,1989,1993,N/A,N/A,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+415,Eastmaque Gold Mines,N/A,N/A,N/A,N/A,N/A,N/A,Kirkland Lake,Ontario,48.157406,-80.041772,1990,1992,N/A,N/A,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+416,Silidor Mines,Battle Mountain Canada,Cambior,N/A,N/A,N/A,Silidor (Sillidor),Rouyn-Noranda,Quebec,48.253,-79.07873,1990,1997,N/A,N/A,N/A,N/A,Gold,Copper,Silver,Barium,N/A,N/A,N/A,N/A,False
+417,Socit Minire Sphinx,N/A,N/A,N/A,N/A,N/A,Duvay-Obalski,Amos,Quebec,49.873365,-74.392456,1990,2022,N/A,N/A,N/A,N/A,Gold,Copper,Silver,Zinc,N/A,N/A,N/A,N/A,True
+418,Xstrata Nickel Canada,N/A,N/A,N/A,N/A,N/A,Thayer-Lindsley,N/A,Ontario,46.5611,-80.9919,1991,2009,N/A,N/A,N/A,N/A,Nickel,Copper,Cobalt,Platinum,Gold,Silver,Selenium,Tellurium,False
+419,Cambior,IAMGOLD,N/A,N/A,N/A,N/A,Mouska,Rouyn-Noranda,Quebec,48.27622,-78.569989,1991,2012,N/A,N/A,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+420,Timmins Nickel,Inco,N/A,N/A,N/A,N/A,Norandas,Timmins,Ontario,48.4756673,-81.32815975,1991,1993,N/A,N/A,N/A,N/A,Nickel,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+421,IKO Industries,N/A,N/A,N/A,N/A,N/A,Ashcroft,Ashcroft,British Columbia,50.720277,-121.21694,1997,2022,N/A,N/A,N/A,N/A,Aggregate,N/A,N/A,N/A,N/A,N/A,N/A,N/A,True
+422,Inmet Mining,N/A,N/A,N/A,N/A,N/A,Troilus,Chibougamau,Quebec,51.011121,-74.466634,1997,2010,N/A,N/A,N/A,N/A,Gold,Copper,Silver,N/A,N/A,N/A,N/A,N/A,False
+423,Falconbridge,Xstrata,N/A,N/A,N/A,N/A,Raglan,Ungava,Quebec,61.681668,-73.671588,1998,2022,N/A,N/A,N/A,N/A,Nickel,Cobalt,Copper,Palladium,Platinum,Gold,N/A,N/A,True
+424,Craigmont Mines,Huldra Silver,N/A,N/A,N/A,N/A,Craigmont,Merritt,British Columbia,50.2075,-120.92611,1961,1982,2012,2013,N/A,N/A,Magnetite,Copper,Iron,Silver,Gold,N/A,N/A,N/A,False
+425,International Nickel of Canada The,Inco,N/A,N/A,N/A,N/A,Birchtree,N/A,Manitoba,55.70222222,-97.92472222,1968,2017,N/A,N/A,N/A,N/A,Nickel,Copper,Cobalt,Gold,Silver,Platinum,N/A,N/A,False
+426,Claude Resources,SSR Mining,N/A,N/A,N/A,N/A,Seabee,La Ronge,Saskatchewan,55.685276,-103.6130618,1991,2018,N/A,N/A,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+427,Canadian Keeley Mines,N/A,N/A,N/A,N/A,N/A,Keeley-Frontier,N/A,Ontario,47.19908,-79.5071,1908,1964,N/A,N/A,N/A,N/A,Silver,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+428,Indusmin,Unimin Canada,N/A,N/A,N/A,N/A,Ontario Silica Division,Killarney,Ontario,45.97102,-81.58989,1911,1970,N/A,N/A,N/A,N/A,Silica,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+429,McIntyre Porcupine Mines,McIntyre Porcupine Mines,Pamour Porcupine Mines,N/A,N/A,N/A,Schumacher Division (Former McIntyre) and renamed 1981: Shumacher,Schumacher or Shumacher,Ontario,48.4821,-81.29626,1912,1984,N/A,N/A,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+430,Midland Coal Mining,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Alberta,51.47988297,-112.7678241,1912,1959,N/A,N/A,N/A,N/A,Coal,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+431,Teck,N/A,N/A,N/A,N/A,N/A,N/A,Beaverdell,British Columbia,49.432221,-119.06111,1913,1990,N/A,N/A,N/A,N/A,Silver,Lead,Zinc,Gold,Cadmium,Copper,N/A,N/A,False
+432,Canada Talc Industries,N/A,N/A,N/A,N/A,N/A,Conley,Madoc (Havelock),Ontario,44.50406,-77.45273,1914,2010,N/A,N/A,N/A,N/A,Talc,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+433,Springhill Coal Mines,Cumberland Railway and Coal,N/A,N/A,N/A,N/A,N/A,Springhill,Nova Scotia,45.65338829,-64.06378435,1915,1970,N/A,N/A,N/A,N/A,Coal,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+434,Indian Cove Coal,N/A,N/A,N/A,N/A,N/A,N/A,Sydney Mines,Nova Scotia,46.242273,-60.230613,1918,1963,N/A,N/A,N/A,N/A,Coal,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+435,Buchans Mining,American Smelting and Refining Company,ASARCO Incorporated,Price ASARCO,N/A,N/A,Buchans Unit,Buchans,Newfoundland and Labrador,48.81788217,-56.87059189,1928,1984,2006,2010,2020,2022,Barite,N/A,N/A,N/A,N/A,N/A,N/A,N/A,True
+436,Electro Metallurgical,Dominion Mines and Quarries,Union Carbide Canada,N/A,N/A,N/A,N/A,Little Current,Ontario,45.98035854,-81.92723483,1930,1968,N/A,N/A,N/A,N/A,Silica,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+437,Waite Amulet Mines,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Quebec,48.310132,-79.075479,1930,1962,N/A,N/A,N/A,N/A,Zinc,Copper,Silver,Gold,Iron,Sulfur,Tellurium,N/A,False
+438,Beattie Duquesne Mines,N/A,N/A,N/A,N/A,N/A,Beattie,N/A,Quebec,48.510851,-79.235575,1933,1956,N/A,N/A,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+439,Powell Rouyn Gold Mines,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Quebec,48.263114,-79.05047,1937,1956,N/A,N/A,N/A,N/A,Gold,Silver,Silica,N/A,N/A,N/A,N/A,N/A,False
+440,Nigadoo River Mines,N/A,N/A,N/A,N/A,N/A,Nigadoo,Robertville,New Brunswick,47.73306,-65.80642,1938,1988,N/A,N/A,N/A,N/A,Lead,Zinc,Copper,Silver,N/A,N/A,N/A,N/A,False
+441,Dominion Coal,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Nova Scotia,45.2202727,-63.93275043,1939,1971,N/A,N/A,N/A,N/A,Coal,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+442,Belleterre Quebec Mines,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Quebec,47.414016,-78.676119,1940,1958,N/A,N/A,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+443,Sybouts Sodium Sulphate,N/A,N/A,N/A,N/A,N/A,N/A,Gladmar,Saskatchewan,49.03696,-104.4335795,1941,1980,N/A,N/A,N/A,N/A,Sodium Sulphate,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+444,Dominion Steel and Coal,Acadia Coal,N/A,N/A,N/A,N/A,Acadia Coal Division,N/A,Nova Scotia,45.560911,-62.5639188,1946,1972,N/A,N/A,N/A,N/A,Coal,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+445,Consolidated Candego Mines,N/A,N/A,N/A,N/A,N/A,Candego,N/A,Quebec,49.063244,-66.068973,1948,1954,N/A,N/A,N/A,N/A,Lead,Zinc,Silver,Gold,N/A,N/A,N/A,N/A,False
+446,Baker Talc,International Larder Minerals,N/A,N/A,N/A,N/A,Marcoux,Highwater,Quebec,45.095201,-72.401157,1949,1952,1992,1993,N/A,N/A,Talc,Steatite,N/A,N/A,N/A,N/A,N/A,N/A,False
+447,Consolidated Discovery Yellowknife Mines,Discovery Mines,N/A,N/A,N/A,N/A,Discovery,Discovery,Northwest Territories,62.26646,-137.1215,1949,1969,N/A,N/A,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+448,Dow Chemical,N/A,N/A,N/A,N/A,N/A,N/A,Sarnia,Ontario,42.94038,-82.43676,1950,1960,N/A,N/A,N/A,N/A,Salt,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+449,Inco,Inco Metals Company,N/A,N/A,N/A,N/A,Murray,Sudbury,Ontario,46.51475921,-81.06543775,1950,1971,N/A,N/A,N/A,N/A,Nickel,Cobalt,N/A,N/A,N/A,N/A,N/A,N/A,False
+450,Delbridge Mines,N/A,N/A,N/A,N/A,N/A,Delbridge (Eldona),Noranda,Quebec,48.261709,-78.965241,1950,1952,1969,1971,N/A,N/A,Zinc,Gold,Silver,Copper,Lead,N/A,N/A,N/A,False
+451,Canadian Johns Manville,Johns Mandeville Mining,Canadian Johns Manville,N/A,N/A,N/A,N/A,Timmins,Ontario,48.55806,-80.25318,1950,1964,N/A,N/A,N/A,N/A,Asbestos,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+452,Stettler Coal,N/A,N/A,N/A,N/A,N/A,N/A,Halkirk,Alberta,52.47596003,-112.1930807,1950,1977,N/A,N/A,N/A,N/A,Coal,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+453,Weedon Pyrite and Copper,N/A,N/A,N/A,N/A,N/A,Weedon (McDonald),N/A,Quebec,45.704854,-71.371148,1951,1959,1969,1973,N/A,N/A,Copper,Zinc,Silver,Gold,Cadmium,Lead,N/A,N/A,False
+454,Canadian Silica,N/A,N/A,N/A,N/A,N/A,Sheguiandah Quarry,Howland Twp,Ontario,45.98052329,-81.92879194,1951,1954,N/A,N/A,N/A,N/A,Silica,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+455,Consolidated Canadian Faraday,N/A,N/A,N/A,N/A,N/A,N/A,Werner Lake,Ontario,50.4639,-94.93163,1954,1972,N/A,N/A,N/A,N/A,Nickel,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+456,Heath Steele Mines,Noranda Mining and Exploration Heath Steele Division,Brunswick Mining and Smelting and Noranda Minerals,N/A,N/A,N/A,Heath Steele,Newcastle,New Brunswick,47.29027778,-66.07222222,1955,2008,N/A,N/A,N/A,N/A,Zinc,Lead,Copper,Silver,N/A,N/A,N/A,N/A,False
+457,Willroy Mines,N/A,N/A,N/A,N/A,N/A,N/A,Manitouwadge,Ontario,49.15656,-85.8246,1955,1974,N/A,N/A,N/A,N/A,Zinc,Copper,Silver,N/A,N/A,N/A,N/A,N/A,False
+458,Lake Cinch Mines,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Saskatchewan,59.54278,-108.66861,1955,1960,N/A,N/A,N/A,N/A,Uranium,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+459,National Explorers,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Saskatchewan,59.595276,-108.423043,1956,1958,N/A,N/A,N/A,N/A,Uranium,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+460,Faraday Uranium Mines,Madawaska Mines,N/A,N/A,N/A,N/A,Madawaska,Brancroft,Ontario,45.02066,-77.92475,1957,1964,1975,1982,N/A,N/A,Uranium,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+461,Minworth,AGS Vein St Lawrence,N/A,N/A,N/A,N/A,N/A,St-Lawrence,Newfoundland and Labrador,46.91488521,-55.4858431,1957,2019,N/A,N/A,N/A,N/A,Fluorspar,Zinc,Lead,Copper,N/A,N/A,N/A,N/A,False
+462,Stelco Mines Quebec,N/A,N/A,N/A,N/A,N/A,Hilton,Shawville,Quebec,45.60376813,-76.49247132,1958,1977,N/A,N/A,N/A,N/A,Iron,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+463,Norduna Mines Letd,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Ontario,46.60343,-80.76397,1958,1962,N/A,N/A,N/A,N/A,Copper,Gold,N/A,N/A,N/A,N/A,N/A,N/A,False
+464,Black Bay Uranium,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Saskatchewan,59.50693408,-108.4805547,1958,1960,N/A,N/A,N/A,N/A,Uranium,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+465,Vauze Mines,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Quebec,48.360297,-79.082217,1961,1965,N/A,N/A,N/A,N/A,Copper,Zinc,N/A,N/A,N/A,N/A,N/A,N/A,False
+466,Cominco,Rio Algom,Highland Valley Copper,Teck,N/A,N/A,N/A,Highland Valley,British Columbia,50.485555,-121.04833,1962,2021,N/A,N/A,N/A,N/A,Copper,Molybdenum,Silver,Gold,Lead,Zinc,N/A,N/A,False
+467,International Minerals and Chemical,International Minerals Chemical,N/A,N/A,N/A,N/A,K1,Esterhazy,Saskatchewan,50.748881,-101.9296429,1962,2022,N/A,N/A,N/A,N/A,Potash,Salt,N/A,N/A,N/A,N/A,N/A,N/A,True
+468,Jedway Iron Ore,N/A,N/A,N/A,N/A,N/A,N/A,N/A,British Columbia,52.292777,-131.19888,1962,1968,N/A,N/A,N/A,N/A,Iron,Magnetite,N/A,N/A,N/A,N/A,N/A,N/A,False
+469,New Hosco Mines,N/A,N/A,N/A,N/A,N/A,N/A,Matagami,Quebec,49.789443,-77.835343,1963,1970,N/A,N/A,N/A,N/A,Copper,Zinc,Gold,Silver,Iron,N/A,N/A,N/A,False
+470,Lorraine Mining,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Quebec,47.358367,-78.93895,1965,1968,N/A,N/A,N/A,N/A,Copper,Nickel,N/A,N/A,N/A,N/A,N/A,N/A,False
+471,British Newfoundland Exploration,Green Bay Mining,N/A,N/A,N/A,N/A,Whalesback,Springdale,Newfoundland and Labrador,49.59681671,-56.00603878,1965,1974,N/A,N/A,N/A,N/A,Copper,Zinc,Titanium,N/A,N/A,N/A,N/A,N/A,False
+472,International Nickel of Canada The,N/A,N/A,N/A,N/A,N/A,Pipe (1),Thompson,Manitoba,55.35135931,-61.49009417,1966,1971,N/A,N/A,N/A,N/A,Nickel,Copper,Cobalt,Gold,Silver,N/A,N/A,N/A,False
+473,Renzy Mines,N/A,N/A,N/A,N/A,N/A,N/A,Lac de Renzy,Quebec,46.811944,-76.703328,1969,1972,N/A,N/A,N/A,N/A,Nickel,Copper,Cobalt,Chromium,Gold,Platinum,Palladium,N/A,False
+474,Central Canada Potash,Noranda,The Mosaic Company,N/A,N/A,N/A,Colonsay,Viscount,Saskatchewan,51.930459,-105.7757245,1969,2016,2017,2022,N/A,N/A,Potash,Salt,N/A,N/A,N/A,N/A,N/A,N/A,True
+475,International Nickel of Canada The,N/A,N/A,N/A,N/A,N/A,Pipe (2),Thompson,Manitoba,55.29027208,-61.50290417,1969,1984,N/A,N/A,N/A,N/A,Nickel,Copper,Sulphure,N/A,N/A,N/A,N/A,N/A,False
+476,Caribou New Brunswick Mining,Blue Note Mining,Trevali Mining,Breakwater Resources,Trevali Mining,N/A,Caribou,N/A,New Brunswick,47.55864,-66.29385,1970,1970,2007,2008,2016,2022,Zinc,Copper,Lead,Silver,N/A,N/A,N/A,N/A,True
+477,Utah Mines,BHP Minerals Canada,N/A,N/A,N/A,N/A,Island Copper,Port Hardy,British Columbia,50.599721,-127.47499,1971,1995,N/A,N/A,N/A,N/A,Copper,Molybdenum,Silver,Gold,Zinc,Lead,Rhenium,N/A,False
+478,Crows Nest Resources,Line Creek Resources,Manalta Coal,Luscar,N/A,N/A,Line Creek,Line Creek,British Columbia,49.929166,-114.77611,1972,2015,N/A,N/A,N/A,N/A,Coal,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+479,Noranda Mines,Noranda,N/A,N/A,N/A,N/A,"Babine Lake Division, Bell and Granisles",Babine Lake,British Columbia,55.002777,-126.23194,1972,1992,N/A,N/A,N/A,N/A,Copper,Silver,Gold,Zinc,Lead,Molybdenum,N/A,N/A,False
+480,Decade Development,Corona,N/A,N/A,N/A,N/A,Jolu,Mallard Lake,Saskatchewan,56.000618,-104.281573,1973,1990,2011,2014,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+481,Northair Mines,N/A,N/A,N/A,N/A,N/A,N/A,Brandywine,British Columbia,50.114444,-123.10361,1974,1982,N/A,N/A,N/A,N/A,Gold,Silver,Lead,Zinc,Copper,Cadmium,N/A,N/A,False
+482,Newfoundland Zinc Mines,N/A,N/A,N/A,N/A,N/A,N/A,Daniel's Harbour,Newfoundland and Labrador,50.29575914,-57.46512176,1974,1990,N/A,N/A,N/A,N/A,Zinc,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+483,Manitoba and Saskatchewan Coal,N/A,N/A,N/A,N/A,N/A,N/A,Estevan,Saskatchewan,49.12002,-102.9742843,1975,1983,N/A,N/A,N/A,N/A,Coal,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+484,Gulf Minerals Canada,Cameco and Uranerz Exploration and Mining,N/A,N/A,N/A,N/A,Rabbit Lake,Wollaston Lake,Saskatchewan,58.196106,-103.7108265,1975,2016,N/A,N/A,N/A,N/A,Uranium,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+485,Nanisivik Mines,Breakwater Resources,N/A,N/A,N/A,N/A,Nanisivik,Strathcona Sound (Arctie Bay/Nanisivik),Nunavut,73.04444444,-84.53722222,1976,2002,N/A,N/A,N/A,N/A,Zinc,Lead,Silver,N/A,N/A,N/A,N/A,N/A,False
+486,Hudson Bay Mining and Smelting,N/A,N/A,N/A,N/A,N/A,Westarm,Flin Flon,Manitoba,54.64027778,-101.845,1977,1985,1994,1997,N/A,N/A,Copper,Zinc,Gold,Silver,N/A,N/A,N/A,N/A,False
+487,Noranda Mines,N/A,N/A,N/A,N/A,N/A,Lyon Lake Division,Sturgeon Lake,Ontario,49.88704,-90.89011,1978,1991,N/A,N/A,N/A,N/A,Copper,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+488,Sil Silica,Strathcona Resource Industries,N/A,N/A,N/A,N/A,Sil Silica Division,Bruderheim,Alberta,53.9065452,-112.9243772,1979,2022,N/A,N/A,N/A,N/A,Silica,N/A,N/A,N/A,N/A,N/A,N/A,N/A,True
+489,Du Pont of Canada Expl,N/A,N/A,N/A,N/A,N/A,Baker,Toodoggone River,British Columbia,57.285277,-127.11055,1981,1997,N/A,N/A,N/A,N/A,Gold,Silver,Copper,Zinc,Lead,N/A,N/A,N/A,False
+490,Billiton Canada,N/A,N/A,N/A,N/A,N/A,Mount Pleasant,N/A,New Brunswick,45.43169,-66.81302,1983,2013,N/A,N/A,N/A,N/A,Tungsten,Molybdenum,N/A,N/A,N/A,N/A,N/A,N/A,False
+491,Domtar,Georgia Pacific Canada,N/A,N/A,N/A,N/A,Canal,Canal Flats,British Columbia,50.05,-115.51777,1984,2007,N/A,N/A,N/A,N/A,Gypsum,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+492,Hemlo Gold Mines,Newmont Canada,Battle Mountain Gold,Barrick Gold,N/A,N/A,Golden Giant,Marathon,Ontario,48.69765,-85.90463,1985,2006,N/A,N/A,N/A,N/A,Gold,Silver,N/A,N/A,N/A,N/A,N/A,N/A,False
+493,Clayburn Industries,N/A,N/A,N/A,N/A,N/A,Sumas Mtn.,Abbotsford,British Columbia,49.06861,-122.20027,1986,1995,N/A,N/A,N/A,N/A,Shale,Clay,N/A,N/A,N/A,N/A,N/A,N/A,False
+494,Exall Resources and Glimmer Resources,N/A,N/A,N/A,N/A,N/A,Glimmer,Matheson,Ontario,48.52982,-79.69315,1988,1991,N/A,N/A,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+495,Hudson Bay Mining and Smelting,N/A,N/A,N/A,N/A,N/A,Namew Lake,Flin Flon,Manitoba,54.20555556,-101.7791667,1988,1993,N/A,N/A,N/A,N/A,Nickel,Copper,Gold,N/A,N/A,N/A,N/A,N/A,False
+496,Canamax Resources,Veris Gold,Wheaton River Minerals,N/A,N/A,N/A,Ketza River,Ross River,Yukon,61.53805556,-132.2711111,1988,1990,N/A,N/A,N/A,N/A,Gold,Silver,N/A,N/A,N/A,N/A,N/A,N/A,False
+497,Stratabound Minerals,N/A,N/A,N/A,N/A,N/A,CNE,Newcastle,New Brunswick,47.29557,-65.88469,1989,1990,N/A,N/A,N/A,N/A,Copper,Lead,Silver,Zinc,N/A,N/A,N/A,N/A,False
+498,Minnova,N/A,N/A,N/A,N/A,N/A,N/A,Samatosum Mine,British Columbia,51.144444,-119.80944,1989,1992,N/A,N/A,N/A,N/A,Silver,Gold,Zinc,Lead,Copper,Antimony,N/A,N/A,False
+499,Placer Dome,N/A,N/A,N/A,N/A,N/A,Dona Lake,Pickle Lake,Ontario,51.41475,-90.09447,1989,1994,N/A,N/A,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+500,Atlantic Minerals,N/A,N/A,N/A,N/A,N/A,Lower Cove,Stephenville,Newfoundland and Labrador,48.5301397,-59.03173541,1990,2016,N/A,N/A,N/A,N/A,Limestone,Dolomite,N/A,N/A,N/A,N/A,N/A,N/A,False
+501,Teranov Mining,N/A,N/A,N/A,N/A,N/A,N/A,Baie Verte,Newfoundland and Labrador,49.98361,-56.1925,1991,1994,N/A,N/A,N/A,N/A,Asbestos,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+502,Cameco and Uranerz Exploration and Mining,N/A,N/A,N/A,N/A,N/A,Contact Lake,La Ronge,Saskatchewan,55.418888,-104.8738916,1995,1997,N/A,N/A,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+503,Golden Rule Resources,N/A,N/A,N/A,N/A,N/A,Komis,La Ronge,Saskatchewan,56.208336,-103.8999997,1995,2012,N/A,N/A,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+504,Ming Minerals,N/A,N/A,N/A,N/A,N/A,Stoger Tight,Baie Verte,Newfoundland and Labrador,49.96609718,-56.07765385,1996,2019,N/A,N/A,N/A,N/A,Gold,Silver,Copper,Molybdenum,Zinc,N/A,N/A,N/A,False
+505,Hudson Bay Mining and Smelting,N/A,N/A,N/A,N/A,N/A,N/A,Amisk Lake,Saskatchewan,54.5960103,-112.6412657,1997,2003,N/A,N/A,N/A,N/A,Copper,Zinc,N/A,N/A,N/A,N/A,N/A,N/A,False
+506,Viceroy Resources,N/A,N/A,N/A,N/A,N/A,Brewery Creek,Dawson Creek,Yukon,68.55,-136.7994445,1997,2001,N/A,N/A,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+507,Jamer Materials,N/A,N/A,N/A,N/A,N/A,Jamer Operation,Bayside,New Brunswick,45.13059853,-67.10842648,1998,2022,N/A,N/A,N/A,N/A,Graphite,N/A,N/A,N/A,N/A,N/A,N/A,N/A,True
+508,Cameco,COGEMA Resources,N/A,N/A,N/A,N/A,McArthur River,McArthur River,Saskatchewan,57.766668,-105.0819391,1999,2018,N/A,N/A,N/A,N/A,Uranium,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+509,Western Dominion Coal Mines,N/A,N/A,N/A,N/A,N/A,Taylorton,N/A,Saskatchewan,49.087551,-102.7885072,1890,1963,N/A,N/A,N/A,N/A,Coal,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+510,Fundy Gypsum,Canadian Gypsum,N/A,N/A,N/A,N/A,Wentworth,Windsor,Nova Scotia,44.986234,-64.09089742,1875,2011,N/A,N/A,N/A,N/A,Gypsum,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+511,Portal Coals,N/A,N/A,N/A,N/A,N/A,Sutherland,Roche Perce,Saskatchewan,49.06874066,-102.8021981,1878,1955,N/A,N/A,N/A,N/A,Coal,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+512,Durham Resources,Dominion Explorers,Consolidated Durham Mines Resources,N/A,N/A,N/A,Lake George Antimony,Lake George,New Brunswick,45.84943,-67.03524,1880,1996,N/A,N/A,N/A,N/A,Antimony,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+513,Skylark Resources,N/A,N/A,N/A,N/A,N/A,N/A,Greenwood,British Columbia,49.091388,-118.63972,1893,1989,N/A,N/A,N/A,N/A,Silver,Gold,Lead,Zinc,Copper,Antimony,N/A,N/A,False
+514,Westminer Canada,N/A,N/A,N/A,N/A,N/A,Forest Hill,N/A,Nova Scotia,45.309245,-61.75537888,1895,2009,N/A,N/A,N/A,N/A,Gold,Silver,N/A,N/A,N/A,N/A,N/A,N/A,False
+515,Canmore Mines The,N/A,N/A,N/A,N/A,N/A,N/A,Canmore,Alberta,51.05617338,-115.3362971,1895,1974,N/A,N/A,N/A,N/A,Coal,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+516,Copper Mountain Mining,N/A,N/A,N/A,N/A,N/A,Copper Mountain,N/A,British Columbia,49.331,-120.533,1884,1958,2011,2022,N/A,N/A,Copper,Gold,Silver,N/A,N/A,N/A,N/A,N/A,True
+517,International Nickel of Canada The,Vale Inco,N/A,N/A,N/A,N/A,Copper Cliff,Copper Cliff,Ontario,46.47288,-81.07491,1887,2009,N/A,N/A,N/A,N/A,Copper,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+518,Lake Asbestos of Quebec,Lac dAmiante du Quebec Ltee,N/A,N/A,N/A,N/A,Black Lake Division/Mine,Black Lake/Thetford Mines,Quebec,46.025172,-71.367745,1888,2011,N/A,N/A,N/A,N/A,Chrysotile,Talc,N/A,N/A,N/A,N/A,N/A,N/A,False
+519,Vale Canada,N/A,N/A,N/A,N/A,N/A,Ellen or Helen,N/A,Ontario,46.429667,-81.323211,1900,1996,2004,2016,N/A,N/A,Copper,Nickel,N/A,N/A,N/A,N/A,N/A,N/A,False
+520,Min Ore Mines,Hollinger Consolidated Gold Mines,HG Young Mines,Aurico Gold,N/A,N/A,Young-Davidson,Matachewan,Ontario,47.948757,-80.69286,1917,1957,2010,2022,N/A,N/A,Copper,N/A,N/A,N/A,N/A,N/A,N/A,N/A,True
+521,Richmont Mines,Osisko Exploration,Canadian Malartic,McWatters Mining,Placer Dome,Breakwater Resources,East Amphi,N/A,Quebec,48.16805556,-78.12722222,1941,1974,1979,2007,N/A,N/A,Gold,Silver,N/A,N/A,N/A,N/A,N/A,N/A,False
+522,Falconbridge Nickel Mines,Xstrata Nickel Canada,N/A,N/A,N/A,N/A,Fraser,Falconbridge,Ontario,46.66321,-81.34057,1962,1991,2007,2009,2010,2022,Nickel,N/A,N/A,N/A,N/A,N/A,N/A,N/A,True
+523,Western Mines,Boliden AB,Breakwater Resources,Westmin Resources,Nyrstar NV,Trafigura Mining Group,Myra Falls,Myra Falls,British Columbia,49.567499,-125.605,1966,1985,2002,2015,2019,2022,Copper,Zinc,Lead,Gold,Silver,Cadmium,N/A,N/A,True
+524,Novaco,T Brogan and Sons,Pioneer Coal,N/A,N/A,N/A,Point Aconi,Point Aconi,Nova Scotia,46.31833,-60.30611,1975,2013,N/A,N/A,N/A,N/A,Coal,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+525,Forestburg Collieries,Luscar,Westmoreland Coal Company,N/A,N/A,N/A,Paintearth,Forestburg,Alberta,52.48106528,-112.219718,1978,2021,N/A,N/A,N/A,N/A,Coal,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+526,ScoZinc,Seabright,Esso,Western Minin,Savage Resource Canada,HudBay Minerals,Scotia,N/A,Nova Scotia,45.0303,-63.34,1979,1985,2007,2009,N/A,N/A,Zinc,Lead,N/A,N/A,N/A,N/A,N/A,N/A,False
+527,Nutrien,Potash of Saskatchewan,N/A,N/A,N/A,N/A,Piccadilly,Sussex,New Brunswick,45.7515,-65.4162,1986,2016,N/A,N/A,N/A,N/A,Salt,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+528,American Barrick Resources,McDermott Gold Mines,Holloway Mining,Camflo Mines,N/A,N/A,Holt-McDermott,Kirkland Lake,Ontario,48.5101,-79.74016,1988,2022,N/A,N/A,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,True
+529,Bestwall Gypsum,Georgia Pacific Corps,Bestwall Gypsum Division,N/A,N/A,N/A,Sugar Camp,River Denys,Nova Scotia,45.708157,-61.31702041,1992,2011,N/A,N/A,N/A,N/A,Gypsum,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+530,Graybec,Graymont,Dudswell Lime and Marble Company,Dominion Lime Company,N/A,N/A,N/A,St. Adolphe de Dudswell,Quebec,45.63318,-71.59098,1824,2022,N/A,N/A,N/A,N/A,Lime,N/A,N/A,N/A,N/A,N/A,N/A,N/A,True
+531,National Gypsum,N/A,N/A,N/A,N/A,N/A,N/A,Walton,Nova Scotia,45.23057047,-64.00633151,1810,1972,N/A,N/A,N/A,N/A,Gypsum,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+532,Dresser Industries,N/A,N/A,N/A,N/A,N/A,N/A,Walton,Nova Scotia,45.226163,-63.93497713,1828,1974,N/A,N/A,N/A,N/A,Barite,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+533,Sifto Salt,Domtar Chemicals,Dominion Salt The,N/A,N/A,N/A,Goderich,Goderich,Ontario,43.73785,-81.70784,1866,2022,N/A,N/A,N/A,N/A,Salt,N/A,N/A,N/A,N/A,N/A,N/A,N/A,True
+534,Drummond Coal,Pioneer Coal,Pioneer Coal,N/A,N/A,N/A,Pioneer or Drummond,Westville,Nova Scotia,45.55917,-62.71222,1868,1984,N/A,N/A,N/A,N/A,Coal,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+535,Red Mill Industries,N/A,N/A,N/A,N/A,N/A,N/A,Red Mill,Quebec,46.40732539,-72.46525171,1870,1970,N/A,N/A,N/A,N/A,Iron ore,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+536,Guelph DoLime,N/A,N/A,N/A,N/A,N/A,N/A,Guelph,Ontario,43.52433315,-80.2611029,1872,2002,N/A,N/A,N/A,N/A,Dolomite,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+537,Nova Construction,N/A,N/A,N/A,N/A,N/A,Brierly Brook,Antigonish,Nova Scotia,45.60336,-62.07031804,1873,1979,N/A,N/A,N/A,N/A,Gypsum,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+538,Asbestos,King Brothers,N/A,N/A,N/A,N/A,King,Putunig / Thetford Mines,Quebec,46.08583,-71.30111,1879,1986,N/A,N/A,N/A,N/A,Asbestos,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+539,Asbestos,LAB Chrysotile,N/A,N/A,N/A,N/A,British-Canadian,Thetford Mines,Quebec,46.040489,-71.345136,1881,1997,N/A,N/A,N/A,N/A,Chrysotile,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+540,Black Donald Graphite,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Ontario,45.22467,-76.91375,1885,1954,N/A,N/A,N/A,N/A,Graphite,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+541,Joggins Coal,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Nova Scotia,45.68846058,-64.43947324,1887,1961,N/A,N/A,N/A,N/A,Coal,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+542,Copperline Mines,Consolidated Columbia River Mines,N/A,N/A,N/A,N/A,Ruth-Vermont,Golden,British Columbia,50.947499,-116.97916,1891,1981,N/A,N/A,N/A,N/A,Silver,Lead,Zinc,Copper,Gold,Cadmium,Tungsten,N/A,False
+543,Carnegie Mines,N/A,N/A,N/A,N/A,N/A,silversmith,slocan,British Columbia,49.964166,-117.22472,1893,1965,N/A,N/A,N/A,N/A,Silver,Lead,Zinc,Cadmium,Gold,Copper,N/A,N/A,False
+544,Johnsby Mines,Western Exploration,Loma Minerals,Silver Ridge Resources,N/A,N/A,Standard or Emily Edith,N/A,British Columbia,49.956111,-117.32055,1894,1969,N/A,N/A,N/A,N/A,Silver,Zinc,Lead,Gold,Cadmium,Copper,N/A,N/A,False
+545,Saskatchewan Power,N/A,N/A,N/A,N/A,N/A,Souris Valley,Estevan,Saskatchewan,49.04987011,-102.8156485,1899,1983,N/A,N/A,N/A,N/A,Coal,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+546,Consolidated Woodgreen Mines,N/A,N/A,N/A,N/A,N/A,Mother Lode,N/A,British Columbia,49.111944,-118.71805,1900,1962,N/A,N/A,N/A,N/A,Copper,Gold,Silver,N/A,N/A,N/A,N/A,N/A,False
+547,Warwick Pure Salt,Warwick Salt and Chemicals,Dominion Salt,N/A,N/A,N/A,N/A,Sarnia,Ontario,42.98534,-82.40432,1903,1962,N/A,N/A,N/A,N/A,Salt,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+548,Nipissing OBrien Mines,N/A,N/A,N/A,N/A,N/A,"Agnico-Eagle, Nipissing or O'Briens",N/A,Ontario,47.399253,-79.667933,1903,1964,N/A,N/A,N/A,N/A,Silver,Cobalt,N/A,N/A,N/A,N/A,N/A,N/A,False
+549,Coleman Collieries,International Coal and Coke Company,N/A,N/A,N/A,N/A,N/A,Crowsnest Pass,British Columbia,49.63009712,-114.6829735,1903,1983,N/A,N/A,N/A,N/A,Coal,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+550,Kelowna Mines Hedley,N/A,N/A,N/A,N/A,N/A,Hedley Mascot,Hedley,British Columbia,50.403055,-117.13888,1903,1949,1988,1996,N/A,N/A,Gold,Silver,Lead,N/A,N/A,N/A,N/A,N/A,False
+551,Graybec,Graybec Calc,Canadian Gypsum,Standard Lime Dominion Tar and Chemicals Domtar,N/A,N/A,Jolichaux Division,Joliette,Quebec,46.004861,-73.4717,1904,2022,N/A,N/A,N/A,N/A,Lime,N/A,N/A,N/A,N/A,N/A,N/A,N/A,True
+552,Manitoba and Saskatchewan Coal,Luscar,N/A,N/A,N/A,N/A,Bienfait,Bienfait,Saskatchewan,49.129136,-104.8382577,1904,2022,N/A,N/A,N/A,N/A,Coal,N/A,N/A,N/A,N/A,N/A,N/A,N/A,True
+553,Gypsum Lime and Alabastine Canada,Alabastine Company of Paris,N/A,N/A,N/A,N/A,No. l (Caledonia),N/A,Ontario,43.0825,-79.94917,1905,1953,N/A,N/A,N/A,N/A,Gypsum,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+554,Rix Ahabasca Uranium Mines,Silver Century Exploration,United Cobalt Mines,Victoria Silver Cobalt Mines,N/A,N/A,N/A,N/A,Ontario,47.39182,-79.65594,1906,1997,N/A,N/A,N/A,N/A,Silver,Cobalt,N/A,N/A,N/A,N/A,N/A,N/A,False
+555,Fundy Gypsum,N/A,N/A,N/A,N/A,N/A,Miller Creek,Windsor,Nova Scotia,45.013592,-64.05334408,1908,2011,N/A,N/A,N/A,N/A,Gypsum,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+556,Cobalt Lode Silver Mines,Agnico Eagle,N/A,N/A,N/A,N/A,N/A,N/A,Ontario,47.35638,-79.64512,1908,1989,N/A,N/A,N/A,N/A,Silver,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+557,Silver Town Mines,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Ontario,47.38689,-79.67262,1908,1967,N/A,N/A,N/A,N/A,Silver,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+558,Fording Coal,Teck Resources,Corbin Creek Resources,Byron Creek Collieries,N/A,N/A,Coal Mountain,Sparwood,British Columbia,49.5,-114.65944,1908,2018,N/A,N/A,N/A,N/A,Coal,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+559,Siscoe Metals of Ontario,Miller Lake,N/A,N/A,N/A,N/A,O'Brien,Gowganda,Ontario,47.66657,-80.73897,1909,1965,N/A,N/A,N/A,N/A,Silver,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+560,Davidson Tisdale Mines,Getty Canadian Metals,N/A,N/A,N/A,N/A,N/A,Timmins,Ontario,48.51486,-81.22356,1911,1988,N/A,N/A,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+561,Socite Miniere Gerdin,N/A,N/A,N/A,N/A,N/A,St-Rémi China Clay,St. Rémi Amherst,Quebec,49.08034,-66.660498,1911,2022,N/A,N/A,N/A,N/A,Silica,N/A,N/A,N/A,N/A,N/A,N/A,N/A,True
+562,Manridge Mines,Siscoe Metals,N/A,N/A,N/A,N/A,Mann (Manridge),Milner,Ontario,47.62111,-80.81611,1912,1988,N/A,N/A,N/A,N/A,Silver,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+563,Silmonac Mines,Silvana,Dickenson Mines,Kam Kotia Burkham Joint Venture,N/A,N/A,Silvana,New Denver,British Columbia,49.972499,-117.25166,1913,1993,N/A,N/A,N/A,N/A,Silver,Lead,Zinc,Cadmium,Copper,N/A,N/A,N/A,False
+564,Sifto Salt,Domtar Chemicals,Sifto Canada,Purity Flour Mills,N/A,N/A,N/A,Goderich,Ontario,43.74515,-81.718467,1915,1981,N/A,N/A,N/A,N/A,Salt,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+565,Windsor Plaster,Gypsum Lime and Alabastine Company of Toronto,N/A,N/A,N/A,N/A,N/A,Hants County,Nova Scotia,45.08688869,-63.91264812,1915,1958,N/A,N/A,N/A,N/A,Gypsum,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+566,Paymaster Consolidates Mines,Porcupine Paymaster,N/A,N/A,N/A,N/A,Paymaster,N/A,Ontario,48.45789,-81.2619,1915,1965,N/A,N/A,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+567,E Montpetit et Fils,Melocheville Mining,Timinco,N/A,N/A,N/A,Chromasco Quarry,Melocheville,Quebec,45.099606,-73.637762,1916,1991,N/A,N/A,N/A,N/A,Silica,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+568,Indusmin,Unimin Canada,Canadian Carborundum,Canadian Silica,N/A,N/A,Saint-Canut,St. Canut,Quebec,45.71678,-74.08251,1917,2022,N/A,N/A,N/A,N/A,Silica,N/A,N/A,N/A,N/A,N/A,N/A,N/A,True
+569,Canadian John Manville,JM Asbestos,N/A,N/A,N/A,N/A,N/A,N/A,Quebec,45.76972,-71.95,1918,1982,1996,2001,N/A,N/A,Asbestos,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+570,Carey Canadian Mines,Quebec Asbestos,N/A,N/A,N/A,N/A,QAC (Philip Carey/Celotex) or Carey,East Broughton,Quebec,46.256393,-71.046172,1918,1986,N/A,N/A,N/A,N/A,Chrysotile,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+571,Sherwin Williams of Canada,N/A,N/A,N/A,N/A,N/A,Red Mill (nine miles east of Trois Rivières),N/A,Quebec,46.426221,-72.462985,1922,1966,N/A,N/A,N/A,N/A,Iron ore,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+572,Quemont Mining,N/A,N/A,N/A,N/A,N/A,N/A,Noranda,Quebec,48.25778,-79.0177,1922,1971,N/A,N/A,N/A,N/A,Copper,Gold,Zinc,Silver,Pyrite,N/A,N/A,N/A,False
+573,Deer Horn Mines,N/A,N/A,N/A,N/A,N/A,Deer Horn or Cross Lake O'Brien,Cobalt,Ontario,47.39107,-79.64549,1923,1970,N/A,N/A,N/A,N/A,Silver,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+574,Gypsum Lime and Alabastine Canada,Domtar,Canada Cement Lafarge,Lafarge Canada,N/A,N/A,Falkland,N/A,British Columbia,50.511111,-119.5525,1926,2011,N/A,N/A,N/A,N/A,Gypsum,Anhydrite,N/A,N/A,N/A,N/A,N/A,N/A,False
+575,Falconbridge,N/A,N/A,N/A,N/A,N/A,5s,Sudbury,Ontario,46.58,-80.795,1928,1984,N/A,N/A,N/A,N/A,Nickel,Copper,Platinum,Cobalt,Silver,Gold,N/A,N/A,False
+576,Coniaurum Mines,N/A,N/A,N/A,N/A,N/A,Coniaurum,N/A,Ontario,48.4881,-81.27099,1928,1960,N/A,N/A,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+577,Graybec,N/A,N/A,N/A,N/A,N/A,Bedford,Bedford,Quebec,45.114415,-73.014601,1930,2022,N/A,N/A,N/A,N/A,Lime,N/A,N/A,N/A,N/A,N/A,N/A,N/A,True
+578,Johnsons,N/A,N/A,N/A,N/A,N/A,N/A,Black Lake,Quebec,46.04863,-71.3685,1930,1964,N/A,N/A,N/A,N/A,Asbestos,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+579,Bevcourt Gold Mines,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Quebec,48.09583,-77.42222,1931,1965,N/A,N/A,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+580,Canadian Salt,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Nova Scotia,46.89361,-60.48389,1933,1955,N/A,N/A,N/A,N/A,Gypsum,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+581,St Lawrence of Newfoundland,N/A,N/A,N/A,N/A,N/A,N/A,St Lawrence,Newfoundland and Labrador,46.903198,-55.399156,1933,1961,N/A,N/A,N/A,N/A,Fluorspar,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+582,Newfoundland Fluorspar,Aluminum of Canada,Canadian Florspar,N/A,N/A,N/A,Newfoundland Fluorspar Works,St. Lawrence,Newfoundland and Labrador,46.903198,-55.399156,1933,1978,N/A,N/A,N/A,N/A,Fluorspar,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+583,Macassa Mines,Upper Canada Resources,Kinross Gold,Kirkland Lake Gold,N/A,N/A,Macassas,Kirkland Lake,Ontario,48.130261,-80.088542,1933,1999,2002,2022,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,True
+584,Pamour Porcupine Mines,N/A,N/A,N/A,N/A,N/A,N/A,Matachewan,Ontario,48.522253,-81.120492,1934,2011,N/A,N/A,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+585,American Nepheline,Industrial Minerals of Canada,Indusmin,N/A,N/A,N/A,Nephton Quarry,Peterborough Twp,Ontario,44.62805,-78.00275,1935,2022,N/A,N/A,N/A,N/A,Nepheline Syenite,N/A,N/A,N/A,N/A,N/A,N/A,N/A,True
+586,International Minerals and Chemical,Sobin Chemicals,IMC Chemical Group,Unimin Canada,N/A,N/A,Blue Mountain,Peterborough County,Ontario,44.68005,-77.94976,1935,2020,N/A,N/A,N/A,N/A,Nepheline Syenite,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+587,Royal Oak Mines,Goldcorp,N/A,N/A,N/A,N/A,Hoyle,Timmins,Ontario,48.52723,-81.09293,1935,1949,1976,1990,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+588,Chibougamau Explorers,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Quebec,49.9162471,-74.37120324,1935,1958,N/A,N/A,N/A,N/A,Copper,Gold,N/A,N/A,N/A,N/A,N/A,N/A,False
+589,Madsen Red Lake Gold Mines,Madsen Gold,N/A,N/A,N/A,N/A,Madsen,Red Lake,Ontario,50.96714,-93.91769,1935,1972,N/A,N/A,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+590,McKenzie Red Lake Gold Mines,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Ontario,51.0775,-93.8275,1935,1966,N/A,N/A,N/A,N/A,Gold,Silver,N/A,N/A,N/A,N/A,N/A,N/A,False
+591,Blackburn Bros,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Quebec,45.679092,-75.60765,1936,1964,N/A,N/A,N/A,N/A,Mica,Apatite,N/A,N/A,N/A,N/A,N/A,N/A,False
+592,Little Narrows Gypsum,CGC,N/A,N/A,N/A,N/A,N/A,Little Narrows,Nova Scotia,45.994626,-60.94677782,1936,2016,N/A,N/A,N/A,N/A,Gypsum,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+593,Pamour Porcupine Mines,N/A,N/A,N/A,N/A,N/A,No.3,Timmins (Pamour),Ontario,48.52278,-81.115,1936,1986,2006,2011,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+594,Charter Coals,Century Coals,Amalgamated Coals,N/A,N/A,N/A,Atlas Coal,East Coulee,Alberta,51.32863,-112.48251,1936,1979,N/A,N/A,N/A,N/A,Coal,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+595,New Senator Rouyn,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Quebec,48.23226,-79.057245,1937,1955,N/A,N/A,N/A,N/A,Gold,Silver,N/A,N/A,N/A,N/A,N/A,N/A,False
+596,East Malartic Mines,N/A,N/A,N/A,N/A,N/A,East Malartic,Norrie,Quebec,48.12965,-78.099777,1938,1980,N/A,N/A,N/A,N/A,Gold,Arsenic,Beryllium,Copper,Silver,Lead,N/A,N/A,False
+597,Nicolet Asbestos Mines,N/A,N/A,N/A,N/A,N/A,N/A,Norbestos,Quebec,45.816926,-71.841887,1939,1969,N/A,N/A,N/A,N/A,Chrysotile,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+598,BC Sugar Refining,N/A,N/A,N/A,N/A,N/A,N/A,Fort Garry,Manitoba,49.84137522,-97.15324002,1939,1997,N/A,N/A,N/A,N/A,Lime,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+599,Aunor Gold Mines,N/A,N/A,N/A,N/A,N/A,Aunor,Timmins,Ontario,48.4414,-81.29698,1940,1984,N/A,N/A,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+600,Yukon Gold Placers,N/A,N/A,N/A,N/A,N/A,N/A,Treadwell (close to steward river),Yukon,63.06469553,-138.8818854,1940,1959,N/A,N/A,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+601,Kinross Gold,N/A,N/A,N/A,N/A,N/A,Hoyle Pond,Timmins,Ontario,48.55076,-81.14896,1941,1949,1983,2022,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,True
+602,Canadian Flint and Spar,International Minerals Chemical,N/A,N/A,N/A,N/A,N/A,N/A,Quebec,45.58640493,-75.41778126,1942,1955,N/A,N/A,N/A,N/A,Feldspar,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+603,Canadian Collieries,N/A,N/A,N/A,N/A,N/A,Mercoal,Mercoal,Alberta,53.16712917,-117.0832472,1942,1959,N/A,N/A,N/A,N/A,Coal,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+604,Huntingdon Fluorspar Mines,N/A,N/A,N/A,N/A,N/A,Johnston,N/A,Ontario,44.4675,-77.44306,1943,1964,N/A,N/A,N/A,N/A,Fluorspar,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+605,Caland Ore,N/A,N/A,N/A,N/A,N/A,N/A,Atikokan,Ontario,48.81528,-91.605,1943,1979,N/A,N/A,N/A,N/A,Iron,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+606,Nickel Offsets,N/A,N/A,N/A,N/A,N/A,N/A,Foy and Bowell Townships in the Sudbury area of northern Ontario,Ontario,46.7586,-81.23947,1945,1957,N/A,N/A,N/A,N/A,Nickel,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+607,Anglo Dominion Gold Exploration,N/A,N/A,N/A,N/A,N/A,Dulama,Missanabie,Ontario,48.376097,-83.853914,1945,1951,1984,1989,N/A,N/A,Gold,Silica,N/A,N/A,N/A,N/A,N/A,N/A,False
+608,Aluminum of Canada,Aluminum Company of America,N/A,N/A,N/A,N/A,N/A,Arvida,Quebec,48.42986,-71.1787,1945,1968,N/A,N/A,N/A,N/A,Magnesia,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+609,Star Key Mines,N/A,N/A,N/A,N/A,N/A,N/A,Edmonton,Alberta,53.70906292,-113.5776368,1945,1979,N/A,N/A,N/A,N/A,Coal,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+610,Sifto Salt,Domtar Chemicals,Dominion Salt,N/A,N/A,N/A,Sifto Salt Division,Nappan,Nova Scotia,45.78333,-64.23417,1946,2022,N/A,N/A,N/A,N/A,Salt,N/A,N/A,N/A,N/A,N/A,N/A,N/A,True
+611,Flintkote Mines,N/A,N/A,N/A,N/A,N/A,N/A,Pontbriand,Quebec,46.130148,-71.27321,1946,1971,N/A,N/A,N/A,N/A,Chrysotile,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+612,Sil Van Consolidated Mining and Milling,N/A,N/A,N/A,N/A,N/A,Duthie,Omineca,British Columbia,54.77306,-127.35722,1946,1954,N/A,N/A,N/A,N/A,Zinc,Lead,N/A,N/A,N/A,N/A,N/A,N/A,False
+613,Ronrico Explorations,Eloro Resources,Monarques Resources c,Megastar Development,N/A,N/A,Mine Simkar (Louvicourt GoldFields),Val d'Or,Quebec,48.064328,-77.565004,1947,1949,1991,1993,N/A,N/A,Gold,Copper,Zinc,Tungsten,N/A,N/A,N/A,N/A,False
+614,Norlartic Mines,Aur Resources,Prime Resources Group,N/A,N/A,N/A,Norlartic,Val dOr,Quebec,48.148042,-77.989708,1947,1966,1988,1993,N/A,N/A,Gold,Silver,N/A,N/A,N/A,N/A,N/A,N/A,False
+615,Bonwhit Mines,Broulan Reef Mines,Porcupine Reef Mines,N/A,N/A,N/A,Bonwhit,Whitney,Ontario,48.51638,-81.15796,1947,1955,N/A,N/A,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+616,Bethlehem Mines,N/A,N/A,N/A,N/A,N/A,Marmoraton,Elliot Lake,Ontario,44.48119773,-77.65885596,1948,1978,N/A,N/A,N/A,N/A,Iron ore,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+617,Anacon Lead Mines,N/A,N/A,N/A,N/A,N/A,N/A,Rouyn,Quebec,48.23478529,-79.01894194,1948,1954,N/A,N/A,N/A,N/A,Zinc,Lead,Gold,Silver,N/A,N/A,N/A,N/A,False
+618,Quebec Iron and Titanium,QIT Fer et Titane,N/A,N/A,N/A,N/A,Tio (Lake Tio or Allard Lake),Havre St. Pierre,Quebec,50.555821,-63.416052,1948,2022,N/A,N/A,N/A,N/A,Iron,Titanium,N/A,N/A,N/A,N/A,N/A,N/A,True
+619,Starratt Olsen Gold Mines,N/A,N/A,N/A,N/A,N/A,Sapawe,N/A,Ontario,50.95092,-93.93332,1948,1956,N/A,N/A,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+620,New Dickenson Mines,Dickenson Mines,Arthur W White Mine or Dickenson Mine,N/A,N/A,N/A,N/A,Balmertown,Ontario,51.06167,-93.73222,1948,1990,N/A,N/A,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+621,Canadian Salt The,N/A,N/A,N/A,N/A,N/A,N/A,Lindbergh,Alberta,53.87536846,-110.6735157,1948,2022,N/A,N/A,N/A,N/A,Salt,N/A,N/A,N/A,N/A,N/A,N/A,N/A,True
+622,Ronald Nadon,Canada Flint and Spar Company,N/A,N/A,N/A,N/A,Hickey or Evans-Lou,Saint-Pierre de Wakefield,Quebec,45.663446,-75.742268,1949,1951,1994,2000,N/A,N/A,Feldspar,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+623,Castle Trethewey Mines,N/A,N/A,N/A,N/A,N/A,Castle-Trethewey,N/A,Ontario,47.67639,-80.74139,1949,1971,N/A,N/A,N/A,N/A,Silver,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+624,Sheridan Geophysics,Dominion Gulf Company,Fatima Mining Company,Texmont Mines,New Texmont Explorations,N/A,Texmont or Fatima,N/A,Ontario,48.16389,-81.20444,1949,1972,N/A,N/A,N/A,N/A,Copper,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+625,Beattie Duquesne Mines,N/A,N/A,N/A,N/A,N/A,Duquesne,N/A,Quebec,48.474628,-79.035571,1949,1952,N/A,N/A,N/A,N/A,Gold,Silver,Copper,Iron,Molybdenum,N/A,N/A,N/A,False
+626,Campbell Red Lake Mines,Placer Dome,Placer Dome,N/A,N/A,N/A,Campbell,Balmertown,Ontario,51.06149,-93.74109,1949,2006,N/A,N/A,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+627,Suffield Metals,N/A,N/A,N/A,N/A,N/A,Giffith's,N/A,Quebec,45.318923,-71.959127,1950,1956,N/A,N/A,N/A,N/A,Zinc,Copper,Silver,Lead,Gold,N/A,N/A,N/A,False
+628,Continental Iron and Titanium Mining,N/A,N/A,N/A,N/A,N/A,Bignell,N/A,Quebec,47.540076,-70.566056,1950,1964,N/A,N/A,N/A,N/A,Iron,Titanium,N/A,N/A,N/A,N/A,N/A,N/A,False
+629,Zeballos Iron Mines,N/A,N/A,N/A,N/A,N/A,N/A,Zeballos,British Columbia,49.58934858,-126.394043,1950,1968,N/A,N/A,N/A,N/A,Iron,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+630,Columbia Gypsum Products,Western Gypsum Products,Westroc Industries,BPB Canada,N/A,N/A,Gypsum (Windermere Creek) or Windermere,Windermere,British Columbia,50.480554,-115.87333,1950,1988,N/A,N/A,N/A,N/A,Gypsum,Anhydrite,N/A,N/A,N/A,N/A,N/A,N/A,False
+631,Yale Lead and Zinc Mines,N/A,N/A,N/A,N/A,N/A,Red Cliff,Stewart,British Columbia,56.098333,-129.89833,1950,1959,N/A,N/A,N/A,N/A,Lead,Zinc,Silver,N/A,N/A,N/A,N/A,N/A,False
+632,Dynatec,N/A,N/A,N/A,N/A,N/A,Mineral Products Division,Marmora,Ontario,44.50306,-77.45278,1951,2020,N/A,N/A,N/A,N/A,Talc,Dolomite,N/A,N/A,N/A,N/A,N/A,N/A,False
+633,Mindamar Metals,N/A,N/A,N/A,N/A,N/A,Mindamar,Stirling Richmond County,Nova Scotia,45.727616,-60.43798935,1951,1956,N/A,N/A,N/A,N/A,Zinc,Lead,Copper,Iron,Silver,Gold,N/A,N/A,False
+634,Valley Mining,N/A,N/A,N/A,N/A,N/A,Chibex,"La Dauversiere Twp, Chibougamau",Quebec,49.57445587,-74.35867247,1951,1961,1974,1975,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+635,International Minerals and Chemical,N/A,N/A,N/A,N/A,N/A,Back and Smith Lakes,Buckingham,Quebec,45.58671889,-75.41974,1952,1971,N/A,N/A,N/A,N/A,Feldspar,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+636,Altantic Gypsum,N/A,N/A,N/A,N/A,N/A,N/A,Corner Brook,Newfoundland and Labrador,48.95223385,-57.94616146,1952,1961,2000,2007,N/A,N/A,Gypsum,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+637,National Gypsum,N/A,N/A,N/A,N/A,N/A,N/A,"Dutch Settlement, Halifax County",Nova Scotia,44.98442562,-63.45412681,1953,1955,N/A,N/A,N/A,N/A,Gypsum,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+638,Indusmin,Dominion Silica,Dominion Industrial Mineral,Unimin Canada,N/A,N/A,Saint-Donat,St. Donat/Montreal,Quebec,46.303527,-74.213339,1953,2022,N/A,N/A,N/A,N/A,Quartz,N/A,N/A,N/A,N/A,N/A,N/A,N/A,True
+639,Les Mines Gallen Limitee,Noranda,Glencore,N/A,N/A,N/A,Gallen,Noranda,Quebec,48.325283,-78.951474,1953,1962,1980,1985,1997,2000,Zinc,Silver,Gold,Copper,Lead,N/A,N/A,N/A,False
+640,Nu Age Uranium Mines Ltds,Old Smokey Occurrence,Imperial Oil,N/A,N/A,N/A,Nu-Age or Tripp,N/A,Ontario,44.95564,-78.3246,1954,1956,N/A,N/A,N/A,N/A,Uranium,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+641,Greyhawk Uranium Mines,N/A,N/A,N/A,N/A,N/A,Greyhawk,Faraday Twp,Ontario,45.031667,-77.895556,1954,1959,1976,1982,N/A,N/A,Uranium,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+642,Nova Scotia Sand and Gravel,Shaw Resources,N/A,N/A,N/A,N/A,N/A,Shubenacadie,Nova Scotia,45.0886171,-63.40213949,1954,2022,N/A,N/A,N/A,N/A,Silica,N/A,N/A,N/A,N/A,N/A,N/A,N/A,True
+643,Spar Mica,N/A,N/A,N/A,N/A,N/A,N/A,Baie-Johan-Beetz,Quebec,50.29118,-62.76928,1954,1959,N/A,N/A,N/A,N/A,Feldspar,Mica,N/A,N/A,N/A,N/A,N/A,N/A,False
+644,National Gypsum,N/A,N/A,N/A,N/A,N/A,N/A,Milford Station,Nova Scotia,45.00868,-63.41876368,1955,1987,N/A,N/A,N/A,N/A,Gypsum,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+645,Rio Tinto Dow,Rio Tinto Nuclear Products,Sagamore Exploration,Amax Exploration Incorporated,N/A,N/A,N/A,N/A,Ontario,46.496994,-83.729875,1955,1970,N/A,N/A,N/A,N/A,Thorium,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+646,North Canadian Enterprises,N/A,N/A,N/A,N/A,N/A,N/A,Pointe Mamainse,Ontario,47.05608,-84.76179,1955,1972,N/A,N/A,N/A,N/A,Copper,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+647,Campbell Chibougamau Mines,Campbell Resources,N/A,N/A,N/A,N/A,Campbell (Main),Chibougamau,Quebec,49.871472,-74.334379,1955,1980,N/A,N/A,N/A,N/A,Copper,Gold,Silver,N/A,N/A,N/A,N/A,N/A,False
+648,Princeton Mining,Advocate Mines,Baie Verte Mines Reprocessing,N/A,N/A,N/A,Baie Verte Tailings,Baie Verte,Newfoundland and Labrador,49.9797357,-56.19399308,1955,1995,N/A,N/A,N/A,N/A,Asbestos,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+649,Forty Four Mines,N/A,N/A,N/A,N/A,N/A,Wingold,Bissett,Manitoba,51.02598737,-95.68477857,1955,1963,N/A,N/A,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+650,Algom Uranium Mines,N/A,N/A,N/A,N/A,N/A,Quirke,N/A,Ontario,46.5112,-82.6321,1956,1960,1968,1990,N/A,N/A,Uranium,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+651,Rainville Mines,N/A,N/A,N/A,N/A,N/A,Groleau-Trenholme,N/A,Quebec,48.074547,-77.568734,1956,1958,N/A,N/A,N/A,N/A,Copper,Gold,Silver,N/A,N/A,N/A,N/A,N/A,False
+652,Mid West Copper and Uranium Mines,N/A,N/A,N/A,N/A,N/A,Swansea,Windermere,British Columbia,50.510165,-115.952649,1956,1960,N/A,N/A,N/A,N/A,Zinc,Lead,N/A,N/A,N/A,N/A,N/A,N/A,False
+653,Electro Metallurgical,Union Carbide Canada Mining,Elkem Metal Canada,St Lawrence Alloys and Metals,N/A,N/A,N/A,Melocheville,Quebec,45.313175,-73.938671,1957,1979,N/A,N/A,N/A,N/A,Silica,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+654,Canadian Johns Manville,Steetley Talc,Luzenac,Imerys Talc,N/A,N/A,N/A,Penhorwood Township,Ontario,48.19056,-82.09861,1957,2020,N/A,N/A,N/A,N/A,Talc,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+655,Metal Mines,N/A,N/A,N/A,N/A,N/A,N/A,Gordon Lake mine,Ontario,50.4855,-94.3469,1957,1969,N/A,N/A,N/A,N/A,Nickel,Copper,N/A,N/A,N/A,N/A,N/A,N/A,False
+656,Stanrock Uranium Mines,N/A,N/A,N/A,N/A,N/A,Stanrock,Elliot Lake,Ontario,46.47102,-82.56182,1958,1985,N/A,N/A,N/A,N/A,Uranium,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+657,Ego Resources,Gold Fields Canadian Mining,Richmont Mines,N/A,N/A,N/A,Cobatec Operations,Cobalt,Ontario,48.236614,-84.635213,1959,1991,N/A,N/A,N/A,N/A,Nickel,Cobalt,N/A,N/A,N/A,N/A,N/A,N/A,False
+658,Noranda Mines,N/A,N/A,N/A,N/A,N/A,Langmuir,Timmins,Ontario,48.341494,-81.001861,1959,1992,N/A,N/A,N/A,N/A,Nickel,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+659,Haulpai Enterprises,N/A,N/A,N/A,N/A,N/A,N/A,N/A,British Columbia,49.0505054,-124.86671,1959,1960,N/A,N/A,N/A,N/A,Barite,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+660,Granby Consolidated Mining Smelting Power The,N/A,N/A,N/A,N/A,N/A,Granby,N/A,British Columbia,49.098889,-118.597778,1959,1978,N/A,N/A,N/A,N/A,Silica,Gold,Silver,Lead,Copper,Zinc,N/A,N/A,False
+661,Mines de Poirier,N/A,N/A,N/A,N/A,N/A,N/A,Joutel,Quebec,49.443382,-78.38696,1959,1975,N/A,N/A,N/A,N/A,Copper,Zinc,Silver,N/A,N/A,N/A,N/A,N/A,False
+662,MSV Resources,N/A,N/A,N/A,N/A,N/A,Portage,Chibougamau,Quebec,49.908567,-74.191811,1959,1997,N/A,N/A,N/A,N/A,Copper,Gold,Silver,N/A,N/A,N/A,N/A,N/A,False
+663,Baroid of Canada,N/A,N/A,N/A,N/A,N/A,N/A,Spillimacheen,British Columbia,50.93111,-116.48527,1959,1966,N/A,N/A,N/A,N/A,Barite,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+664,Surluga Gold Mines,N/A,N/A,N/A,N/A,N/A,N/A,Wawa,Ontario,47.96379,-84.74087,1960,1999,N/A,N/A,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+665,St Andrew Goldfields,Hollinger Consolidated Gold Mines,Quebec Sturgeon River Mines,N/A,N/A,N/A,Stock or Clavos,Stock Township,Ontario,48.55011,-80.75039,1960,2007,N/A,N/A,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+666,Georgian Mineral Industries,N/A,N/A,N/A,N/A,N/A,Canoe North,N/A,British Columbia,52.759722,-119.29444,1960,1961,N/A,N/A,N/A,N/A,Mica,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+667,Canada Tungsten Mining,N/A,N/A,N/A,N/A,N/A,Cantung,"Tungsten (via Watson Lake, Y.T.)",Northwest Territories,61.97083333,-128.2333333,1960,1986,2001,2009,2010,2015,Tungsten,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+668,King Mining,Dufferin Mining,N/A,N/A,N/A,N/A,N/A,N/A,New Brunswick,46.0457,-66.0439,1961,1967,N/A,N/A,N/A,N/A,Coal,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+669,Mensilvo Mines,Silver Crater Mines,N/A,N/A,N/A,N/A,N/A,N/A,Ontario,47.37373,-79.68272,1961,1964,N/A,N/A,N/A,N/A,Cobalt,Silver,N/A,N/A,N/A,N/A,N/A,N/A,False
+670,United Hearne Resources,N/A,N/A,N/A,N/A,N/A,London Hill,New Denver,British Columbia,50.060833,-117.215278,1961,1967,1974,1975,N/A,N/A,Silver,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+671,Malartic Hygrade Gold Mines,N/A,N/A,N/A,N/A,N/A,N/A,Malartic,Quebec,48.16361,-78.02917,1962,1964,1985,1992,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+672,Mining of Canada,N/A,N/A,N/A,N/A,N/A,N/A,Palomar,Ontario,48.284072,-79.788836,1962,1982,N/A,N/A,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+673,Cerna Copper Mines,Cowichan Copper,Jordan River Mines,N/A,N/A,N/A,Sunro,Jordan River,British Columbia,48.448333,-124.03305,1962,1976,N/A,N/A,N/A,N/A,Copper,Gold,Silver,Molybdenum,Nickel,Cobalt,N/A,N/A,False
+674,River Hebert Coal,N/A,N/A,N/A,N/A,N/A,N/A,River Hebert,Nova Scotia,45.69318242,-64.41173139,1963,1980,N/A,N/A,N/A,N/A,Coal,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+675,Mattagami Lake Mines Noranda Mines,N/A,N/A,N/A,N/A,N/A,Mattagami Lake,Matagami,Quebec,49.717571,-77.718765,1963,1998,N/A,N/A,N/A,N/A,Zinc,Silver,Copper,Gold,Lead,Nickel,N/A,N/A,False
+676,Orecan Mines,N/A,N/A,N/A,N/A,N/A,N/A,N/A,British Columbia,50.38436641,-125.9593634,1963,1966,N/A,N/A,N/A,N/A,Iron,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+677,Quebec Cartier Mining,Sidbec Normines,N/A,N/A,N/A,N/A,Fire Lake,Gagnon (Lake Jeannine),Quebec,52.346166,-67.347029,1963,1984,N/A,N/A,N/A,N/A,Iron,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+678,Roseval Silica,Canadian Johns Manville,Horwood Mining,La Societe de Gestion Maskours,N/A,N/A,N/A,Penhorwood Township,Ontario,48.082989,-82.155906,1964,1990,N/A,N/A,N/A,N/A,Silica,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+679,Lake Dufault Mines,N/A,N/A,N/A,N/A,N/A,Norbec (Lake Dufault),Noranda,Quebec,48.35275651,-79.05126458,1964,1967,N/A,N/A,N/A,N/A,Copper,Zinc,N/A,N/A,N/A,N/A,N/A,N/A,False
+680,Western Gypsum Products,Westroc Industries,N/A,N/A,N/A,N/A,Silver Plains,"Silver Plains (Amaranth, Harcus, Winnipeg)",Manitoba,49.45666,-97.27,1964,1975,N/A,N/A,N/A,N/A,Gypsum,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+681,Hudson Bay Mining and Smelting,Stall Lake Mines,N/A,N/A,N/A,N/A,Stall Lake,N/A,Manitoba,54.85277778,-99.94166667,1964,1991,N/A,N/A,N/A,N/A,Copper,Zinc,Gold,Silver,N/A,N/A,N/A,N/A,False
+682,Camflo Mattagami Mines Ltds,Camflo Mines,Barrick Resources and American Barrisk,N/A,N/A,N/A,N/A,Malartic,Quebec,48.15278,-78.03611,1965,1992,N/A,N/A,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+683,Upper Beaver Mines,Agnico Eagle Mines,N/A,N/A,N/A,N/A,Argonaut (Upper Beaver; Huronia),Dobie,Ontario,48.1659,-79.76462,1965,2011,N/A,N/A,N/A,N/A,Gold,Copper,N/A,N/A,N/A,N/A,N/A,N/A,False
+684,Cadillac Moly Mines,Preissac Molybdenite Mines,N/A,N/A,N/A,N/A,N/A,Cadillac,Quebec,48.319561,-78.379925,1965,1970,N/A,N/A,N/A,N/A,Molybdenum,Copper,Silver,Bismuth,N/A,N/A,N/A,N/A,False
+685,Mountain Minerals,Mountain Mineral,N/A,N/A,N/A,N/A,Mineral King (part),Invermere,British Columbia,50.340555,-116.42499,1966,1974,N/A,N/A,N/A,N/A,Barite,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+686,Sablede Silice Cremazie,Montreal Silical Mines,Bon Sable,N/A,N/A,N/A,N/A,Ormstown,Quebec,45.123624,-73.972543,1967,2022,N/A,N/A,N/A,N/A,Silica,N/A,N/A,N/A,N/A,N/A,N/A,N/A,True
+687,Dekalb Mining,Selco Mining,Royal Canadian Ventures,OK Syndicate,N/A,N/A,Alwin,Highland Valley,British Columbia,50.473667,-121.093167,1967,1981,N/A,N/A,N/A,N/A,Copper,Molybdenum,Silver,Gold,Lead,Zinc,N/A,N/A,False
+688,Cassiar Asbestos,N/A,N/A,N/A,N/A,N/A,Clinton Creek,Clinton Creek,Yukon,64.43916667,-140.7161111,1967,1978,N/A,N/A,N/A,N/A,Asbestos,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+689,Pickands Mather,Setlco,N/A,N/A,N/A,N/A,Griffith,Bruce Lake,Ontario,50.81628,-93.38841,1968,1986,N/A,N/A,N/A,N/A,Iron,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+690,Mount Nansen Mines,BYG Natural Resources,N/A,N/A,N/A,N/A,Mount Nansen,Carmacks,Yukon,62.05444444,-137.1761111,1968,1976,1997,1999,N/A,N/A,Gold,Silver,N/A,N/A,N/A,N/A,N/A,N/A,False
+691,Spanish River Mines,Inco,N/A,N/A,N/A,N/A,N/A,Espanola,Ontario,46.36403,-81.74991,1969,1998,N/A,N/A,N/A,N/A,Copper,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+692,Extender Minerals of Canada,N/A,N/A,N/A,N/A,N/A,Glendinning or Yarrow Township,Matachewan,Ontario,47.89694,-80.76806,1969,2003,N/A,N/A,N/A,N/A,Barite,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+693,Hedman Mines,Hedman Resources,N/A,N/A,N/A,N/A,Larder Lake Division,Matheson,Ontario,48.63032,-80.19659,1969,1998,N/A,N/A,N/A,N/A,Asbestos,Serpentine,N/A,N/A,N/A,N/A,N/A,N/A,False
+694,Continental Lime,N/A,N/A,N/A,N/A,N/A,N/A,Faulkner,Manitoba,51.41611111,-98.775,1969,1976,N/A,N/A,N/A,N/A,Limestone,Lime,N/A,N/A,N/A,N/A,N/A,N/A,False
+695,Hudson Yukon Mining,Wellgreen Platinum,N/A,N/A,N/A,N/A,Wellgreen property,Kluane Lake,Yukon,61.46528,-139.5275,1969,1972,N/A,N/A,N/A,N/A,Nickel,Copper,Platinum,Gold,N/A,N/A,N/A,N/A,False
+696,Kaiser Celestite Mining,N/A,N/A,N/A,N/A,N/A,N/A,Lake Enon,Nova Scotia,45.811266,-60.53299178,1970,1976,N/A,N/A,N/A,N/A,Strontium,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+697,NB Coal,N/A,N/A,N/A,N/A,N/A,Salmon Harbour,Minto,New Brunswick,46.09865726,-66.02331455,1970,2008,N/A,N/A,N/A,N/A,Coal,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+698,NFX Mining Company and Dynatec,N/A,N/A,N/A,N/A,N/A,McCreedy West,Sudbury,Ontario,46.63799,-81.39871,1970,1998,N/A,N/A,N/A,N/A,Nickel,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+699,Industrie Loma,N/A,N/A,N/A,N/A,N/A,N/A,Beauport,Quebec,46.91271211,-71.18326223,1970,1989,2016,2022,N/A,N/A,Silica,N/A,N/A,N/A,N/A,N/A,N/A,N/A,True
+700,Louvem Mines,Teck Resources,N/A,N/A,N/A,N/A,Louvem,Val d'Or,Quebec,48.100722,-77.514291,1970,1980,N/A,N/A,N/A,N/A,Zinc,Silver,Gold,Copper,Lead,N/A,N/A,N/A,False
+701,King Resources,KRC Operator,N/A,N/A,N/A,N/A,N/A,Revelstoke,British Columbia,51.11333,-118.46611,1970,1974,N/A,N/A,N/A,N/A,Copper,Molybdenum,N/A,N/A,N/A,N/A,N/A,N/A,False
+702,Sea Mining,N/A,N/A,N/A,N/A,N/A,N/A,Stephenville,Newfoundland and Labrador,48.55989653,-58.77043387,1971,1972,N/A,N/A,N/A,N/A,Magnesia,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+703,Robin Red Lake Mines,Dickenson Mines,N/A,N/A,N/A,N/A,Robin Red Lake,Balmertown,Ontario,51.061528,-93.73225,1972,1978,N/A,N/A,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+704,Chaleur Silica,Bass River quarry,N/A,N/A,N/A,N/A,Bass River,Belledune,New Brunswick,47.89767949,-65.86984304,1974,1992,N/A,N/A,N/A,N/A,Silica,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+705,Agrium,Continental Copper Mines,Kennco Explorations,International Minerals and Chemical,Sherritt Gordon Mines,N/A,Kapuskasing,Kapuskasing,Ontario,49.30751,-82.80103,1974,2013,N/A,N/A,N/A,N/A,Phosphate,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+706,Agnico Eagle Mines,N/A,N/A,N/A,N/A,N/A,N/A,Joutel,Quebec,49.45812408,-78.305858,1974,1993,N/A,N/A,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+707,Camchib Resources,N/A,N/A,N/A,N/A,N/A,Gwillum Lake,Chibougamau,Quebec,49.9254504,-74.53208728,1974,1976,1980,1984,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+708,Cape Breton Development,N/A,N/A,N/A,N/A,N/A,Prince,Point Aconi,Nova Scotia,46.31856612,-60.30707601,1975,2001,N/A,N/A,N/A,N/A,Coal,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+709,Canadian Salt Company,German group KS,SOQUEM,N/A,N/A,N/A,Seleine,Les Îles-de-la-Madeleine,Quebec,47.618447,-61.555091,1975,2022,N/A,N/A,N/A,N/A,Salt,N/A,N/A,N/A,N/A,N/A,N/A,N/A,True
+710,Northfield Minerals,NFX Gold and Towerland Properties,Amalgamted Larder Mines,N/A,N/A,N/A,Cheminis,Virginiatown,Ontario,48.11739,-79.66481,1975,1980,1990,2011,1990,2011,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+711,Belmoral Mines,N/A,N/A,N/A,N/A,N/A,Mine Ferderber (Belmoral),Val d'Or,Quebec,48.135688,-77.649952,1975,1994,N/A,N/A,N/A,N/A,Gold,Silver,N/A,N/A,N/A,N/A,N/A,N/A,False
+712,Niobec,SOMEX,Teck,Cambior,N/A,N/A,Niobec,Chicoutimi,Quebec,48.531545,-71.159139,1976,2022,N/A,N/A,N/A,N/A,Niobium,Rare Earth Elements (REE),Zircon,N/A,N/A,N/A,N/A,N/A,True
+713,Seleine Mines,Sel Windsor,KS Sel Windsor,N/A,N/A,N/A,Seleine,Madeleine Islands,Quebec,47.618447,-61.555091,1978,2022,N/A,N/A,N/A,N/A,Salt,N/A,N/A,N/A,N/A,N/A,N/A,N/A,True
+714,Great Pacific Pumice,Garibaldi Pumice,N/A,N/A,N/A,N/A,Mt. Meager,Pemberton,British Columbia,50.667221,-123.48527,1978,1988,1996,2022,N/A,N/A,Pumice,Pozzolan,N/A,N/A,N/A,N/A,N/A,N/A,True
+715,Novex Mining Exploration,N/A,N/A,N/A,N/A,N/A,Lake Uist,Pine Brook,Nova Scotia,45.79881,-60.56764,1980,1985,N/A,N/A,N/A,N/A,Barite,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+716,Algoma Steel,N/A,N/A,N/A,N/A,N/A,N/A,Sault Ste. Marie,Ontario,46.52147471,-84.35947501,1980,2022,N/A,N/A,N/A,N/A,Lime,Dolomite,N/A,N/A,N/A,N/A,N/A,N/A,True
+717,Commercial Industrial Minerals,N/A,N/A,N/A,N/A,N/A,N/A,Clarendon,Ontario,44.90505,-76.73871,1981,1987,N/A,N/A,N/A,N/A,Tremolite,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+718,Selco,BP Resources Canada,Billiton Metals Canada,N/A,N/A,N/A,Selbaie (Detour),Brouillon,Quebec,49.80869,-78.948672,1981,2004,N/A,N/A,N/A,N/A,Zinc,Silver,Gold,Copper,N/A,N/A,N/A,N/A,False
+719,Steetly Industries,Lafarge Canada,N/A,N/A,N/A,N/A,Dundas Division,Dundas,Ontario,43.314953,-79.989558,1982,2022,N/A,N/A,N/A,N/A,Dolomite,N/A,N/A,N/A,N/A,N/A,N/A,N/A,True
+720,B Mac Silica Aggregates,N/A,N/A,N/A,N/A,N/A,N/A,Bracebridge,Ontario,45.06715867,-79.28666786,1983,2022,N/A,N/A,N/A,N/A,Silica,N/A,N/A,N/A,N/A,N/A,N/A,N/A,True
+721,River Gold Mines,Noranda Explorations Company,Central Crude,N/A,N/A,N/A,Eagle River,Wawa,Ontario,47.98439,-85.45937,1983,2022,N/A,N/A,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,True
+722,Lenora Explorations,N/A,N/A,N/A,N/A,N/A,Omega,N/A,Ontario,48.11889,-79.69833,1983,1987,2011,2012,N/A,N/A,Gold,Silver,N/A,N/A,N/A,N/A,N/A,N/A,False
+723,Canreos Minerals,N/A,N/A,N/A,N/A,N/A,Braminco,Missanabie,Ontario,48.36542,-83.85631,1983,1987,N/A,N/A,N/A,N/A,Gold,Silica,N/A,N/A,N/A,N/A,N/A,N/A,False
+724,Bachelor Lake Gold Mines,Metanor Resources,OBrien Gold Mines,N/A,N/A,N/A,Bachelor,Desmaraisville,Quebec,49.496237,-76.14276,1983,1989,N/A,N/A,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,True
+725,Falconbridge Copper,Minnova,N/A,N/A,N/A,N/A,Short Lake,Desmaraisville,Quebec,49.615786,-75.856815,1983,1992,N/A,N/A,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+726,Campbell Red Lake Mines,Placer Dome,Denison Mines,N/A,N/A,N/A,Detour Lake,Timmins,Ontario,50.01609,-79.71192,1983,2022,N/A,N/A,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,True
+727,Fording Coal,Pohang Steel Canada,Teck Resources,BC Coal,N/A,N/A,Greenhills,Sparwood,British Columbia,50.211111,-114.89888,1983,2022,N/A,N/A,N/A,N/A,Coal,N/A,N/A,N/A,N/A,N/A,N/A,N/A,True
+728,Bethlehem Resources,N/A,N/A,N/A,N/A,N/A,Goldstream,Revelstoke,British Columbia,51.621667,-118.424,1983,1996,N/A,N/A,N/A,N/A,Copper,Silver,Gold,Zinc,Cadmium,Antimony,N/A,N/A,False
+729,Dresser Canada,N/A,N/A,N/A,N/A,N/A,N/A,Bass River,Nova Scotia,45.45330413,-63.80544222,1984,1985,N/A,N/A,N/A,N/A,Barite,Barium,Fluorine,Iron,Copper,N/A,N/A,N/A,False
+730,Western Industrial Clay Products,N/A,N/A,N/A,N/A,N/A,Red Lake,Kamloops,British Columbia,50.94111,-120.81388,1984,2022,N/A,N/A,N/A,N/A,Fullers Earth,Diatomite,N/A,N/A,N/A,N/A,N/A,N/A,True
+731,Denison Potacan Potash,N/A,N/A,N/A,N/A,N/A,N/A,Sussex,New Brunswick,45.42,-65.38,1985,1992,N/A,N/A,N/A,N/A,Potash,Salt,N/A,N/A,N/A,N/A,N/A,N/A,False
+732,Potash of Saskatchewan,N/A,N/A,N/A,N/A,N/A,N/A,Sussex,New Brunswick,45.754711,-65.422669,1985,2016,N/A,N/A,N/A,N/A,Potash,Salt,N/A,N/A,N/A,N/A,N/A,N/A,False
+733,Temisca Silice,Flint Sands,Temisca Exploration,N/A,N/A,N/A,N/A,Saint-Bruno-de-Guigues,Quebec,47.46408419,-79.43802566,1985,2022,N/A,N/A,N/A,N/A,Silica,N/A,N/A,N/A,N/A,N/A,N/A,N/A,True
+734,Resources Beauchastel,N/A,N/A,N/A,N/A,N/A,N/A,Rouyn,Quebec,48.12817862,-79.13210639,1985,2022,N/A,N/A,N/A,N/A,Silica,N/A,N/A,N/A,N/A,N/A,N/A,N/A,True
+735,Noranda,N/A,N/A,N/A,N/A,N/A,Remnor,Royun,Quebec,48.253437,-79.011323,1985,1989,N/A,N/A,N/A,N/A,Gold,Copper,N/A,N/A,N/A,N/A,N/A,N/A,False
+736,Williams Operating,Homestake Canada and Teck,Lac Minerals,N/A,N/A,N/A,Williams or Page-Williams,Marathon,Ontario,48.69442,-85.92069,1985,2022,N/A,N/A,N/A,N/A,Gold,Silver,N/A,N/A,N/A,N/A,N/A,N/A,True
+737,Breakwater Resources,Galway Metals,N/A,N/A,N/A,N/A,Estrades,La Sarre,Quebec,49.586987,-78.863607,1985,1992,N/A,N/A,N/A,N/A,Gold,Silver,Zinc,Copper,Lead,N/A,N/A,N/A,False
+738,ERG Resources,N/A,N/A,N/A,N/A,N/A,N/A,Timmins,Ontario,48.51176,-81.24516,1988,1989,N/A,N/A,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+739,Minnova,Hemlo Gold Mines,Cambior,N/A,N/A,N/A,Ansil,Rouyn-Noranda,Quebec,48.356189,-79.116781,1989,1993,N/A,N/A,N/A,N/A,Copper,Zinc,Gold,Silver,N/A,N/A,N/A,N/A,False
+740,Cal Graphite,Applied Carbon Technology Incorporated,N/A,N/A,N/A,N/A,Butt Township,Huntsville,Ontario,45.72644,-79.07675,1990,1994,N/A,N/A,N/A,N/A,Graphite,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+741,Stratmin,N/A,N/A,N/A,N/A,N/A,Lac-des-iles (Diotte),Notre-Dame-du-Laus/Bouthillier Twnship,Quebec,46.376045,-75.530895,1990,1991,N/A,N/A,N/A,N/A,Graphite,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+742,Pioneer Coal,N/A,N/A,N/A,N/A,N/A,N/A,Westville,Nova Scotia,45.556667,-62.66,1991,2019,N/A,N/A,N/A,N/A,Coal,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+743,Dolobec,Mazarin Mining,Sequoia Minerals,N/A,N/A,N/A,Dolobex,Portage-du-Fort,Quebec,45.600774,-76.652273,1991,2004,N/A,N/A,N/A,N/A,Dolomite,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+744,AquaGold Resources,Atlantic Industrial Minerals Incorporated,N/A,N/A,N/A,N/A,Glen Morrison,Sydney,Nova Scotia,45.999181,-60.31690195,1992,2022,N/A,N/A,N/A,N/A,Limestone,N/A,N/A,N/A,N/A,N/A,N/A,N/A,True
+745,Saskatoon Chemicals,Sterling Pulp Chemicals,N/A,N/A,N/A,N/A,N/A,Saskatoon,Saskatchewan,52.15826771,-106.6747102,1992,2022,N/A,N/A,N/A,N/A,Salt,N/A,N/A,N/A,N/A,N/A,N/A,N/A,True
+746,EcoSource Garnet,N/A,N/A,N/A,N/A,N/A,Street Township,Sudbury,Ontario,46.579953,-80.608442,1993,2016,N/A,N/A,N/A,N/A,Almandine,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+747,North American Palladium,The Sheridan Platinum,N/A,N/A,N/A,N/A,Lac-des-iles,Thunder Bay,Ontario,49.16997,-89.61277,1993,2008,2010,2022,N/A,N/A,Palladium,N/A,N/A,N/A,N/A,N/A,N/A,N/A,True
+748,Hudson Bay Mining and Smelting Umited,N/A,N/A,N/A,N/A,N/A,Konuto Lake (Denare Beach),Creighton,Saskatchewan,54.652502,-102.0563816,1993,2005,N/A,N/A,N/A,N/A,Copper,Zinc,N/A,N/A,N/A,N/A,N/A,N/A,False
+749,Baskatong Quartz,Sitec,N/A,N/A,N/A,N/A,N/A,Saint-Edwidge,Quebec,45.2036193,-71.68163026,1995,2003,N/A,N/A,N/A,N/A,Silica,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+750,Louvem Mines,Monarques Resources,Richmont Mines,N/A,N/A,N/A,Beaufor (Courvan),Val d'Or,Quebec,48.161693,-77.554619,1996,2022,N/A,N/A,N/A,N/A,Gold,Silver,N/A,N/A,N/A,N/A,N/A,N/A,False
+751,Flintkote Of Canada,Atlantic Gypsum Resources,N/A,N/A,N/A,N/A,Fischell Brook,Division No. 4 (St. Georges and Flat Bay),Newfoundland and Labrador,48.30833,-58.675,1996,2001,N/A,N/A,N/A,N/A,Gypsum,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+752,Cambior,Breakwater Resources,Nystar NV,N/A,N/A,N/A,Gonzague Langlois (Grevet),Lebel-sur-Quevillon,Quebec,49.245851,-76.674092,1996,2008,2012,2019,N/A,N/A,Zinc,Silver,Gold,Copper,Lead,N/A,N/A,N/A,False
+753,Imperial Metals and Sumitomo,N/A,N/A,N/A,N/A,N/A,Mount Polly or Mount Polley,McLeese Lake,British Columbia,52.544959,-121.633931,1997,2014,2015,2019,N/A,N/A,Gold,Copper,N/A,N/A,N/A,N/A,N/A,N/A,False
+754,Placer Dome North America and TVX Gold,N/A,N/A,N/A,N/A,N/A,Musselwhite,Opapamiskan Lake,Ontario,52.60936,-90.3926,1997,2022,N/A,N/A,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,True
+755,Royal Oak Mines,Northgate Exploration,Aurico Gold,N/A,N/A,N/A,Kemess,North-Central British-Columbia,British Columbia,57.004722,-126.758611,1998,2011,N/A,N/A,N/A,N/A,Copper,Gold,Molybdenum,Silver,N/A,N/A,N/A,N/A,False
+756,Shabogamo Mining and Exploration,FerroQuartz Labrador,N/A,N/A,N/A,N/A,Shabogamo,Smokey Mountain,Newfoundland and Labrador,52.986343,-66.937508,1999,2008,N/A,N/A,N/A,N/A,Quartz,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+757,FNX Mining Company,N/A,N/A,N/A,N/A,N/A,Levack,N/A,Ontario,46.6607,-81.3779,1937,1999,2010,2022,N/A,N/A,Copper,Nickel,PM,N/A,N/A,N/A,N/A,N/A,True
+758,Sigma Mines,Placer Dome,McWatters Mining,N/A,N/A,N/A,Sigma,Bourlamaque,Quebec,48.100313,-77.757144,1937,2007,N/A,N/A,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+759,Wabush Mines,Cliffs Natural Resources,N/A,N/A,N/A,N/A,Scully,Wabush,Newfoundland and Labrador,52.907129,-66.912573,1962,2013,N/A,N/A,N/A,N/A,Iron,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+760,Endako Mines,Placer Development,Canex placer,Thompson Creek Mining and Nissho Iwai Moly Resources,N/A,N/A,N/A,Endako,British Columbia,54.03611,-125.11,1965,2016,N/A,N/A,N/A,N/A,Molybdenum,Copper,Zinc,Tungsten,Bismuth,N/A,N/A,N/A,False
+761,Lafarge Canada,N/A,N/A,N/A,N/A,N/A,Harper Ranch,N/A,British Columbia,50.667488,-120.064293,1970,2016,N/A,N/A,N/A,N/A,Limestone,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+762,Battle River Coal,Manalta Coal,Westmoreland Coal Company,N/A,N/A,N/A,Sheerness,Sheerness,Alberta,51.49346416,-111.6880825,1986,2021,N/A,N/A,N/A,N/A,Coal,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+763,Labrador Inuit Development,N/A,N/A,N/A,N/A,N/A,Ten Mile Bay,N/A,Newfoundland and Labrador,56.4869,-61.6362,1992,2010,N/A,N/A,N/A,N/A,Anorthosite,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+764,Sunshine Lardeau Mines,N/A,N/A,N/A,N/A,N/A,Spider,N/A,British Columbia,49.789999,-117.3625,1897,1979,N/A,N/A,N/A,N/A,Silver,Lead,Copper,Zinc,Gold,Cadmium,Silica,N/A,False
+765,Phoenix Copper,Granby Mining,Zuni Energy,McKinney Gold Mines,N/A,N/A,Phoenix (Knob Hill),Phoenix,British Columbia,49.090833,-118.59944,1900,1976,N/A,N/A,N/A,N/A,Copper,Gold,Silver,Lead,Iron,N/A,N/A,N/A,False
+766,Cominco,Consolidated Mining and Smelting of Canada The,N/A,N/A,N/A,N/A,Sullivan,Kimberley,British Columbia,49.7075,-116.00527,1900,2001,N/A,N/A,N/A,N/A,Lead,Zinc,Silver,Tin,Copper,Gold,Iron,Sulphur,False
+767,Newfoundland Minerals,Armstrong World Industries Canada,N/A,N/A,N/A,N/A,N/A,Manuels,Newfoundland and Labrador,47.48704708,-52.95292769,1902,2019,N/A,N/A,N/A,N/A,Pyrophyllite,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+768,Cariboo Gold Quartz Mining The,N/A,N/A,N/A,N/A,N/A,N/A,N/A,British Columbia,53.089721,-121.56138,1902,1966,N/A,N/A,N/A,N/A,Gold,Silver,Tungsten,Bismuth,Lead,Zinc,N/A,N/A,False
+769,Corona,Homestake Canada,N/A,N/A,N/A,N/A,Nickel Plate,Hedley,British Columbia,49.365277,-120.03444,1904,1996,N/A,N/A,N/A,N/A,Gold,Silver,Arsenic,Copper,Zinc,Cobalt,Lead,Bismuth,False
+770,Britannia Mining and Smelting,N/A,N/A,N/A,N/A,N/A,N/A,N/A,British Columbia,49.611111,-123.14111,1905,1974,N/A,N/A,N/A,N/A,Copper,Zinc,Lead,Silver,Gold,Cadmium,N/A,N/A,False
+771,Princeton Mining,N/A,N/A,N/A,N/A,N/A,Similco,Princeton,British Columbia,49.33111,-120.53416,1908,2018,N/A,N/A,N/A,N/A,Copper,Gold,Silver,N/A,N/A,N/A,N/A,N/A,False
+772,Utica Mines,Lajo Mines,N/A,N/A,N/A,N/A,N/A,Keremeos,British Columbia,49.974999,-117.12722,1909,1980,N/A,N/A,N/A,N/A,Silver,Lead,Zinc,Gold,Cadmium,Copper,N/A,N/A,False
+773,Dome Mines,Placer Dome,Placer Dome,Goldcorp,N/A,N/A,Dome,South Porcupine,Ontario,48.46351,-81.24272,1910,2017,N/A,N/A,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+774,Silver Standard Mines,N/A,N/A,N/A,N/A,N/A,N/A,N/A,British Columbia,55.316943,-127.62972,1913,1989,N/A,N/A,N/A,N/A,Silver,Gold,Lead,Zinc,Copper,Cadmium,N/A,N/A,False
+775,Wesfrob Mines,Falconbridge Nickel Mines,N/A,N/A,N/A,N/A,Wesfrob Mining Division,Tasu,British Columbia,52.756666,-132.04333,1914,1983,N/A,N/A,N/A,N/A,Iron,Magnetite,Copper,Silver,Gold,N/A,N/A,N/A,False
+776,Dankoe Mine,N/A,N/A,N/A,N/A,N/A,N/A,Keremeos,British Columbia,49.056944,-119.68999,1915,1983,N/A,N/A,N/A,N/A,Silver,Gold,Lead,Zinc,Copper,N/A,N/A,N/A,False
+777,Kirkland Lake Gold Mining,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Ontario,48.14543,-80.05872,1916,1960,N/A,N/A,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+778,Sissons Mines,N/A,N/A,N/A,N/A,N/A,N/A,Alix,Alberta,52.31971666,-113.2133589,1919,2002,N/A,N/A,N/A,N/A,Coal,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+779,Alexco Resources,Dominion Mineral Resources and Sterling Frontier Properties Company of Canada,N/A,N/A,N/A,N/A,Historic Keno Hill District,N/A,Yukon,63.90947,-135.30225,1919,1989,1990,1997,2006,2022,Zinc,Lead,Silver,Gold,N/A,N/A,N/A,N/A,True
+780,Renabie Mines,N/A,N/A,N/A,N/A,N/A,N/A,Missanabie (Renabie),Ontario,48.37559,-83.873,1920,1991,N/A,N/A,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+781,Luscar Coals,N/A,N/A,N/A,N/A,N/A,N/A,Luscar,Alberta,53.06594227,-117.4070829,1921,1958,N/A,N/A,N/A,N/A,Coal,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+782,Alberta Power,Battle River Coal,Manalta Coal,N/A,N/A,N/A,Vesta,Halkirk,Alberta,52.46720085,-112.1525496,1922,2012,N/A,N/A,N/A,N/A,Coal,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+783,Royal Oak Mines,N/A,N/A,N/A,N/A,N/A,Nighthawk Lake,Timmins,Ontario,48.49567,-80.9732,1924,1979,N/A,N/A,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+784,Violamac Mines,N/A,N/A,N/A,N/A,N/A,N/A,N/A,British Columbia,49.994999,-117.27166,1924,1985,N/A,N/A,N/A,N/A,Silver,Lead,Zinc,Gold,Cadmium,Copper,N/A,N/A,False
+785,Bathurst Feldspar Mines,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Ontario,44.91281,-76.39586,1926,1952,N/A,N/A,N/A,N/A,Feldspar,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+786,Lethbridge Collieries,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Alberta,49.84729193,-112.8413593,1927,1965,N/A,N/A,N/A,N/A,Coal,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+787,Torbrit Silver Mines,N/A,N/A,N/A,N/A,N/A,N/A,N/A,British Columbia,55.686944,-129.5075,1928,1959,N/A,N/A,N/A,N/A,Silver,Lead,Zinc,Gold,Copper,N/A,N/A,N/A,False
+788,Hudson Bay Mining and Smelting,N/A,N/A,N/A,N/A,N/A,N/A,Flin Flon,Saskatchewan,54.75694,-101.8786249,1930,1977,N/A,N/A,N/A,N/A,Copper,Zinc,Gold,N/A,N/A,N/A,N/A,N/A,False
+789,Cochenour Willans Gold Mines,N/A,N/A,N/A,N/A,N/A,Cochenour,Cochenour,Ontario,51.07729,-93.80895,1932,1971,N/A,N/A,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+790,Pickle Crow Gold Mines,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Ontario,51.50195,-90.05537,1933,1966,N/A,N/A,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+791,Ronald Nadon,Mud Lake Gold Mines Development Company,N/A,N/A,N/A,N/A,Mud Lake,Poltimore / Guillet,Quebec,45.76183,-75.698564,1934,2000,N/A,N/A,N/A,N/A,Feldspar,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+792,Hollinger Consolidated Gold Mines,N/A,N/A,N/A,N/A,N/A,Ross,Holtyre,Ontario,48.47809,-80.28421,1934,1989,N/A,N/A,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+793,MacLeod Cockshutt Gold Mines,MacLeod Mosher Gold Mines,MacLeod Mosher Gold Mines,Consolidated Mosher Mines,N/A,N/A,N/A,Geraldton,Ontario,49.67884,-86.93622,1934,1970,N/A,N/A,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+794,Island Mountain Mines,N/A,N/A,N/A,N/A,N/A,N/A,N/A,British Columbia,53.101111,-121.58388,1934,1954,N/A,N/A,N/A,N/A,Gold,Silver,Lead,Zinc,Tungsten,Bismuth,N/A,N/A,False
+795,Leitch Gold Mines,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Ontario,49.62588,-88.0339,1935,1965,N/A,N/A,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+796,Colt Resources,N/A,N/A,N/A,N/A,N/A,N/A,Greenwood,British Columbia,49.086388,-117.79138,1936,1995,N/A,N/A,N/A,N/A,Gold,Silver,Copper,Cobalt,N/A,N/A,N/A,N/A,False
+797,Murray Collieries,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Alberta,51.32831643,-112.5183234,1936,1959,N/A,N/A,N/A,N/A,Coal,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+798,Delnite Mines,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Ontario,48.43722,-81.29701,1937,1963,N/A,N/A,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+799,Preston East Dome Mines,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Ontario,48.45524,-81.2393,1939,1967,N/A,N/A,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+800,Cominco,N/A,N/A,N/A,N/A,N/A,Pinchi Lake,Fort St. James,British Columbia,54.632777,-124.43722,1940,1975,N/A,N/A,N/A,N/A,Mercury,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+801,Egg Kale Coal,N/A,N/A,N/A,N/A,N/A,N/A,Morinville,Alberta,53.8883266,-113.7289473,1941,2004,N/A,N/A,N/A,N/A,Coal,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+802,Alberta Coal Sales,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Alberta,49.80567707,-112.1788169,1943,1968,N/A,N/A,N/A,N/A,Coal,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+803,Mining of Canada,N/A,N/A,N/A,N/A,N/A,New Joburke Property,Keith Twp,Ontario,48.14714,-82.2833,1946,1974,N/A,N/A,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+804,H G Young Mines,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Ontario,51.07547,-93.74805,1946,1962,N/A,N/A,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+805,North West Coal,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Saskatchewan,49.142675,-102.858797,1947,1965,N/A,N/A,N/A,N/A,Coal,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+806,Giant Yellowknife Gold Mines,Royal Oak Mines,Lolor Mines,Supercrest Mines,N/A,N/A,Giant,Yellowknife,Northwest Territories,62.5,-114.35,1948,2004,N/A,N/A,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+807,Reeves MacDonald Mines,N/A,N/A,N/A,N/A,N/A,N/A,Remac,British Columbia,49.024443,-117.35222,1949,1971,N/A,N/A,N/A,N/A,Zinc,Lead,Silver,Cadmium,Copper,Gallium,Germanium,N/A,False
+808,Goldcorp,Newmont Goldcorp,Evolution Mining,N/A,N/A,N/A,Red Lake,Balmertown,Ontario,51.06028,-93.73128,1949,2022,N/A,N/A,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,True
+809,TVX Gold,High River Gold Mines,Britannia Mining and Smelting,Howe Sound Exploration,HudBay Minerals,N/A,New Britannia ( Nor-Acme),Snow Lake,Manitoba,54.85833333,-100.0333333,1949,2000,2021,2022,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,True
+810,Westroc Industries,BPB Canada,CertainTeed Gypsum Canada,N/A,N/A,N/A,Kootenay River or Elkhorn,Invermere (Windermere Creek),British Columbia,49.454444,-115.42972,1950,2022,N/A,N/A,N/A,N/A,Limestone,N/A,N/A,N/A,N/A,N/A,N/A,N/A,True
+811,Giant Soo Mines,N/A,N/A,N/A,N/A,N/A,Estella,N/A,British Columbia,49.769443,-115.60527,1951,1967,N/A,N/A,N/A,N/A,Silver,Lead,Zinc,Cadmium,Copper,Gold,N/A,N/A,False
+812,Domtar Construction Materials,Domtar,Georgia Pacific Canada,N/A,N/A,N/A,Gypsum Division (No.3),Caledonia,Ontario,43.09114,-79.96713,1952,1991,N/A,N/A,N/A,N/A,Gypsum,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+813,Texada Mines,N/A,N/A,N/A,N/A,N/A,N/A,Texada Island,British Columbia,49.703055,-124.55055,1952,1956,N/A,N/A,N/A,N/A,Iron,Copper,Silver,Gold,Zinc,Magnetite,Cobalt,Molybdenum,False
+814,Princeton Mining,N/A,N/A,N/A,N/A,N/A,N/A,Cassiar,British Columbia,59.324999,-129.81805,1952,1998,N/A,N/A,N/A,N/A,Asbestos,Chrysotile,Jade/Nephrite,Gemstones,Magnesium,N/A,N/A,N/A,False
+815,Radiore Uranium Mines,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Saskatchewan,59.46944214,-108.6097487,1952,1959,N/A,N/A,N/A,N/A,Uranium,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+816,East Rim Nickel Mines,Nickel Rim Mines,N/A,N/A,N/A,N/A,N/A,N/A,Ontario,46.67426,-80.80414,1953,1958,N/A,N/A,N/A,N/A,Nickel,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+817,Steep Rock Iron Mines,N/A,N/A,N/A,N/A,N/A,N/A,Steep Rock Lake,Ontario,48.7932,-91.64844,1953,1980,N/A,N/A,N/A,N/A,Iron,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+818,Eldorado Mining and Refining,Cameco A Canadian Mining Energy,N/A,N/A,N/A,N/A,Rabbit Lake-Eagle Point,Uranium City,Saskatchewan,59.562501,-108.4666611,1953,1982,N/A,N/A,N/A,N/A,Uranium,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+819,Northspan Uranium Mines,N/A,N/A,N/A,N/A,N/A,Lacnor,N/A,Ontario,46.395075,-82.607917,1954,1960,N/A,N/A,N/A,N/A,Uranium,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+820,Jardun Mines,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Ontario,46.63751,-84.14293,1954,1957,N/A,N/A,N/A,N/A,Lead,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+821,Cayzor Athabaska Mines,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Saskatchewan,59.581944,-108.6402774,1954,1960,N/A,N/A,N/A,N/A,Uranium,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+822,Canadian Rock Salt The,N/A,N/A,N/A,N/A,N/A,N/A,Ojibway,Ontario,42.25575,-83.10301,1955,2022,N/A,N/A,N/A,N/A,Salt,N/A,N/A,N/A,N/A,N/A,N/A,N/A,True
+823,Marmoraton Mining,Bethlehem Chile Iron Iron Mine,N/A,N/A,N/A,N/A,N/A,Marmora,Ontario,44.47905,-77.65775,1955,1978,N/A,N/A,N/A,N/A,Iron,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+824,Minnesota Minerals,Building Products,N/A,N/A,N/A,N/A,N/A,N/A,Ontario,44.50305,-77.42273,1955,1968,N/A,N/A,N/A,N/A,Granite,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+825,McMann V C,AW Wasson,N/A,N/A,N/A,N/A,N/A,N/A,New Brunswick,46.07595292,-66.0748075,1955,1965,N/A,N/A,N/A,N/A,Coal,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+826,DW and RA Mills,N/A,N/A,N/A,N/A,N/A,N/A,Minto,New Brunswick,46.07595292,-66.0748075,1955,1969,N/A,N/A,N/A,N/A,Coal,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+827,Anglo Rouyn Mines,N/A,N/A,N/A,N/A,N/A,N/A,Waden Bay,Saskatchewan,55.293889,-105.0041731,1955,1992,N/A,N/A,N/A,N/A,Copper,Silver,Gold,N/A,N/A,N/A,N/A,N/A,False
+828,Gunnar Mines,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Saskatchewan,59.385834,-108.8794467,1955,1964,N/A,N/A,N/A,N/A,Uranium,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+829,Cenex,N/A,N/A,N/A,N/A,N/A,N/A,Uranium City,Saskatchewan,59.543056,-108.6680637,1955,1979,N/A,N/A,N/A,N/A,Uranium,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+830,Empire Development,Empire Venture,N/A,N/A,N/A,N/A,N/A,N/A,British Columbia,50.355277,-127.25361,1957,1967,N/A,N/A,N/A,N/A,Magnetite,Iron,Copper,Gold,Zinc,Cobalt,Limestone,Arsenic,False
+831,Lorado Uranium Mines,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Saskatchewan,59.492226,-108.6683393,1957,1960,N/A,N/A,N/A,N/A,Uranium,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+832,North Rankin Nickel Mines,N/A,N/A,N/A,N/A,N/A,North Rankin,Rankin Inlet,Nunavut,62.80972222,-92.09944444,1957,1962,N/A,N/A,N/A,N/A,Nickel,Copper,N/A,N/A,N/A,N/A,N/A,N/A,False
+833,Rayrock Mines,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Northwest Territories,63.45,-116.5458333,1957,1959,N/A,N/A,N/A,N/A,Uranium,Silver,N/A,N/A,N/A,N/A,N/A,N/A,False
+834,Miliken Lake Uranium Mines,N/A,N/A,N/A,N/A,N/A,Milliken,Elliot Lake,Ontario,46.40026,-82.62527,1958,1964,N/A,N/A,N/A,N/A,Uranium,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+835,Canadian Charleson,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Ontario,48.774029,-91.630097,1958,1964,N/A,N/A,N/A,N/A,Iron,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+836,Potash Of America,Potash Company of America,N/A,N/A,N/A,N/A,Patience Lake,Saskatoon,Saskatchewan,52.089315,-106.3741196,1958,2022,N/A,N/A,N/A,N/A,Potash,N/A,N/A,N/A,N/A,N/A,N/A,N/A,True
+837,Rix Ahabasca Uranium Mines,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Saskatchewan,59.54027286,-108.7222283,1958,1959,N/A,N/A,N/A,N/A,Uranium,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+838,Nimpkish Iron Mines,N/A,N/A,N/A,N/A,N/A,N/A,N/A,British Columbia,50.255277,-126.85361,1959,1963,N/A,N/A,N/A,N/A,Iron,Magnetite,Copper,Zinc,Gold,N/A,N/A,N/A,False
+839,National Asbestos Mines,Lake Asbestos of Quebec,N/A,N/A,N/A,N/A,N/A,Thetford Mines,Quebec,46.138215,-71.252179,1960,1986,N/A,N/A,N/A,N/A,Chrysotile,Talc,N/A,N/A,N/A,N/A,N/A,N/A,False
+840,Utility Coals,Manitoba and Saskatchewan Coal,Utility Coals,Saskatchewan Power,N/A,N/A,Unity,Estevan,Saskatchewan,49.1395576,-102.9918586,1960,2022,N/A,N/A,N/A,N/A,Coal,N/A,N/A,N/A,N/A,N/A,N/A,N/A,True
+841,Hudson Bay Mining and Smelting,N/A,N/A,N/A,N/A,N/A,Chisel Lake,Snow Lake,Manitoba,54.83472222,-100.1166667,1960,1994,2000,2001,2009,2012,Zinc,Copper,N/A,N/A,N/A,N/A,N/A,N/A,False
+842,Kam Kotia Porcupine Mines,N/A,N/A,N/A,N/A,N/A,N/A,Timmins,Ontario,48.59145,-81.60529,1961,1972,N/A,N/A,N/A,N/A,Copper,Zinc,Gold,Silver,N/A,N/A,N/A,N/A,False
+843,Pacific Silica,N/A,N/A,N/A,N/A,N/A,N/A,Oliver,British Columbia,49.19673443,-119.5552884,1961,1969,N/A,N/A,N/A,N/A,Silica,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+844,Atlantic Coast Copper,N/A,N/A,N/A,N/A,N/A,N/A,Little Bay,Newfoundland and Labrador,49.596099304,-55.94530574,1961,1969,N/A,N/A,N/A,N/A,Copper,Iron,Gold,N/A,N/A,N/A,N/A,N/A,False
+845,Great West Coal,Western Dominion Coal Mines,N/A,N/A,N/A,N/A,N/A,N/A,Alberta,53.54493837,-113.3834964,1962,1968,N/A,N/A,N/A,N/A,Coal,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+846,Alberta Southern Coal,Alberta Coal,Manalta Coal,TransAlberta Utilities,N/A,N/A,Whitewood,Wabamun,Alberta,53.58966554,-114.5237074,1962,2010,N/A,N/A,N/A,N/A,Coal,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+847,Texas Gulf Sulphur,Canada Development,Glencore,Falconbridge,Kidd Creek Mines,Escall Mining,Kidd Creek,Timmins,Ontario,48.68701,-81.36811,1963,2022,N/A,N/A,N/A,N/A,Zinc,Copper,Lead,Silver,Cadmium,Tin,N/A,N/A,True
+848,Bethlehem Copper,Bethlehem Mines,N/A,N/A,N/A,N/A,N/A,Highland Valley/Ashcroft,British Columbia,50.498055,-120.98777,1963,1982,N/A,N/A,N/A,N/A,Copper,Silver,Gold,Molybdenum,N/A,N/A,N/A,N/A,False
+849,Iron Ore of Canada,N/A,N/A,N/A,N/A,N/A,N/A,Labrador City,Newfoundland and Labrador,52.94122939,-66.91593509,1963,1988,N/A,N/A,N/A,N/A,Iron,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+850,Camlaren Mines,N/A,N/A,N/A,N/A,N/A,N/A,Gordon Lake,Northwest Territories,62.9875,-113.2041667,1963,1963,1980,1981,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+851,Cliffs of Canada,Dofasco,Jones Laughlin Steel,Dominion Foundries and Steel,N/A,N/A,Adams,Kirkland Lake,Ontario,48.06926,-79.93457,1964,1990,N/A,N/A,N/A,N/A,Iron,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+852,Willecho Mines,N/A,N/A,N/A,N/A,N/A,N/A,Manitouwadge,Ontario,49.18005,-85.888,1964,1976,N/A,N/A,N/A,N/A,Copper,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+853,Teck,Silverfields Mining,Canadaka Mines Cobalt Silver,Teck,N/A,N/A,Silverfields Division,Cobalt,Ontario,47.39509152,-79.68578198,1965,1983,N/A,N/A,N/A,N/A,Silver,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+854,The Winnipeg Supply and Fuel,Steel Brother Canada,Marine Transport,Selkirk Silica,N/A,N/A,N/A,Black Island,Manitoba,51.20694155,-96.44856599,1965,1993,N/A,N/A,N/A,N/A,Silica,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+855,Brynnor Mines,N/A,N/A,N/A,N/A,N/A,N/A,Boss Mountain,British Columbia,52.096666,-120.9075,1965,1983,N/A,N/A,N/A,N/A,Molybdenum,Copper,Zinc,Tungsten,Silver,Bismuth,Rhenium,N/A,False
+856,Canadian Jamieson Mines,N/A,N/A,N/A,N/A,N/A,N/A,Timmins,Ontario,48.53393,-81.56071,1966,1971,N/A,N/A,N/A,N/A,Copper,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+857,Red Mountain Mines,N/A,N/A,N/A,N/A,N/A,N/A,Rossland,British Columbia,49.089721,-117.82777,1966,1971,N/A,N/A,N/A,N/A,Molybdenum,Copper,Tungsten,Gold,N/A,N/A,N/A,N/A,False
+858,Kalium Chemicals,PPG Industries Canada,N/A,N/A,N/A,N/A,Kalium Chemicals Division,Belle Plaine,Saskatchewan,50.39373442,-105.1557625,1966,2022,N/A,N/A,N/A,N/A,Potash,N/A,N/A,N/A,N/A,N/A,N/A,N/A,True
+859,Granisle Copper,Zapata Granby,N/A,N/A,N/A,N/A,N/A,Granisle,British Columbia,54.944444,-126.15722,1966,1982,N/A,N/A,N/A,N/A,Copper,Silver,Gold,Molybdenum,N/A,N/A,N/A,N/A,False
+860,Thomas Brogan Son,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Nova Scotia,46.31704363,-60.30067648,1967,1993,N/A,N/A,N/A,N/A,Coal,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+861,Evans Coal Mines,Pioneer Coal and Thorburn,N/A,N/A,N/A,N/A,Evans or St. Rose,St. Rose  (Inverness),Nova Scotia,46.33443215,-61.20440514,1967,1992,N/A,N/A,N/A,N/A,Coal,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+862,Tribag Mining,N/A,N/A,N/A,N/A,N/A,N/A,Batchawana Bay,Ontario,47.08586,-84.50815,1967,1974,N/A,N/A,N/A,N/A,Copper,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+863,Anglo American Molybdenite Mining,N/A,N/A,N/A,N/A,N/A,N/A,Cadillac,Quebec,48.21218624,-78.47988967,1967,1968,N/A,N/A,N/A,N/A,Molybdenum,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+864,Munro Copper Mines,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Ontario,48.59931,-80.21119,1967,1970,N/A,N/A,N/A,N/A,Nickel,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+865,Saskatchewan Minerals,Kam Kotia Mines,Dickenson Mines,N/A,N/A,N/A,N/A,Fox Valley,Saskatchewan,50.35664,-109.3219499,1967,2001,N/A,N/A,N/A,N/A,Sodium Sulphate,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+866,BACM,N/A,N/A,N/A,N/A,N/A,N/A,Amaranth,Manitoba,50.56111111,-98.72083333,1967,1970,N/A,N/A,N/A,N/A,Gypsum,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+867,International Minerals and Chemical,International Minerals Chemical,N/A,N/A,N/A,N/A,K2,Esterhazy,Saskatchewan,50.68298991,-101.8498299,1967,2022,N/A,N/A,N/A,N/A,Potash,N/A,N/A,N/A,N/A,N/A,N/A,N/A,True
+868,Allan Potash Mines,APM Operators,N/A,N/A,N/A,N/A,Allan Potashs,Allan,Saskatchewan,51.936923,-106.0871614,1968,2022,N/A,N/A,N/A,N/A,Potash,N/A,N/A,N/A,N/A,N/A,N/A,N/A,True
+869,Cardinal River Coals,Teck Resources,N/A,N/A,N/A,N/A,Cardinal River (Cheviot),Luscar and Hinton,Alberta,53.10082201,-117.4407696,1968,2022,N/A,N/A,N/A,N/A,Coal,N/A,N/A,N/A,N/A,N/A,N/A,N/A,True
+870,Terra Mining and Exploitation,N/A,N/A,N/A,N/A,N/A,Bullmoose,Port Radium,Northwest Territories,65.60416667,-118.1166667,1968,1985,N/A,N/A,N/A,N/A,Silver,Copper,Lead,Zinc,N/A,N/A,N/A,N/A,False
+871,Midland Mining,N/A,N/A,N/A,N/A,N/A,N/A,Minto,New Brunswick,46.07595292,-66.0748075,1969,1969,N/A,N/A,N/A,N/A,Coal,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+872,Manalta Coal,TransAlberta Utilities,TransAlta Utilities,Transalta,N/A,N/A,Highvale,Seba Beach,Alberta,53.4692849,-114.5245868,1969,2021,N/A,N/A,N/A,N/A,Coal,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+873,United Asbestos,N/A,N/A,N/A,N/A,N/A,N/A,Matachewan,Ontario,47.88154,-81.00254,1970,1978,N/A,N/A,N/A,N/A,Asbestos,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+874,Greyhound Mines,N/A,N/A,N/A,N/A,N/A,N/A,Greenwood,British Columbia,49.101666,-118.70277,1970,1971,N/A,N/A,N/A,N/A,Copper,Gold,Silver,Cobalt,N/A,N/A,N/A,N/A,False
+875,Brenda Mines,N/A,N/A,N/A,N/A,N/A,N/A,Peachland,British Columbia,49.879443,-120.00638,1970,1990,N/A,N/A,N/A,N/A,Copper,Molybdenum,Silver,Gold,Zinc,Lead,N/A,N/A,False
+876,Sherritt Gordon Mines,N/A,N/A,N/A,N/A,N/A,N/A,Fox Lake,Manitoba,56.63333333,-101.6430556,1970,1985,N/A,N/A,N/A,N/A,Copper,Zinc,Silver,Gold,N/A,N/A,N/A,N/A,False
+877,Churchill Copper,Consolidated Churchill Copper,N/A,N/A,N/A,N/A,N/A,Fort Nelson,British Columbia,58.510833,-125.40472,1970,1974,N/A,N/A,N/A,N/A,Copper,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+878,Placid Oil,N/A,N/A,N/A,N/A,N/A,N/A,Bull River,British Columbia,49.503333,-115.38583,1971,1974,N/A,N/A,N/A,N/A,Copper,Silver,Gold,Lead,Zinc,N/A,N/A,N/A,False
+879,Ming Minerals,Rambler Metals and Mining PLC,N/A,N/A,N/A,N/A,Ming,Baie Verte,Newfoundland and Labrador,49.91535301,-56.08697945,1971,2019,N/A,N/A,N/A,N/A,Copper,Gold,Silver,Zinc,N/A,N/A,N/A,N/A,False
+880,Prime Resources Group,Homestake Mining Company,Barrick Gold,N/A,N/A,N/A,Eskay Creek,Stewart,British Columbia,56.653888,-130.42888,1971,2008,N/A,N/A,N/A,N/A,Gold,Silver,Zinc,Copper,Lead,N/A,N/A,N/A,False
+881,Cape Breton Development,N/A,N/A,N/A,N/A,N/A,Lingan,New Waterford,Nova Scotia,46.25249299,-60.0978728,1972,1992,N/A,N/A,N/A,N/A,Coal,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+882,Mattabi Mines,N/A,N/A,N/A,N/A,N/A,N/A,Sturgeon Lake,Ontario,49.87404,-90.97111,1972,1988,N/A,N/A,N/A,N/A,Copper,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+883,Fording Coal,N/A,N/A,N/A,N/A,N/A,Fording River,Elkford,British Columbia,50.194999,-114.84138,1972,2022,N/A,N/A,N/A,N/A,Coal,N/A,N/A,N/A,N/A,N/A,N/A,N/A,True
+884,Lornex Mining,N/A,N/A,N/A,N/A,N/A,N/A,Highland Valley,British Columbia,50.450277,-121.04305,1972,1986,N/A,N/A,N/A,N/A,Copper,Molybdenum,Silver,Gold,Zinc,N/A,N/A,N/A,False
+885,Luscar,N/A,N/A,N/A,N/A,N/A,Boundary Dam,Estevan,Saskatchewan,49.105929,-103.0202158,1973,2019,N/A,N/A,N/A,N/A,Coal,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+886,Sheridan Geophysics,N/A,N/A,N/A,N/A,N/A,Maybrun,Atikwa - Populus Lake,Ontario,49.42166,-93.65084,1973,1974,N/A,N/A,N/A,N/A,Copper,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+887,Falconbridge Copper,N/A,N/A,N/A,N/A,N/A,Sturgeon Lake Property,Sturgeon Lake,Ontario,49.86967,-90.87355,1974,1980,N/A,N/A,N/A,N/A,Copper,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+888,Asbury Graphite Quebec,N/A,N/A,N/A,N/A,N/A,N/A,Notre-Dame-du-Laus,Quebec,46.144042,-75.552239,1975,1975,1980,1988,N/A,N/A,Graphite,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+889,Pine Point Mines,N/A,N/A,N/A,N/A,N/A,N/A,Pine Point,Northwest Territories,60.83333333,-114.5,1975,1976,1983,1987,N/A,N/A,Zinc,Lead,N/A,N/A,N/A,N/A,N/A,N/A,False
+890,Agnew Lake Mines,N/A,N/A,N/A,N/A,N/A,Agnew Lake,Elliot Lake,Ontario,46.431,-81.62501,1977,1983,N/A,N/A,N/A,N/A,Uranium,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+891,Afton Mines,Afton Operating,N/A,N/A,N/A,N/A,N/A,Kamloops,British Columbia,50.661111,-120.515,1977,2018,N/A,N/A,N/A,N/A,Copper,Gold,Silver,Molybdenum,Palladium,N/A,N/A,N/A,False
+892,Esso Resources Canada,Westminer Canada,N/A,N/A,N/A,N/A,N/A,Gays River,Nova Scotia,45.029524,-63.36771908,1979,1982,1991,1991,N/A,N/A,Zinc,Lead,Iron,Copper,Barium,Fluorine,N/A,N/A,False
+893,Goldlund Mines,N/A,N/A,N/A,N/A,N/A,N/A,Echo Township,Ontario,49.89671,-92.34736,1980,1985,N/A,N/A,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+894,B Miller,Homestake Canada,N/A,N/A,N/A,N/A,N/A,Nicholson,British Columbia,51.211111,-116.86027,1980,1997,N/A,N/A,N/A,N/A,Silica,Aggregate,N/A,N/A,N/A,N/A,N/A,N/A,False
+895,Flin Flon Mines,N/A,N/A,N/A,N/A,N/A,Rio,Rio Mine,Saskatchewan,54.56666667,-101.8833333,1980,1984,N/A,N/A,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+896,Avonlea Mineral Industries,Canadian Clay Products,N/A,N/A,N/A,N/A,Wilcox,Wilcox,Saskatchewan,49.960179,-104.8187553,1981,2022,N/A,N/A,N/A,N/A,Bentonite,N/A,N/A,N/A,N/A,N/A,N/A,N/A,True
+897,Highmont Operating,Teck,N/A,N/A,N/A,N/A,Highmont,Highland Valley,British Columbia,50.431666,-120.99805,1981,1984,N/A,N/A,N/A,N/A,Copper,Molybdenum,N/A,N/A,N/A,N/A,N/A,N/A,False
+898,Equity Silver Mines,N/A,N/A,N/A,N/A,N/A,N/A,Houston,British Columbia,54.189444,-126.26333,1981,1994,N/A,N/A,N/A,N/A,Silver,Copper,Gold,Antimony,Arsenic,N/A,N/A,N/A,False
+899,Camchib Resources,N/A,N/A,N/A,N/A,N/A,N/A,Chibougamau,Quebec,49.91693905,-74.37846241,1982,1986,N/A,N/A,N/A,N/A,Copper,Gold,Silver,N/A,N/A,N/A,N/A,N/A,False
+900,Hudson Bay Mining and Smelting,N/A,N/A,N/A,N/A,N/A,Spruce Point,N/A,Manitoba,54.575,-100.4013889,1982,1992,N/A,N/A,N/A,N/A,Copper,Zinc,Silver,Gold,N/A,N/A,N/A,N/A,False
+901,Cullaton Lake Gold Mines,OBrien Gold Mines,N/A,N/A,N/A,N/A,Cullaton Lake Gold,Whale Cove,Nunavut,61.26666667,-98.5,1982,1985,N/A,N/A,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+902,Aurun Mines,N/A,N/A,N/A,N/A,N/A,N/A,Empire Valley,British Columbia,51.345277,-122.35166,1983,1987,N/A,N/A,N/A,N/A,Perlite,Pozzolan,N/A,N/A,N/A,N/A,N/A,N/A,False
+903,Noranda,N/A,N/A,N/A,N/A,N/A,N/A,Goldstream Mine,British Columbia,51.624999,-118.42888,1983,1996,N/A,N/A,N/A,N/A,Copper,Silver,Gold,Zinc,Cadmium,Antimony,N/A,N/A,False
+904,Quintette Coal,N/A,N/A,N/A,N/A,N/A,Quintette,Tumbler Ridge,British Columbia,55.027221,-121.19055,1983,2000,N/A,N/A,N/A,N/A,Coal,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+905,Key Lake Mining,Cameco,N/A,N/A,N/A,N/A,Key Lake,Key Lake,Saskatchewan,57.201114,-105.666104,1983,2018,N/A,N/A,N/A,N/A,Uranium,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+906,Giant Yellowknife Mines,N/A,N/A,N/A,N/A,N/A,Salmita,N/A,Northwest Territories,64.07916667,-111.2458333,1983,1987,N/A,N/A,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+907,Rio Algom,N/A,N/A,N/A,N/A,N/A,East Kemptville,"East Kemptville, Yarmouth County",Nova Scotia,44.103137,-65.68087932,1984,1992,N/A,N/A,N/A,N/A,Tin,Copper,Zinc,Silver,N/A,N/A,N/A,N/A,False
+908,Asarco Exploration Company of Canada,Lake Asbestos of Canada,N/A,N/A,N/A,N/A,Aquarius,Maclem Twp,Ontario,48.53189,-80.86851,1984,1988,N/A,N/A,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+909,Baymag Mines,N/A,N/A,N/A,N/A,N/A,Mt. Brussilof,Radium Hot Springs,British Columbia,50.788888,-115.67888,1984,2015,N/A,N/A,N/A,N/A,Magnesia,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+910,Gordex Minerals,N/A,N/A,N/A,N/A,N/A,N/A,Cape Spencer,New Brunswick,45.19832,-65.91163,1986,1988,N/A,N/A,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+911,Sussex Silica,Atlantic Silica,N/A,N/A,N/A,N/A,N/A,Poodiac,New Brunswick,45.607191,-65.534962,1986,2022,N/A,N/A,N/A,N/A,Silica,N/A,N/A,N/A,N/A,N/A,N/A,N/A,True
+912,Curragh Resources,N/A,N/A,N/A,N/A,N/A,Whiskey Lake,Whitehorse,Yukon,61.97472222,-132.5325,1986,1992,N/A,N/A,N/A,N/A,Coal,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+913,Treminco Resources,Ptarmigan Mines,Cominco,N/A,N/A,N/A,Tom and Ptarmigans,Yellowknife,Northwest Territories,62.52083333,-114.1958333,1986,1997,N/A,N/A,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+914,Canamax Resources,Lake Shore Gold,N/A,N/A,N/A,N/A,Bell Creek,N/A,Ontario,48.56007,-81.17146,1987,1994,2012,2022,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,True
+915,Bond Gold Canada,N/A,N/A,N/A,N/A,N/A,Golden Patricia,Sioux Lookout,Ontario,51.36594,-91.13417,1987,2015,N/A,N/A,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+916,Clayburn Industries,N/A,N/A,N/A,N/A,N/A,N/A,Quesnel,British Columbia,52.751388,-122.53472,1987,1993,N/A,N/A,N/A,N/A,Diatomite,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+917,Grartges Exploration,N/A,N/A,N/A,N/A,N/A,Tartan Lake,N/A,Manitoba,54.85611111,-101.7305556,1987,1989,N/A,N/A,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+918,Cameco A Canadian Mining Energy,N/A,N/A,N/A,N/A,N/A,Star Lake,N/A,Saskatchewan,55.984445,-104.2791675,1987,1989,N/A,N/A,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+919,Total Erickson Resources,N/A,N/A,N/A,N/A,N/A,Mount Skukum,Mount Skukum,Yukon,60.20666667,-135.4691667,1987,1988,N/A,N/A,N/A,N/A,Gold,Silver,N/A,N/A,N/A,N/A,N/A,N/A,False
+920,Fording Coal,TransAlberta Utilities,Warburg Coal Fording Coal,N/A,N/A,N/A,Genesee,Warburg,Alberta,53.32950606,-114.3655183,1988,2022,N/A,N/A,N/A,N/A,Coal,N/A,N/A,N/A,N/A,N/A,N/A,N/A,True
+921,Skyline Explorations,N/A,N/A,N/A,N/A,N/A,N/A,Johnny Mountain Mine,British Columbia,56.62361,-131.06749,1988,1993,N/A,N/A,N/A,N/A,Gold,Silver,Copper,Lead,Zinc,N/A,N/A,N/A,False
+922,NovaGold Resources,N/A,N/A,N/A,N/A,N/A,Murray Brook,Bathurst,New Brunswick,47.5253,-66.43163,1989,1993,N/A,N/A,N/A,N/A,Copper,Silver,N/A,N/A,N/A,N/A,N/A,N/A,False
+923,Dow Chemical,N/A,N/A,N/A,N/A,N/A,N/A,Fort Saskatchewan,Alberta,53.7004071,-113.2165395,1989,2022,N/A,N/A,N/A,N/A,Salt,N/A,N/A,N/A,N/A,N/A,N/A,N/A,True
+924,Amok,Cluff Mining,COGEMA Resources,N/A,N/A,N/A,Cluff Lake,Cluff Lake,Saskatchewan,58.366664,-109.5422238,1989,2002,N/A,N/A,N/A,N/A,Uranium,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+925,Northwest Gold,Royal Oak Mines,N/A,N/A,N/A,N/A,Colomac,Indin Lake,Northwest Territories,64.4,-115.1,1989,1991,1994,1997,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+926,Noranda,Noranda Mining and Exploration,N/A,N/A,N/A,N/A,Gaspé Division,Gaspé,Quebec,48.951944,-65.51863,1990,2002,N/A,N/A,N/A,N/A,Copper,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+927,Summit Lime Works,Summit Lime Works Umited,Graymont Western Canada,N/A,N/A,N/A,Coleman,Hazel,Alberta,49.67038631,-114.5040416,1990,2022,N/A,N/A,N/A,N/A,Lime,Dolomite,N/A,N/A,N/A,N/A,N/A,N/A,True
+928,BC Sugar Refining,N/A,N/A,N/A,N/A,N/A,N/A,Taber,Alberta,49.7904586,-112.1247863,1990,2022,N/A,N/A,N/A,N/A,Lime,N/A,N/A,N/A,N/A,N/A,N/A,N/A,True
+929,Hudson Bay Mining and Smelting,N/A,N/A,N/A,N/A,N/A,Callinan,Flin Flon,Manitoba,54.78611111,-101.8875,1990,2001,N/A,N/A,N/A,N/A,Zinc,Copper,Gold,Silver,Cadmium,N/A,N/A,N/A,False
+930,Golden Bear Operating,North American Metal,N/A,N/A,N/A,N/A,Golden Bear,Telegraph Creek,British Columbia,58.210833,-132.29361,1990,2000,N/A,N/A,N/A,N/A,Gold,Silver,Copper,Antimony,N/A,N/A,N/A,N/A,False
+931,BP Ressources Canada,Lhoist,N/A,N/A,N/A,N/A,N/A,Fort Langley,British Columbia,49.18965861,-122.6605992,1991,2022,N/A,N/A,N/A,N/A,Lime,N/A,N/A,N/A,N/A,N/A,N/A,N/A,True
+932,Continental Lime,Graymont Western Canada,N/A,N/A,N/A,N/A,N/A,Exshaw,Alberta,51.07138943,-115.1351986,1991,2022,N/A,N/A,N/A,N/A,Lime,N/A,N/A,N/A,N/A,N/A,N/A,N/A,True
+933,Cominco,Prime Resources Group,N/A,N/A,N/A,N/A,Snip,Iskut River,British Columbia,56.66861,-131.10888,1991,1999,N/A,N/A,N/A,N/A,Gold,Silver,Zinc,Copper,Lead,N/A,N/A,N/A,False
+934,Curragh Resources,N/A,N/A,N/A,N/A,N/A,Sa Dena Hes,Watson Lake,Yukon,60.54777778,-128.8788889,1991,1992,N/A,N/A,N/A,N/A,Lead,Zinc,N/A,N/A,N/A,N/A,N/A,N/A,False
+935,Red Deer Silica,N/A,N/A,N/A,N/A,N/A,N/A,Hudson Bay,Saskatchewan,52.98583,-101.7440383,1993,2022,N/A,N/A,N/A,N/A,Silica,N/A,N/A,N/A,N/A,N/A,N/A,N/A,True
+936,Granduc Mining,Black Hawk Mining,N/A,N/A,N/A,N/A,BT,Lynn Lake,Manitoba,56.85108769,-101.055681,1993,1996,N/A,N/A,N/A,N/A,Gold,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+937,Uniquartz,N/A,N/A,N/A,N/A,N/A,N/A,St. Jean Vianney,Quebec,48.624195,-67.332241,1994,2000,N/A,N/A,N/A,N/A,Quartz,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+938,Teck,N/A,N/A,N/A,N/A,N/A,Afton-Ajax,Kamloops,British Columbia,50.608055,-120.40444,1994,1997,N/A,N/A,N/A,N/A,Copper,Gold,Silver,Molybdenum,N/A,N/A,N/A,N/A,False
+939,Candorado Mines,N/A,N/A,N/A,N/A,N/A,Mascot,Hedley,British Columbia,49.365,-120.06694,1995,1995,N/A,N/A,N/A,N/A,Gold,Silver,N/A,N/A,N/A,N/A,N/A,N/A,False
+940,Hudson Bay Mining and Smelting,N/A,N/A,N/A,N/A,N/A,Photo Lake,Snow Lake,Manitoba,54.85972222,-100.1027778,1995,1998,N/A,N/A,N/A,N/A,Copper,Zinc,Gold,Silver,N/A,N/A,N/A,N/A,False
+941,Thorburn Mining,Pictou County Research and Development Commission,Pioneer Coal,N/A,N/A,N/A,Stellarton,Stellarton,Nova Scotia,45.55512033,-62.55392993,1996,2019,N/A,N/A,N/A,N/A,Coal,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+942,Imperial Metals Mitsubishi Materials Marubeni Dowa Mining and Furukawa,Teck Resources,Huckleberry Mines,N/A,N/A,N/A,Huckleberry,Kemano,British Columbia,53.68111,-127.17805,1997,2016,N/A,N/A,N/A,N/A,Copper,Molybdenum,Silver,Gold,N/A,N/A,N/A,N/A,False
+943,BHP Diamonds,Dia Met Minerals,Charles Fipke and Stewart Blusson,Arctic Canadian Diamond Company,N/A,N/A,Panda (Ekati Project),Lac de Gras,Northwest Territories,64.71666667,-110.6083333,1997,2022,N/A,N/A,N/A,N/A,Diamond,N/A,N/A,N/A,N/A,N/A,N/A,N/A,True
+944,Magnola Magnesium,Society generale de financement du Quebec,N/A,N/A,N/A,N/A,Ardorbec,Danville,Quebec,45.748462,-71.961305,1998,2022,N/A,N/A,N/A,N/A,Magnesium,N/A,N/A,N/A,N/A,N/A,N/A,N/A,True
+945,Canadian Johns Manville,Asbestos,N/A,N/A,N/A,N/A,Jeffrey,Asbestos (Val-des-Sources),Quebec,45.7751,-71.9476,1879,2009,N/A,N/A,N/A,N/A,Chrysotile,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False
+946,Crows Nest Pass Coal,N/A,N/A,N/A,N/A,N/A,N/A,N/A,British Columbia,49.65448068,-114.7145444,1897,1978,N/A,N/A,N/A,N/A,Coal,N/A,N/A,N/A,N/A,N/A,N/A,N/A,False

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mining, Eh?</title>
+
+  <!-- D3 and Bootstrap links -->
+  <script src="https://d3js.org/d3.v6.min.js"></script>
+  <script src="https://unpkg.com/d3-simple-slider"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" 
+        rel="stylesheet" 
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" 
+        crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="bg-light">
+  <nav class="navbar bg-body-secondary">
+    <div class="container-fluid">
+      <div class="navbar-brand">Mining Activities in Canada</div>      
+    </div>
+  </nav>
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="card mt-3">
+              <h5 class="card-header">Mine Site Distribution Map</h5>
+              <div class="card-body">
+                <div id="map-container"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <div class="card mt-3">
+              <h5 class="card-header">Timeline of Mining Activities</h5>
+              <div class="card-body">
+                <div id="area-map-container" class="view-container"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="card mt-3">
+              <h5 class="card-header">Distribution of Mines by Commodity</h5>
+              <div class="row header-row">
+                <div class="col-md-8">
+                  <div id="commodity-filter-list" class="filter-list"></div>
+                </div>
+                <div class="col-md-4">
+                  <div class="sort-container">
+                    <label for="select-order-commodity" class="form-label">Sort by:</label>
+                    <select id="select-order-commodity" class="form-select" aria-label="Default select example">
+                      <option selected value="0">Number of mines</option>
+                      <option value="1">Alphabetical</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+              <div class="card-body">
+                <div id="commodity-bar-container" class="view-container"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <div class="card mt-3">
+              <h5 class="card-header">Distribution of Mines by Company</h5>
+              <div class="row header-row">
+                <div class="col-md-8">
+                  <div id="company-filter-list" class="filter-list"></div>
+                </div>
+                <div class="col-md-4">
+                  <div class="sort-container">
+                    <label for="select-order-company" class="form-label">Sort by:</label>
+                    <select id="select-order-company" class="form-select" aria-label="Default select example">
+                      <option selected value="0">Number of mines</option>
+                      <option value="1">Alphabetical</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+              <div class="card-body">
+                <div id="company-bar-container" class="view-container"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="tooltip"></div>
+
+  <!-- JS scripts -->
+  <script src="js/choroplethMap.js"></script>
+  <script src="js/areaMap.js"></script>
+  <script src="js/commodityBar.js"></script>
+  <script src="js/companyBar.js"></script>
+  <script src="js/main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
+          integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" 
+          crossorigin="anonymous"></script>
+</body>
+</html>
