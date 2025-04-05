@@ -5,10 +5,9 @@ class CommodityBar {
       callbacks: _config.callbacks,
       containerWidth: _config.containerWidth,
       containerHeight: _config.containerHeight,
-      margin: { top: 30, right: 70, bottom: 85, left: 60 },
+      margin: { top: 25, right: 70, bottom: 85, left: 45 },
       sliderColour: _config.sliderColour,
     };
-    this.sortValue = 0;
     this.data = _data;
     this.initVis();
   }
@@ -75,7 +74,7 @@ class CommodityBar {
     vis.chart
       .append("text")
       .attr("class", "y-axis-label axis-label")
-      .attr("x", -40)
+      .attr("x", -30)
       .attr("y", -15)
       .attr("text-anchor", "start")
       .text("Mines");
@@ -94,21 +93,25 @@ class CommodityBar {
       .default([vis.startIndex, vis.endIndex])
       .fill(vis.config.sliderColour)
       .tickFormat((d) => "")
-      .on("onchange", (e) => vis.updateCommodities(e, vis));
+      .on("onchange", ([_startIndex, _endIndex]) => {
+        if (!vis.updateSlider) {
+          // prevent the user from moving the slider endpoints on top of each other
+          if (_startIndex === _endIndex) {
+            _startIndex > vis.startIndex ? _startIndex-- : _endIndex++;
+            vis.slider.value([_startIndex, _endIndex])
+          }
+
+          vis.startIndex = _startIndex;
+          vis.endIndex = _endIndex;
+          vis.updateVis();
+        }
+      });
 
     // Append slider 
     vis.sliderGroup = vis.chart
       .append("g")
       .attr("class", "slider")
       .attr("transform", `translate(${0}, ${vis.height + 60})`);
-
-    // Add slider label
-    // vis.svg
-    //   .append("text")
-    //   .style("font-size", "14px")
-    //   .attr("class", "slider-label")
-    //   .attr("transform", `translate(${vis.config.containerWidth / 2},${vis.config.containerHeight-20})`)
-    //   .text("Slide to see more commodities");
 
     vis.updateVis();
   }
@@ -119,25 +122,33 @@ class CommodityBar {
   updateVis() {
     let vis = this;
 
-    // Process data to get mines per commodity
-    let commodityCounts = {};
-    vis.data.forEach((d) => {
-      for (let i = 1; i <= 8; i++) {
-        let commodity = d[`commodity${i}`];
-        if (commodity !== "N/A") {
-          if (!commodityCounts[commodity]) {
-            commodityCounts[commodity] = 0;
-          }
-          commodityCounts[commodity]++;
-        }
-      }
-    });
+    const minesPerCommodity = vis.computeMinesPerCommodity();
 
-    vis.commodityCountEntries = Object.entries(commodityCounts)
-    vis.dataProcessed = vis.commodityCountEntries
-      .map(([commodity, count]) => ({ commodity, count }))
+    // update the slider min/max and values only once when an update is triggered by some other view
+    // this must go first since vis.dataProcessed relies on the slider's values
+    if (vis.updateSlider) {
+      const maxIndexSlider = minesPerCommodity.length;
+
+      let start = vis.startIndex;
+      let end = vis.endIndex;
+      
+      // if the endIndex exceeds the maxIndex, try to maintain the window size relative to the end instead
+      if (end > maxIndexSlider) {
+        const diff = end - maxIndexSlider;
+        start = Math.max(0, start - diff);
+        end = maxIndexSlider;
+      }
+      
+      vis.slider
+        .max(maxIndexSlider)
+        .value([start, end]);
+
+      vis.updateSlider = false;
+    }
+
+    vis.dataProcessed = minesPerCommodity
       .toSorted((a, b) => {
-        switch (vis.sortValue) {
+        switch (vis.config.callbacks.getCommoditySortValue()) {
           case 0:
             return b.count - a.count;
           case 1:
@@ -145,7 +156,7 @@ class CommodityBar {
           default:
             console.log("Invalid sort value");
         }})
-      .slice(vis.startIndex, vis.endIndex);
+      .slice(vis.slider.value()[0], vis.slider.value()[1]);
 
     // Update domain of scales
     vis.xScale.domain(vis.dataProcessed.map((d) => d.commodity));
@@ -160,9 +171,6 @@ class CommodityBar {
     // Update axes ticks
     vis.xAxis.tickValues(vis.xScale.domain().filter((_, i) => i % xTickModulus === 0))
     vis.yAxis.ticks(yTicks);
-
-    // Update max value for slider
-    vis.slider.max(vis.commodityCountEntries.length)
 
     vis.renderVis();
   }
@@ -216,7 +224,7 @@ class CommodityBar {
     bars.exit().remove();
 
     vis.chart.selectAll(".bar")
-      .classed("selected", (d) => selectedCommodities.includes(d.commodity))
+      .classed("selected", (d) => vis.config.callbacks.getSelectedCommodities().includes(d.commodity))
 
     // Update the axes
     vis.xAxisGroup.transition().call(vis.xAxis);
@@ -231,26 +239,26 @@ class CommodityBar {
     vis.sliderGroup.call(vis.slider);
   }
 
-  /** 
-   * Updates the viewable commodities based on input from the slider
+  /**
+   * Process data to get mines per commodity
    */
-  updateCommodities([_startIndex, _endIndex], vis) {
-    // prevent the user from moving the slider endpoints on top of each other
-    if (_startIndex === _endIndex) {
-      if (_startIndex > vis.prevStartIndex) {
-        // we moved the start pointer
-        _startIndex--;
-      } else {
-        // we moved the end pointer
-        _endIndex++;
-      }
-      vis.slider.value([_startIndex, _endIndex])
-    }
+  computeMinesPerCommodity() {
+    let vis = this;
 
-    vis.prevStartIndex = vis.startIndex;
-    vis.prevEndIndex = vis.endIndex;
-    vis.startIndex = _startIndex;
-    vis.endIndex = _endIndex;
-    vis.updateVis();
+    let commodityCounts = {};
+    vis.data.forEach((d) => {
+      for (let i = 1; i <= 8; i++) {
+        let commodity = d[`commodity${i}`];
+        if (commodity !== "N/A") {
+          if (!commodityCounts[commodity]) {
+            commodityCounts[commodity] = 0;
+          }
+          commodityCounts[commodity]++;
+        }
+      }
+    });
+
+    return Object.entries(commodityCounts)
+      .map(([commodity, count]) => ({ commodity, count }))
   }
 }

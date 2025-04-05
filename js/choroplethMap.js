@@ -12,10 +12,9 @@ class ChoroplethMap {
       callbacks: _config.callbacks,
       containerWidth: _config.containerWidth,
       containerHeight: _config.containerHeight,
-      margin: {top: 10, right: 10, bottom: 10, left: 10},
+      margin: {top: 15, right: 15, bottom: 15, left: 15},
     }
     this.data = _data;
-    this.selectedProvince = undefined;
     this.initVis();
   }
 
@@ -58,15 +57,14 @@ class ChoroplethMap {
     vis.legend = vis.svg
       .append("g")
       .attr("class", "legend")
-      .attr("transform", `translate(${20}, ${80})`);
+      .attr("transform", `translate(${vis.config.margin.left}, ${vis.config.margin.top + 10})`);
 
     // Add legend title
     vis.legend
       .append("text")
       .attr("x", 0)
-      .attr("y", -55)
+      .attr("y", 0)
       .attr("class", "legend-title")
-      .attr("text-anchor", "center")
       .attr("font-weight", "500")
       .attr("font-size", "14px")
       .text("Mines");
@@ -87,7 +85,7 @@ class ChoroplethMap {
     vis.svg.call(vis.zoom)
 
     // Add back button
-    vis.backButton = vis.svg
+    vis.svg
       .append("text")
       .attr("id", "map-back-button")
       .attr("y", vis.config.margin.top + 10)
@@ -96,9 +94,26 @@ class ChoroplethMap {
       .attr("cursor", "pointer")
       .attr("display", "none")
       .attr("font-size", 14)
+      .attr("font-style", "italic")
       .text("Go Back")
       .on("click", vis.config.callbacks.deselectProvince)
 
+    // Add explainer text for zoom/pan
+    vis.svg
+      .append("text")
+      .attr("class", "explainer-text")
+      .attr("y", vis.config.containerHeight - vis.config.margin.bottom)
+      .attr("x", vis.config.containerWidth - vis.config.margin.right)
+      .attr("text-anchor", "end")
+      .text("Scroll to zoom, drag to pan")
+
+    // Add explainer text for mine dots
+    vis.svg
+      .append("text")
+      .attr("class", "explainer-text")
+      .attr("y", vis.config.containerHeight - vis.config.margin.bottom)
+      .attr("x", vis.config.margin.left)
+      .text("Each dot represents a mine")
 
     vis.updateVis();
   }
@@ -144,14 +159,16 @@ class ChoroplethMap {
       .join("path")
       .attr("id", "canada-path")
       .attr("d", vis.path)
-      .attr("fill", (d) => vis.colorScale(getMineCount(d)))
+      .attr("fill", (d) => vis.isProvinceSelected() ? colourPalette[0] : vis.colorScale(getMineCount(d)))
       .attr("stroke", "#333")
       .attr("vector-effect", "non-scaling-stroke")
       .attr("class", "province")
       .on("mouseover", (event, d) => {
-        d3.select(event.currentTarget)
-          .attr("fill", "#6497b1")
-          .style("cursor", "pointer");
+        if (!vis.isProvinceSelected()) {
+          d3.select(event.currentTarget)
+            .attr("fill", "#6497b1")
+            .style("cursor", "pointer");
+        }
 
         const html = `
           <div class="tooltip-title">${d.properties.NAME}</div>
@@ -161,15 +178,16 @@ class ChoroplethMap {
       })
       .on("mousemove", updateTooltip)
       .on("mouseout", (event, d) => {
-        d3.select(event.currentTarget)
-          .attr("fill", vis.colorScale(getMineCount(d)))
-          .style("cursor", "auto");
+        if (!vis.isProvinceSelected()) {
+          d3.select(event.currentTarget)
+            .attr("fill", vis.colorScale(getMineCount(d)))
+            .style("cursor", "auto");
+        }
 
         hideTooltip();
       })
       .on("click", (_, d) => {
-        vis.selectedProvince = d.properties.NAME;
-        vis.config.callbacks.selectProvince(vis.selectedProvince);
+        vis.config.callbacks.selectProvince(d.properties.NAME);
       });
 
     // if (vis.selectedProvince !== undefined) {
@@ -229,6 +247,11 @@ class ChoroplethMap {
         .attr("cursor", "pointer")
         .style("opacity", 0.6)
         .on("mouseover", (event, d) => {
+          d3.select(event.currentTarget)
+            .attr("fill", "orange")
+            .style("opacity", 1)
+            .style("cursor", "pointer");
+
           const html = `
             <div class="tooltip-title">${d.namemine}</div>
             <div>${d.latitude}° N, ${d.longitude}° W</div>
@@ -236,8 +259,16 @@ class ChoroplethMap {
           showTooltip(event, html);
         })
         .on("mousemove", updateTooltip)
-        .on("mouseout", hideTooltip)
+        .on("mouseout", (event) => {
+          d3.select(event.currentTarget)
+            .attr("fill", "red")
+            .style("opacity", 0.6)
+            .style("cursor", "auto");
+
+          hideTooltip(event);
+        })
         .on("click", (event, d) => vis.config.callbacks.toggleMine(d.id)); 
+      
     // }
   }
 
@@ -246,14 +277,14 @@ class ChoroplethMap {
   updateLegend() {
     let vis = this;
 
-    vis.legendData = vis.selectedProvince !== undefined ? [] : vis.colorScale.range()
+    vis.legendData = vis.isProvinceSelected() ? [] : vis.colorScale.range()
       .map((color) => {
         const d = vis.colorScale.invertExtent(color);
         if (!d[0]) d[0] = 0;
         if (!d[1]) d[1] = d3.max(vis.colorScale.domain());
         return { color, range: d };
       })
-      .filter((d) => d.range[0] < d.range[1]);
+      .filter((d, i) => d.range[0] < d.range[1] && (i === 0 || d.range[0] > 0));
 
     vis.renderLegend();
   }
@@ -274,17 +305,31 @@ class ChoroplethMap {
 
       legendItem
         .append("rect")
-        .attr("y", -45)
+        .attr("y", 10)
         .attr("width", 20)
         .attr("height", 20)
         .attr("fill", d.color)
 
       legendItem
         .append("text")
-        .attr("y", -30)
+        .attr("y", 25)
         .attr("x", 30)
         .attr("font-size", 12)
         .text(`${d.range[0].toFixed(0)} - ${d.range[1].toFixed(0)}`);
     });
+  }
+
+  removeDots() {
+    let vis = this;
+
+    vis.chartArea
+      .selectAll("circle")
+      .remove();
+  }
+
+  isProvinceSelected() {
+    let vis = this;
+
+    return vis.config.callbacks.getSelectedProvince() !== undefined;
   }
 }
