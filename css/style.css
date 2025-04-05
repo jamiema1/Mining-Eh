@@ -7,6 +7,10 @@ body {
   padding: 0;
 }
 
+
+#map-back-button {
+}
+
 .slider-label {
   text-anchor: middle;
   font-weight: bold;
@@ -105,11 +109,4 @@ body {
   color: #000;
   font-size: 14px;
   font-weight: 600;
-}
-
-
-.explainer-text {
-  font-size: 14px;
-  font-style: italic;
-  cursor: default;
 }

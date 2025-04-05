@@ -30,8 +30,8 @@ let selectedProvince;
 let selectedCommodities = [];
 let selectedCompany;
 let selectedMineId;
-let commoditySortValue = 0;
-let companySortValue = 0;
+let commoditySort = 0;
+let companySort = 0;
 
 Promise.all([
   d3.csv("./data/mines.csv"),
@@ -72,8 +72,7 @@ function initializeViews() {
     {
       parentElement: "#map-container",
       geoJSONData: geoJSONData,
-      callbacks: {
-        getSelectedProvince: getSelectedProvince,
+      callbacks: { 
         selectProvince: selectProvince,
         deselectProvince: deselectProvince,
         toggleMine: toggleMine,
@@ -98,11 +97,7 @@ function initializeViews() {
   commodityBar = new CommodityBar(
     {
       parentElement: "#commodity-bar-container",
-      callbacks: { 
-        getSelectedCommodities, getSelectedCommodities,
-        getCommoditySortValue: getCommoditySortValue,
-        toggleCommodity: toggleCommodity,
-      },
+      callbacks: { toggleCommodity: toggleCommodity },
       containerWidth: viewWidth,
       containerHeight: barHeight,
       sliderColour: sliderColour,
@@ -113,11 +108,7 @@ function initializeViews() {
   companyBar = new CompanyBar(
     {
       parentElement: "#company-bar-container",
-      callbacks: {
-        getSelectedCompany: getSelectedCompany,
-        getCompanySortValue: getCompanySortValue,
-        toggleCompany: toggleCompany,
-      },
+      callbacks: { toggleCompany: toggleCompany },
       containerWidth: viewWidth,
       containerHeight: barHeight,
     },
@@ -215,8 +206,6 @@ function validateCompanyFilter(filteredData) {
  */
 function updateData({
   updateTimeSlider = true,
-  updateCommoditySlider = true,
-  updateCompanySlider = true,
 } = {}) {
   const initialFilteredData = getFilteredData();
   validateFilters(initialFilteredData);
@@ -235,12 +224,10 @@ function updateData({
 
   // Update commodity bar chart
   commodityBar.data = getFilteredData({ ignoreCommodityFilter : true });
-  commodityBar.updateSlider = updateCommoditySlider;
   commodityBar.updateVis();
 
   // Update company bar chart
   companyBar.data = filteredData;
-  companyBar.updateSlider = updateCompanySlider;
   companyBar.updateVis();
 }
 
@@ -276,14 +263,6 @@ function selectTime(startYear, endYear) {
   updateData({ updateTimeSlider : false });
 }
 
-/**
- * Province
- */
-
-function getSelectedProvince() {
-  return selectedProvince;
-}
-
 function selectProvince(province) {
   selectedProvince = province;
   choropleth.config.geoJSONData = [
@@ -298,21 +277,13 @@ function selectProvince(province) {
 function deselectProvince() {
   selectedProvince = undefined;
   choropleth.config.geoJSONData = geoJSONData;
-  // remove dots to avoid clipping issues when path re-renders
-  choropleth.removeDots();
+  choropleth.selectedProvince = undefined;
   updateData();
 
   d3.select("#map-back-button").style("display", "none");
 }
 
 
-/**
- * Commodity
- */
-
-function getSelectedCommodities() {
-  return selectedCommodities;
-}
 
 function toggleCommodity(commodity) {
   if (!selectedCommodities.includes(commodity)) {
@@ -324,7 +295,7 @@ function toggleCommodity(commodity) {
 
 function selectCommodity(commodity) {
   selectedCommodities.push(commodity);
-  updateData({ updateCommoditySlider : false });
+  updateData();
 
   const closeButton = document.createElement("button");
   closeButton.type = "button";
@@ -344,19 +315,11 @@ function selectCommodity(commodity) {
 
 function deselectCommodity(commodity) {
   selectedCommodities.splice(selectedCommodities.indexOf(commodity), 1);
-  updateData({ updateCommoditySlider : false });
+  updateData();
 
   document.getElementById(commodity).remove();
 }
 
-
-/**
- * Company
- */
-
-function getSelectedCompany() {
-  return selectedCompany;
-}
 
 function toggleCompany(company) {
   if (company === selectedCompany) {
@@ -377,6 +340,7 @@ function selectCompany(company) {
   closeButton.type = "button";
   closeButton.className = "btn-close filter-list-button";
   closeButton.addEventListener("click", (e) => deselectCompany(company));
+
 
   const newFilterItem = document.createElement("div");
   newFilterItem.innerHTML = company;
@@ -400,21 +364,15 @@ function deselectCompany() {
  * Sort Handlers
  */
 
-function getCommoditySortValue() {
-  return commoditySortValue;
-}
-
 commoditySelect.on("change", (e) => {
-  commoditySortValue = +e.target.value;
+  const sortValue = e.target.value;
+  commodityBar.sortValue = +sortValue;
   commodityBar.updateVis();
 });
 
-function getCompanySortValue() {
-  return companySortValue;
-}
-
 companySelect.on("change", (e) => {
-  companySortValue = +e.target.value;
+  const sortValue = e.target.value;
+  companyBar.sortValue = +sortValue;
   companyBar.updateVis();
 });
 
@@ -424,6 +382,8 @@ companySelect.on("change", (e) => {
  * Tooltip Handlers
  */
 
+const tooltipPadding = 20;
+
 function showTooltip(event, html) {
   d3.select("#tooltip")
     .transition()
@@ -431,28 +391,15 @@ function showTooltip(event, html) {
     .style("display", "block")
 
   d3.select("#tooltip")
+    .style("left", `${event.pageX + tooltipPadding}px`)
+    .style("top", `${event.pageY + tooltipPadding}px`)
     .html(html);
-
-  requestAnimationFrame(() => updateTooltip(event));
 }
 
 function updateTooltip(event) {
-  const tooltipPadding = 15;
-  const tooltipWidth = d3.select("#tooltip").node().getBoundingClientRect().width;
-
-  let left = event.pageX + tooltipPadding;
-  let top = event.pageY + tooltipPadding;
-
-  // adjust the tooltip to be in the bottom-right if we collide with the window width 
-  if (event.pageX + tooltipWidth + tooltipPadding > window.innerWidth) {
-    d3.select("#tooltip")
-      left = event.pageX - tooltipWidth - tooltipPadding;
-      top = event.pageY + tooltipPadding;
-  }
-
   d3.select("#tooltip")
-    .style("left", `${left}px`)
-    .style("top", `${top}px`);
+    .style("left", `${event.pageX + tooltipPadding}px`)
+    .style("top", `${event.pageY + tooltipPadding}px`);
 }
 
 function hideTooltip() {

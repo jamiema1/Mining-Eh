@@ -5,7 +5,7 @@ class AreaMap {
       callbacks: { selectTime: selectTime },
       containerWidth: _config.containerWidth,
       containerHeight: _config.containerHeight,
-      margin: { top: 35, right: 20, bottom: 65, left: 45 },
+      margin: { top: 30, right: 20, bottom: 65, left: 50 },
       sliderColour: _config.sliderColour,
     };
     this.data = _data;
@@ -75,7 +75,7 @@ class AreaMap {
     vis.chart
       .append("text")
       .attr("class", "y-axis-label axis-label")
-      .attr("x", -30)
+      .attr("x", -40)
       .attr("y", -10)
       .attr("text-anchor", "start")
       .text("Mines");
