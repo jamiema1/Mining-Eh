@@ -5,9 +5,8 @@ class CompanyBar {
       callbacks: _config.callbacks,
       containerWidth: _config.containerWidth,
       containerHeight: _config.containerHeight,
-      margin: { top: 25, right: 70, bottom: 90, left: 60 },
+      margin: { top: 25, right: 70, bottom: 90, left: 45 },
     };
-    this.sortValue = 0;
     this.data = _data;
     this.initVis();
   }
@@ -22,10 +21,13 @@ class CompanyBar {
     vis.width = vis.config.containerWidth - vis.config.margin.left - vis.config.margin.right;
     vis.height = vis.config.containerHeight - vis.config.margin.top - vis.config.margin.bottom;
 
+    const companyCounts = vis.computeMinesPerCompany();
+    const maxCompanyCount = d3.max(companyCounts.map(entry => entry.count))
+
     // Initialize Scales
     vis.xScale = d3.scaleBand().range([0, vis.width]).padding(0.1);
     vis.yScale = d3.scaleLinear()
-      .domain([0, 14]) // statically defined
+      .domain([0, maxCompanyCount])
       .range([vis.height, 0]);
 
     // Initialize Axes
@@ -79,27 +81,10 @@ class CompanyBar {
     vis.chart
       .append("text")
       .attr("class", "y-axis-label axis-label")
-      .attr("x", -40)
+      .attr("x", -30)
       .attr("y", -10)
       .attr("text-anchor", "start")
       .text("Mines");
-
-    let allCompanyCounts = {};
-    vis.data.forEach((d) => {
-      for (let i = 1; i <= 6; i++) {
-        let company = d[`company${i}`];
-        if (company && company !== "N/A") {
-          if (!allCompanyCounts[company]) {
-            allCompanyCounts[company] = 0;
-          }
-          allCompanyCounts[company]++;
-        }
-      }
-    });
-
-    let distributionData = Object.entries(allCompanyCounts)
-      .map(([company, count]) => ({ company, count }))
-      .sort((a, b) => b.count - a.count);
 
     // Create the track with distribution visualization
     vis.track = vis.chart
@@ -112,13 +97,16 @@ class CompanyBar {
       .attr("rx", "7")
       .attr("ry", "7");
 
+    vis.maxSliderWindowSize = 10;
+    vis.startIndex = 0;
+
     // Draggable Window (Slider)
     vis.window = vis.chart
       .append("rect")
       .attr("class", "window")
       .attr("x", 0)
       .attr("y", vis.height + 60)
-      .attr("width", vis.width * (10 / distributionData.length))
+      .attr("width", vis.width * (vis.maxSliderWindowSize / companyCounts.length))
       .attr("height", 15)
       .attr("fill", "orange")
       .call(
@@ -130,14 +118,10 @@ class CompanyBar {
               Math.min(vis.width - d3.select(this).attr("width"), event.x)
             );
             d3.select(this).attr("x", x);
-            vis.startIndex = Math.round((x / vis.width) * vis.data.length);
-            vis.endIndex = vis.startIndex + 10;
+            vis.startIndex = Math.round((x / vis.width) * vis.totalCompanies);
             vis.updateVis();
           })
       );
-
-    vis.startIndex = 0;
-    vis.endIndex = 10;
 
     vis.updateVis();
   }
@@ -148,26 +132,32 @@ class CompanyBar {
   updateVis() {
     let vis = this;
 
-    // Process data to get mines per company
-    let companyCounts = {};
-    vis.data.forEach((d) => {
-      for (let i = 1; i <= 6; i++) {
-        let company = d[`company${i}`];
-        if (company && company !== "N/A") {
-          if (!companyCounts[company]) {
-            companyCounts[company] = 0;
-          }
-          companyCounts[company]++;
-        }
-      }
-    });
+    const minesPerCompany = vis.computeMinesPerCompany();
+    vis.totalCompanies = minesPerCompany.length;
 
-    vis.companyCountEntries = Object.entries(companyCounts)
-    
-    vis.dataProcessed = vis.companyCountEntries
-      .map(([company, count]) => ({ company, count }))
+    // update the slider min/max and values only once when an update is triggered by some other view
+    // this must go first since vis.dataProcessed relies on the slider's values
+    if (vis.updateSlider) {
+      let start = vis.startIndex;
+      let end = vis.startIndex + vis.maxSliderWindowSize;
+
+      // if the endIndex exceeds the maxIndex, try to maintain the window size relative to the end instead
+      if (end > vis.totalCompanies) {
+        const diff = end - vis.totalCompanies;
+        start = Math.max(0, start - diff);
+      }
+
+      vis.startIndex = start;
+      
+      vis.window
+        .attr("width", (Math.min(vis.maxSliderWindowSize, vis.totalCompanies) / vis.totalCompanies) * vis.width);
+
+      vis.updateSlider = false;
+    }
+
+    vis.dataProcessed = minesPerCompany
       .toSorted((a, b) => {
-        switch (vis.sortValue) {
+        switch (vis.config.callbacks.getCompanySortValue()) {
           case 0:
             return b.count - a.count;
           case 1:
@@ -175,7 +165,7 @@ class CompanyBar {
           default:
             console.log("Invalid sort value");
         }})
-      .slice(vis.startIndex, vis.endIndex);
+      .slice(vis.startIndex, vis.startIndex + vis.maxSliderWindowSize);
 
     // Update domain of scales
     vis.xScale.domain(vis.dataProcessed.map((d) => d.company));
@@ -187,10 +177,9 @@ class CompanyBar {
 
     vis.svg.select(".y-axis").transition().call(vis.yAxis);
 
-    // clear the track and draw the new bars
+    // Update slider position
     vis.window
-      .attr("x", (vis.startIndex / vis.data.length) * vis.width)
-      .attr("width", (Math.min(10, vis.data.length) / vis.data.length) * vis.width);
+      .attr("x", (vis.startIndex / vis.totalCompanies) * vis.width);
 
     vis.renderVis();
   }
@@ -244,8 +233,9 @@ class CompanyBar {
 
     bars.exit().remove();
 
+    // Add the "selected" class to appropriate bars
     vis.chart.selectAll(".bar")
-      .classed("selected", (d) => selectedCompany === d.company)
+      .classed("selected", (d) => vis.config.callbacks.getSelectedCompany() === d.company)
 
     // Update the axes
     vis.xAxisGroup.transition().call(vis.xAxis);
@@ -263,6 +253,29 @@ class CompanyBar {
   updateCompanies(_startIndex, vis) {
     vis.startIndex = _startIndex;
     vis.updateVis();
+  }
+
+  /**
+   * Processes data to get mines per company
+   */
+  computeMinesPerCompany() {
+    let vis = this;
+
+    let companyCounts = {};
+    vis.data.forEach((d) => {
+      for (let i = 1; i <= 6; i++) {
+        let company = d[`company${i}`];
+        if (company && company !== "N/A") {
+          if (!companyCounts[company]) {
+            companyCounts[company] = 0;
+          }
+          companyCounts[company]++;
+        }
+      }
+    });
+    
+    return Object.entries(companyCounts)
+      .map(([company, count]) => ({ company, count }))
   }
 
 }

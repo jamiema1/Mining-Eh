@@ -5,7 +5,7 @@ class AreaMap {
       callbacks: { selectTime: selectTime },
       containerWidth: _config.containerWidth,
       containerHeight: _config.containerHeight,
-      margin: { top: 30, right: 20, bottom: 65, left: 50 },
+      margin: { top: 35, right: 20, bottom: 65, left: 45 },
       sliderColour: _config.sliderColour,
     };
     this.data = _data;
@@ -62,20 +62,11 @@ class AreaMap {
       .attr("class", "y-axis")
       .style("font-size", "12px");
 
-    // Add x-axis label
-    // vis.chart
-    //   .append("text")
-    //   .attr("class", "x-axis-label axis-label")
-    //   .attr("x", vis.width - 5)
-    //   .attr("y", vis.height - 20)
-    //   .attr("text-anchor", "end")
-    //   .text("Year");
-
     // Add y-axis label
     vis.chart
       .append("text")
       .attr("class", "y-axis-label axis-label")
-      .attr("x", -40)
+      .attr("x", -30)
       .attr("y", -10)
       .attr("text-anchor", "start")
       .text("Mines");
@@ -143,7 +134,7 @@ class AreaMap {
     }
 
     // Process data to get mines per year
-    vis.dataProcessed = vis.computeMinesPerYear(vis.data)
+    vis.dataProcessed = vis.computeMinesPerYear()
       .toSorted((a, b) => a.year - b.year);
     
     // Update domain of scales
@@ -194,27 +185,30 @@ class AreaMap {
       .style("font-weight", "500");
   }
 
-  computeMinesPerYear(data) {
+  /**
+   * Computes the number of mines per year
+   */
+  computeMinesPerYear() {
     let vis = this;
 
     const yearCounts = new Map();
 
-    data.forEach((d) => {
-      [
-        { open: d.open1, close: d.close1 },
-        { open: d.open2, close: d.close2 },
-        { open: d.open3, close: d.close3 },
-      ].forEach(({ open, close }) => {
-        if (open !== "N/A" && close !== "N/A") {
-          const startYear = Math.max(open, vis.slider.value()[0]);
-          const endYear = Math.min(close, vis.slider.value()[1]);
+    // initialize counts to zero so the path properly draws any
+    // un-updated values at 0 rather than interpolating the values 
+    for (let year = vis.slider.value()[0]; year <= vis.slider.value()[1]; year++) {
+      yearCounts.set(year, 0);
+    }
 
-          for (let year = startYear; year <= endYear; year++) {
-            yearCounts.set(year, (yearCounts.get(year) || 0) + 1);
-          }
+    vis.data.forEach((d) => vis.getValidOpenCloseYears(d)
+      .forEach(({ open, close }) => {
+        const startYear = Math.max(+open, vis.slider.value()[0]);
+        const endYear = Math.min(+close, vis.slider.value()[1]);
+
+        for (let year = startYear; year <= endYear; year++) {
+          yearCounts.set(year, yearCounts.get(year) + 1);
         }
-      });
-    });
+      })
+    );
 
     return Array.from(yearCounts, ([year, count]) => ({ year, count }));
   }
@@ -223,22 +217,30 @@ class AreaMap {
    * Computes the min and max years for the entire dataset
    */
   computeMinMaxSliderYears(data) {
+    let vis = this;
+
     let minYear = 2022;
     let maxYear = 1810;
 
-    data.forEach((d) => {
-      [
-        { open: d.open1, close: d.close1 },
-        { open: d.open2, close: d.close2 },
-        { open: d.open3, close: d.close3 },
-      ].forEach(({ open, close }) => {
-        if (open !== "N/A" && close !== "N/A") {
-          minYear = Math.min(minYear, +open)
-          maxYear = Math.max(maxYear, +close)
-        }
-      });
-    });
+    data.forEach((d) => vis.getValidOpenCloseYears(d)
+      .forEach(({ open, close }) => {
+        minYear = Math.min(minYear, +open)
+        maxYear = Math.max(maxYear, +close)
+      })
+    );
 
     return [minYear, maxYear]
+  }
+
+  /**
+   * Computes the list of valid open/close year pairs
+   */
+  getValidOpenCloseYears(d) {
+    const yearPairs = [
+      { open: d.open1, close: d.close1 },
+      { open: d.open2, close: d.close2 },
+      { open: d.open3, close: d.close3 },
+    ]
+    return yearPairs.filter(({ open, close }) => open !== "N/A" && close !== "N/A")
   }
 }

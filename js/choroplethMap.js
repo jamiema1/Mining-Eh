@@ -12,10 +12,9 @@ class ChoroplethMap {
       callbacks: _config.callbacks,
       containerWidth: _config.containerWidth,
       containerHeight: _config.containerHeight,
-      margin: {top: 10, right: 10, bottom: 10, left: 10},
+      margin: {top: 15, right: 15, bottom: 15, left: 15},
     }
     this.data = _data;
-    this.selectedProvince = undefined;
     this.initVis();
   }
 
@@ -58,15 +57,14 @@ class ChoroplethMap {
     vis.legend = vis.svg
       .append("g")
       .attr("class", "legend")
-      .attr("transform", `translate(${20}, ${80})`);
+      .attr("transform", `translate(${vis.config.margin.left}, ${vis.config.margin.top + 10})`);
 
     // Add legend title
     vis.legend
       .append("text")
       .attr("x", 0)
-      .attr("y", -55)
+      .attr("y", 0)
       .attr("class", "legend-title")
-      .attr("text-anchor", "center")
       .attr("font-weight", "500")
       .attr("font-size", "14px")
       .text("Mines");
@@ -87,7 +85,7 @@ class ChoroplethMap {
     vis.svg.call(vis.zoom)
 
     // Add back button
-    vis.backButton = vis.svg
+    vis.svg
       .append("text")
       .attr("id", "map-back-button")
       .attr("y", vis.config.margin.top + 10)
@@ -96,9 +94,26 @@ class ChoroplethMap {
       .attr("cursor", "pointer")
       .attr("display", "none")
       .attr("font-size", 14)
+      .attr("font-style", "italic")
       .text("Go Back")
       .on("click", vis.config.callbacks.deselectProvince)
 
+    // Add explainer text for zoom/pan
+    vis.svg
+      .append("text")
+      .attr("class", "explainer-text")
+      .attr("y", vis.config.containerHeight - vis.config.margin.bottom)
+      .attr("x", vis.config.containerWidth - vis.config.margin.right)
+      .attr("text-anchor", "end")
+      .text("Scroll to zoom, drag to pan")
+
+    // Add explainer text for mine dots
+    vis.svg
+      .append("text")
+      .attr("class", "explainer-text")
+      .attr("y", vis.config.containerHeight - vis.config.margin.bottom)
+      .attr("x", vis.config.margin.left)
+      .text("Each dot represents a mine")
 
     vis.updateVis();
   }
@@ -138,20 +153,22 @@ class ChoroplethMap {
 
     const getMineCount = (d) => vis.dataProcessed.get(d.properties.NAME) || 0;
 
-    const provinces = vis.chartArea
+    vis.chartArea
       .selectAll("path")
       .data(vis.config.geoJSONData)
       .join("path")
       .attr("id", "canada-path")
       .attr("d", vis.path)
-      .attr("fill", (d) => vis.colorScale(getMineCount(d)))
+      .attr("fill", (d) => vis.isProvinceSelected() ? colourPalette[0] : vis.colorScale(getMineCount(d)))
       .attr("stroke", "#333")
       .attr("vector-effect", "non-scaling-stroke")
       .attr("class", "province")
       .on("mouseover", (event, d) => {
-        d3.select(event.currentTarget)
-          .attr("fill", "#6497b1")
-          .style("cursor", "pointer");
+        if (!vis.isProvinceSelected()) {
+          d3.select(event.currentTarget)
+            .attr("fill", "#6497b1")
+            .style("cursor", "pointer");
+        }
 
         const html = `
           <div class="tooltip-title">${d.properties.NAME}</div>
@@ -161,99 +178,78 @@ class ChoroplethMap {
       })
       .on("mousemove", updateTooltip)
       .on("mouseout", (event, d) => {
-        d3.select(event.currentTarget)
-          .attr("fill", vis.colorScale(getMineCount(d)))
-          .style("cursor", "auto");
+        if (!vis.isProvinceSelected()) {
+          d3.select(event.currentTarget)
+            .attr("fill", vis.colorScale(getMineCount(d)))
+            .style("cursor", "auto");
+        }
 
         hideTooltip();
       })
       .on("click", (_, d) => {
-        vis.selectedProvince = d.properties.NAME;
-        vis.config.callbacks.selectProvince(vis.selectedProvince);
+        vis.config.callbacks.selectProvince(d.properties.NAME);
+        vis.zoomToProvince(vis.config.geoJSONData[0]);
       });
 
-    // if (vis.selectedProvince !== undefined) {
-    //   // use setTimeout to allow the path to initialize before we access it
-    //   setTimeout(() => {
-    //     const svg = document.getElementById("svg-canada-map");
-    //     const provincePath = document.getElementById("canada-path");
+    vis.chartArea
+      .selectAll("circle")
+      .data(vis.data)
+      .join("circle")
+      .attr("cx", (d) => vis.projection([+d.longitude, +d.latitude])[0])
+      .attr("cy", (d) => vis.projection([+d.longitude, +d.latitude])[1])
+      .attr("r", Math.min(5, 5 / d3.zoomTransform(vis.svg.node()).k))
+      .attr("fill", "red")
+      .attr("cursor", "pointer")
+      .style("opacity", 0.6)
+      .on("mouseover", (event, d) => {
+        d3.select(event.currentTarget)
+          .attr("fill", "orange")
+          .style("opacity", 1)
+          .style("cursor", "pointer");
 
-    //     // Get bounding box of path
-    //     const bbox = provincePath.getBBox();
+        const yearString = vis.getValidOpenCloseYears(d).map(({ open, close }, i, arr) => {
+          if (i === arr.length - 1 && d["active_status"] === 'True') {
+            return open + "-" + "present";
+          } else {
+            return open + "-" + close;
+          }
+        }).join(", ");
 
-    //     const scale = Math.min(vis.width / bbox.width, vis.height / bbox.height)
+        const html = `
+          <div class="tooltip-title">${d.namemine}</div>
+          <div>${yearString}</div>
+          <div style="font-style: italic">${d.latitude}° N, ${d.longitude}° W</div>
+        `
+        showTooltip(event, html);
+      })
+      .on("mousemove", updateTooltip)
+      .on("mouseout", (event) => {
+        d3.select(event.currentTarget)
+          .attr("fill", "red")
+          .style("opacity", 0.6)
+          .style("cursor", "auto");
 
-    //     // Compute translation to center the path
-    //     // const translateX = (vis.width - scale * (bbox.x + bbox.width / 2)) / scale;
-    //     // const translateY = (vis.height - scale * (bbox.y + bbox.height / 2)) / scale;
-
-    //     // vis.svg.transition().duration(500).call(
-    //     //   vis.zoom.transform,
-    //     //   d3.zoomIdentity
-    //     //     .translate(translateX, translateY)
-    //     //     .scale(scale)
-    //     // );
-
-
-    //     const circles = vis.svg
-    //       .selectAll("circle")
-    //       .data(vis.data)
-    //       .join("circle")
-    //       .attr("cx", (d) => vis.projection([+d.longitude, +d.latitude])[0])
-    //       .attr("cy", (d) => vis.projection([+d.longitude, +d.latitude])[1])
-    //       .attr("r", Math.min(5, 5 / scale))
-    //       .attr("fill", "red")
-    //       .attr("cursor", "pointer")
-    //       .style("opacity", 0.6)
-    //       .on("mouseover", (event, d) => {
-    //         const html = `
-    //           <div class="tooltip-title">${d.namemine}</div>
-    //           <div>${d.latitude}° N, ${d.longitude}° W</div>
-    //         `
-    //         showTooltip(event, html);
-    //       })
-    //       .on("mousemove", updateTooltip)
-    //       .on("mouseout", hideTooltip);
-    //   }, 100)
-    // } else {
-      const scale = d3.zoomTransform(vis.svg.node()).k;
-
-      const circles = vis.chartArea
-        .selectAll("circle")
-        .data(vis.data)
-        .join("circle")
-        .attr("cx", (d) => vis.projection([+d.longitude, +d.latitude])[0])
-        .attr("cy", (d) => vis.projection([+d.longitude, +d.latitude])[1])
-        .attr("r", Math.min(5, 5 / scale))
-        .attr("fill", "red")
-        .attr("cursor", "pointer")
-        .style("opacity", 0.6)
-        .on("mouseover", (event, d) => {
-          const html = `
-            <div class="tooltip-title">${d.namemine}</div>
-            <div>${d.latitude}° N, ${d.longitude}° W</div>
-          `
-          showTooltip(event, html);
-        })
-        .on("mousemove", updateTooltip)
-        .on("mouseout", hideTooltip)
-        .on("click", (event, d) => vis.config.callbacks.toggleMine(d.id)); 
-    // }
+        hideTooltip(event);
+      })
+      .on("click", (event, d) => {
+        if (selectedMineId === undefined) {
+          vis.zoomToMine(d.longitude, d.latitude)
+        }
+        vis.config.callbacks.toggleMine(d.id)
+      });
   }
-
-
 
   updateLegend() {
     let vis = this;
 
-    vis.legendData = vis.selectedProvince !== undefined ? [] : vis.colorScale.range()
+    vis.legendData = vis.isProvinceSelected() ? [] : vis.colorScale.range()
       .map((color) => {
         const d = vis.colorScale.invertExtent(color);
         if (!d[0]) d[0] = 0;
         if (!d[1]) d[1] = d3.max(vis.colorScale.domain());
         return { color, range: d };
       })
-      .filter((d) => d.range[0] < d.range[1]);
+      .filter((d, i) => d.range[0] < d.range[1] && (i === 0 || d.range[0] > 0));
 
     vis.renderLegend();
   }
@@ -274,17 +270,99 @@ class ChoroplethMap {
 
       legendItem
         .append("rect")
-        .attr("y", -45)
+        .attr("y", 10)
         .attr("width", 20)
         .attr("height", 20)
         .attr("fill", d.color)
 
       legendItem
         .append("text")
-        .attr("y", -30)
+        .attr("y", 25)
         .attr("x", 30)
         .attr("font-size", 12)
         .text(`${d.range[0].toFixed(0)} - ${d.range[1].toFixed(0)}`);
     });
+  }
+
+  removeDots() {
+    let vis = this;
+
+    vis.chartArea
+      .selectAll("circle")
+      .remove();
+  }
+
+  isProvinceSelected() {
+    let vis = this;
+
+    return vis.config.callbacks.getSelectedProvince() !== undefined;
+  }
+
+  /**
+   * Computes the list of valid open/close year pairs
+   */
+  getValidOpenCloseYears(d) {
+    const yearPairs = [
+      { open: d.open1, close: d.close1 },
+      { open: d.open2, close: d.close2 },
+      { open: d.open3, close: d.close3 },
+    ]
+    return yearPairs.filter(({ open, close }) => open !== "N/A" && close !== "N/A")
+  }
+
+  zoomToProvince(pathDatum) {
+    let vis = this;
+
+    // Get the bounds of the feature in projected space
+    const [[x0, y0], [x1, y1]] = d3.geoPath().projection(vis.projection).bounds(pathDatum);
+  
+    const width = vis.config.containerWidth;
+    const height = vis.config.containerHeight;
+    const padding = 20;
+  
+    // Compute feature width
+    const featureWidth = x1 - x0;
+    const featureHeight = y1 - y0;
+  
+    // Compute scale to fit feature within the container including padding
+    const scale = Math.min(
+      (width - 2 * padding) / featureWidth,
+      (height - 2 * padding) / featureHeight
+    );
+  
+    // Compute center of the feature in projected space
+    const centerX = (x0 + x1) / 2;
+    const centerY = (y0 + y1) / 2;
+  
+    // Center the feature
+    const translateX = width / 2 - centerX * scale;
+    const translateY = height / 2 - centerY * scale;
+    
+    vis.zoomToPoint(translateX, translateY, scale)
+  };
+
+  zoomToMine(lon, lat, minScale = 16) {
+    let vis = this;
+
+    // only zoom/translate if the current zoom is less than the minimum scale factor
+    if (d3.zoomTransform(vis.svg.node()).k < minScale) {
+      const [x, y] = vis.projection([lon, lat]);
+      const translateX = vis.config.containerWidth / 2 - x * minScale;
+      const translateY = vis.config.containerHeight / 2 - y * minScale;
+
+      vis.zoomToPoint(translateX, translateY, minScale);
+    }
+  }
+
+  zoomToPoint(translateX, translateY, scale) {
+    let vis = this;
+
+    const transform = d3.zoomIdentity
+      .translate(translateX, translateY)
+      .scale(scale);
+  
+    vis.svg.transition()
+      .duration(750)
+      .call(vis.zoom.transform, transform);
   }
 }
