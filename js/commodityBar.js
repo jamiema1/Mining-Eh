@@ -5,8 +5,7 @@ class CommodityBar {
       callbacks: _config.callbacks,
       containerWidth: _config.containerWidth,
       containerHeight: _config.containerHeight,
-      margin: { top: 25, right: 70, bottom: 85, left: 45 },
-      sliderColour: _config.sliderColour,
+      margin: { top: 25, right: 55, bottom: 85, left: 45 },
     };
     this.data = _data;
     this.initVis();
@@ -91,7 +90,7 @@ class CommodityBar {
       .ticks(0)
       .step(1)
       .default([vis.startIndex, vis.endIndex])
-      .fill(vis.config.sliderColour)
+      .fill(commodityBarSliderColour)
       .tickFormat((d) => "")
       .on("onchange", ([_startIndex, _endIndex]) => {
         if (!vis.updateSlider) {
@@ -192,10 +191,10 @@ class CommodityBar {
       .attr("y", (d) => vis.yScale(d.count))
       .attr("width", vis.xScale.bandwidth())
       .attr("height", (d) => vis.height - vis.yScale(d.count))
-      .attr("fill", "steelblue")
+      .attr("fill", commodityBarColour)
       .on("mouseover", (event, d) => {
         d3.select(event.currentTarget)
-          .attr("fill", "orange")
+          .attr("fill", commodityBarHoverColour)
           .style("cursor", "pointer");
 
         const html = `
@@ -207,8 +206,8 @@ class CommodityBar {
       .on("mousemove", updateTooltip)
       .on("mouseout", (event) => {
         d3.select(event.currentTarget)
-          .attr("fill", "steelblue")
-          .style("cursor", "auto");
+          .attr("fill", commodityBarColour)
+          .style("cursor", "default");
 
         hideTooltip();
       })

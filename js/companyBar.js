@@ -5,7 +5,7 @@ class CompanyBar {
       callbacks: _config.callbacks,
       containerWidth: _config.containerWidth,
       containerHeight: _config.containerHeight,
-      margin: { top: 25, right: 70, bottom: 90, left: 45 },
+      margin: { top: 25, right: 55, bottom: 90, left: 45 },
     };
     this.data = _data;
     this.initVis();
@@ -92,7 +92,7 @@ class CompanyBar {
       .attr("x", 0)
       .attr("y", vis.height + 60)
       .attr("width", vis.width)
-      .attr("height", 15)
+      .attr("height", 12)
       .attr("fill", "#f0f0f0")
       .attr("rx", "7")
       .attr("ry", "7");
@@ -107,8 +107,8 @@ class CompanyBar {
       .attr("x", 0)
       .attr("y", vis.height + 60)
       .attr("width", vis.width * (vis.maxSliderWindowSize / companyCounts.length))
-      .attr("height", 15)
-      .attr("fill", "orange")
+      .attr("height", 12)
+      .attr("fill", companyBarSliderColour)
       .call(
         d3
           .drag()
@@ -202,10 +202,10 @@ class CompanyBar {
       .attr("y", (d) => vis.yScale(d.count))
       .attr("width", vis.xScale.bandwidth())
       .attr("height", (d) => vis.height - vis.yScale(d.count))
-      .attr("fill", "steelblue")
+      .attr("fill", companyBarColour)
       .on("mouseover", (event, d) => {
         d3.select(event.currentTarget)
-          .attr("fill", "orange")
+          .attr("fill", companyBarHoverColour)
           .style("cursor", "pointer");
 
         const html = `
@@ -217,8 +217,8 @@ class CompanyBar {
       .on("mousemove", updateTooltip)
       .on("mouseout", (event) => {
         d3.select(event.currentTarget)
-          .attr("fill", "steelblue")
-          .style("cursor", "auto");
+          .attr("fill", companyBarColour)
+          .style("cursor", "default");
 
         hideTooltip();
       })

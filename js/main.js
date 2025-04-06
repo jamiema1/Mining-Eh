@@ -4,8 +4,36 @@ const commoditySelect = d3
 const companySelect = d3
   .select("#select-order-company");
 
-const colourPalette = d3.schemeGreens[7];
-const sliderColour = "#3b8bba"
+const colourPalette = [
+  "#E8F0FA",
+  "#D5E7FF",
+  "#ADCEF9",
+  "#7AACEC",
+  "#3D77C2",
+  "#084594",
+];
+const primaryColour = "#FB8A00";
+const secondaryColour = "#E7E7E7";
+const accentColour = "#FF0000";
+
+const hoverProvinceColour = secondaryColour;
+const selectedProvinceColour = secondaryColour;
+
+const dotColour = primaryColour;
+const dotHoverColour = accentColour;
+
+const areaMapColour = colourPalette[4];
+const areaMapSliderColour = colourPalette[4];
+
+const commodityBarColour = colourPalette[2];
+const commodityBarSliderColour = colourPalette[2];
+const commodityBarHoverColour = primaryColour;
+const commodityBarSelectedColour = primaryColour; // see .bar.selected in style.css
+
+const companyBarColour = colourPalette[3];
+const companyBarSliderColour = colourPalette[3];
+const companyBarHoverColour = primaryColour;
+const companyBarSelectedColour = primaryColour; // see .bar.selected in style.css
 
 /**
  * Data
@@ -45,22 +73,23 @@ Promise.all([
 });
 
 function initializeViews() {
-  // TODO: jma - needs to be updated to support bootstrap breakpoints
+  const mdPixelSizeCutoff = 768;
 
-  const borderSize = 1;
+  const borderSize = 0.5;
 
   const windowWidth = window.innerWidth;
   const paddingMarginWidth = 12
-  const usableVizWidth = windowWidth -  2 * (2 * paddingMarginWidth + 2 * borderSize);
+  const numberOfSideBySideViews = windowWidth >= mdPixelSizeCutoff ? 2 : 1
+  const usableVizWidth = windowWidth - numberOfSideBySideViews * (2 * paddingMarginWidth + 2 * borderSize);
 
-  const viewWidth = usableVizWidth / 2;
+  const viewWidth = usableVizWidth / numberOfSideBySideViews;
 
   const windowHeight = window.innerHeight;
-  const marginWidth = 8;
-  const titleHeight = 40 + 2 * marginWidth;
-  const viewTitleHeight = 24 + 2 * marginWidth + 1;
+  const marginHeight = 8;
+  const titleHeight = 40 + 2 * marginHeight;
+  const viewTitleHeight = 24 + 2 * marginHeight + 1;
   const footerHeight = 12;
-  const usableVizHeight = windowHeight - 2 * (2 * marginWidth + 2 * borderSize + viewTitleHeight) - titleHeight - footerHeight;
+  const usableVizHeight = windowHeight - 2 * (2 * marginHeight + 2 * borderSize + viewTitleHeight) - titleHeight - footerHeight;
 
   const mapHeight = usableVizHeight * 2/3;
   const areaMapHeight = usableVizHeight * 1/3;
@@ -90,7 +119,6 @@ function initializeViews() {
       callbacks: { selectTime: selectTime },
       containerWidth: viewWidth,
       containerHeight: areaMapHeight,
-      sliderColour: sliderColour,
     },
     data
   );
@@ -105,7 +133,6 @@ function initializeViews() {
       },
       containerWidth: viewWidth,
       containerHeight: barHeight,
-      sliderColour: sliderColour,
     },
     data
   );
@@ -309,7 +336,6 @@ function deselectProvince() {
 /**
  * Commodity
  */
-
 function getSelectedCommodities() {
   return selectedCommodities;
 }

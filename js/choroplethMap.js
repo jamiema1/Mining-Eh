@@ -104,6 +104,9 @@ class ChoroplethMap {
       .attr("class", "explainer-text")
       .attr("y", vis.config.containerHeight - vis.config.margin.bottom)
       .attr("x", vis.config.containerWidth - vis.config.margin.right)
+      .attr("font-size", 12)
+      .attr("font-style", "italic")
+      .attr("cursor", "default")
       .attr("text-anchor", "end")
       .text("Scroll to zoom, drag to pan")
 
@@ -113,6 +116,9 @@ class ChoroplethMap {
       .attr("class", "explainer-text")
       .attr("y", vis.config.containerHeight - vis.config.margin.bottom)
       .attr("x", vis.config.margin.left)
+      .attr("font-size", 12)
+      .attr("font-style", "italic")
+      .attr("cursor", "default")
       .text("Each dot represents a mine")
 
     vis.updateVis();
@@ -159,36 +165,42 @@ class ChoroplethMap {
       .join("path")
       .attr("id", "canada-path")
       .attr("d", vis.path)
-      .attr("fill", (d) => vis.isProvinceSelected() ? colourPalette[0] : vis.colorScale(getMineCount(d)))
+      .attr("fill", (d) => vis.isProvinceSelected() ? selectedProvinceColour : vis.colorScale(getMineCount(d)))
       .attr("stroke", "#333")
       .attr("vector-effect", "non-scaling-stroke")
       .attr("class", "province")
       .on("mouseover", (event, d) => {
         if (!vis.isProvinceSelected()) {
           d3.select(event.currentTarget)
-            .attr("fill", "#6497b1")
+            .attr("fill", hoverProvinceColour)
             .style("cursor", "pointer");
-        }
 
-        const html = `
-          <div class="tooltip-title">${d.properties.NAME}</div>
-          <div>${getMineCount(d)} mines</div>
-        `
-        showTooltip(event, html);
+            const html = `
+              <div class="tooltip-title">${d.properties.NAME}</div>
+              <div>${getMineCount(d)} mines</div>
+            `
+            showTooltip(event, html);
+        } else {
+          d3.select(event.currentTarget)
+            .style("cursor", "default");
+        }
       })
       .on("mousemove", updateTooltip)
       .on("mouseout", (event, d) => {
         if (!vis.isProvinceSelected()) {
           d3.select(event.currentTarget)
             .attr("fill", vis.colorScale(getMineCount(d)))
-            .style("cursor", "auto");
+            .style("cursor", "default");
+
+          hideTooltip();
         }
 
-        hideTooltip();
       })
       .on("click", (_, d) => {
-        vis.config.callbacks.selectProvince(d.properties.NAME);
-        vis.zoomToProvince(vis.config.geoJSONData[0]);
+        if (!vis.isProvinceSelected()) {
+          vis.config.callbacks.selectProvince(d.properties.NAME);
+          vis.zoomToProvince(vis.config.geoJSONData[0]);
+        }
       });
 
     vis.chartArea
@@ -198,12 +210,12 @@ class ChoroplethMap {
       .attr("cx", (d) => vis.projection([+d.longitude, +d.latitude])[0])
       .attr("cy", (d) => vis.projection([+d.longitude, +d.latitude])[1])
       .attr("r", Math.min(5, 5 / d3.zoomTransform(vis.svg.node()).k))
-      .attr("fill", "red")
+      .attr("fill", dotColour)
       .attr("cursor", "pointer")
       .style("opacity", 0.6)
       .on("mouseover", (event, d) => {
         d3.select(event.currentTarget)
-          .attr("fill", "orange")
+          .attr("fill", dotHoverColour)
           .style("opacity", 1)
           .style("cursor", "pointer");
 
@@ -223,11 +235,13 @@ class ChoroplethMap {
         showTooltip(event, html);
       })
       .on("mousemove", updateTooltip)
-      .on("mouseout", (event) => {
-        d3.select(event.currentTarget)
-          .attr("fill", "red")
-          .style("opacity", 0.6)
-          .style("cursor", "auto");
+      .on("mouseout", (event, d) => {
+        if (d.id !== selectedMineId) {
+          d3.select(event.currentTarget)
+            .attr("fill", dotColour)
+            .style("opacity", 0.6)
+            .style("cursor", "default");
+        }
 
         hideTooltip(event);
       })
@@ -256,6 +270,22 @@ class ChoroplethMap {
 
   renderLegend() {
     let vis = this;
+
+    // Remove old legend count text and update if necessary
+    vis.legend
+      .select(".legend-count")
+      .remove()
+
+    if (vis.legendData.length === 0) {
+      const [mineCount] = Array.from(vis.dataProcessed.values());
+      vis.legend
+        .append("text")
+        .attr("x", 0)
+        .attr("y", 25)
+        .attr("class", "legend-count")
+        .attr("font-size", "14px")
+        .text(`${mineCount}`);
+    }
 
     // Remove old items
     vis.legend

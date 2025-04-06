@@ -5,8 +5,7 @@ class AreaMap {
       callbacks: { selectTime: selectTime },
       containerWidth: _config.containerWidth,
       containerHeight: _config.containerHeight,
-      margin: { top: 35, right: 20, bottom: 65, left: 45 },
-      sliderColour: _config.sliderColour,
+      margin: { top: 35, right: 25, bottom: 65, left: 45 },
     };
     this.data = _data;
     this.initVis();
@@ -92,7 +91,7 @@ class AreaMap {
       .ticks(0)
       .step(1)
       .default([vis.startYear, vis.endYear])
-      .fill(vis.config.sliderColour)
+      .fill(areaMapSliderColour)
       .on("onchange", ([startYear, endYear]) => {
         // do not update start/end years if we are updating slider
         // this allows us to revert back to the previously selected endpoints if no further selection is made
@@ -168,7 +167,7 @@ class AreaMap {
       .append("path")
       .datum(vis.dataProcessed)
       .attr("class", "area-path")
-      .attr("fill", "green")
+      .attr("fill", areaMapColour)
       .attr("d", vis.area);
     
     // Update the axes

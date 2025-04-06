@@ -1,4 +1,4 @@
-# D3 Project Starter Template
+# Mining, Eh?  
 
 ### Group Members:
 - Adwait Kulkarni
