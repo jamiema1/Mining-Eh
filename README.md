@@ -12,4 +12,4 @@ Explore the [live demo](https://jamiema1.github.io/Mining-Eh/) of the product at
 
 ## Interested in the design decisions?
 
-Check out the [design documentation](https://github.com/jamiema1/Mining-Eh/blob/main/Design%20Documentation.pdf) to learn all about the rationales behind each decision.
+Check out the [design documentation](https://github.com/jamiema1/Mining-Eh/blob/main/design_documentation.pdf) to learn all about the rationales behind each decision.
